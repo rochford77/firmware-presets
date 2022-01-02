@@ -16,6 +16,7 @@ set dshot_bidir = ON
 # -- No Gyro Lowpass
 set gyro_lpf1_static_hz = 0
 set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf2_static_hz = 0
 set simplified_gyro_filter = OFF
 
 
