@@ -131,7 +131,6 @@
       "Danalog",
       "ELRS",
       "GHOST",
-      "GPS",
       "Headsup",
       "KarateBrot",
       "MultiGP",
@@ -142,9 +141,6 @@
       "aux",
       "basic",
       "blackbox",
-      "camera",
-      "camera_control",
-      "control",
       "ctzsnooze",
       "default",
       "defaults",
@@ -156,8 +152,6 @@
       "freesytle",
       "jitter",
       "karate",
-      "launch",
-      "launch_mode",
       "leds",
       "limon",
       "link",
@@ -165,9 +159,7 @@
       "logging",
       "mode",
       "modes",
-      "names",
       "pid",
-      "profile",
       "race",
       "racing",
       "rates",
@@ -177,10 +169,8 @@
       "rc_link",
       "rc_smoothing",
       "reset",
-      "reset statistics",
       "smooth",
       "smoothing",
-      "stats",
       "suagrK",
       "sugarK",
       "switch",
@@ -537,143 +527,6 @@
       "author": "Betaflight",
       "description": [
         "Resets the 4.3 blackbox settings back to defaults."
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/other/reset_camera_control.txt",
-      "hash": "837147e19b29bed6e3d6ab21d7d9bd291f8b38f9a378bd9b2ba075be7275fb0a",
-      "options": [],
-      "title": "Reset Camera Control settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "names",
-        "camera",
-        "control",
-        "camera_control"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets the Camera Control settings to 4.3 defaults"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/other/reset_gps.txt",
-      "hash": "08a6638077cc4246ea23e7bfbb9d4759b31c0243a0f326b7379270039bd3a773",
-      "options": [
-        {
-          "name": "enable GPS?",
-          "checked": false
-        }
-      ],
-      "title": "Reset GPS settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "GPS"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets the GPS settings to 4.3 defaults",
-        "Optionally enable GPS feature, default is off"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/other/reset_launch_mode.txt",
-      "hash": "e4a11824ea2e2426160e68a161ffc15ecb2f6d2436aeb84d76967c86f11ed491",
-      "options": [],
-      "title": "Reset Launch Mode settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "names",
-        "launch",
-        "launch_mode"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets the Launch Mode settings to 4.3 defaults"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/other/reset_names.txt",
-      "hash": "84a26fc8b78aefb8e4a9b0c01684ea8d207b35d0332edc3118885d60854a18c9",
-      "options": [
-        {
-          "name": "reset profile 1 name?",
-          "checked": true
-        }
-      ],
-      "title": "Reset 4.3 Names",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "names",
-        "profile"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets the craft names and optionally resets profile names"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/other/reset_servo.txt",
-      "hash": "4b54c73d5472a403fc0f15ebcef2951ada94a5b5ecd5111c31e7f1ee494d00ec",
-      "options": [],
-      "title": "Reset 4.3 Stats",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset statistics",
-        "stats"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets the 4.3 servo settings back to defaults"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/other/reset_stats.txt",
-      "hash": "557798e6885b64e7f3a238fc9d22ae3c61300b3d977c113ef14a4d74f38f0a84",
-      "options": [],
-      "title": "Reset 4.3 Stats",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset statistics",
-        "stats"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Resets the saved flight stats values back to zero"
       ]
     },
     {
