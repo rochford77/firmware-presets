@@ -981,7 +981,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "1d98eb13ca6771b8abccffff2541d33ce640f08f6129c2f97101ea7498e17d46",
+      "hash": "36a518b87cf9367bd1b96ea87799bd9b58720741e46913cd0575b2ccc388fea5",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1097,48 +1097,23 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "1cb04b6deabde2277ca50fd675328143ec4b549736c7d223c90085b531145d5e",
+      "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s2s.txt",
+      "hash": "e3a7ba04352798b8b353e310a467a81ef69ace817cc3c43bcf002ebb95402153",
       "options": [
         {
           "name": "Dynamic Idle",
           "checked": true
-        }
-      ],
-      "title": "FPVCycle Toothpick 3 | 2s",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune",
-        "pid",
-        "FPVCycle",
-        "session"
-      ],
-      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "description": [
-        "Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 2s",
-        "Use with Toothpick 3 Clean Build RPM Filter",
-        "Works best with my Smooth Freestyle RC Smoothing",
-        "Works best with my Rates",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
-        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "Choose Option for Dynamic Idle For Best Results"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "09196466a8d72284dc3acb727e18edc94ba88c38d9f4a55ecc8ecbe0b1567926",
-      "options": [
+        },
         {
-          "name": "Dynamic Idle",
-          "checked": true
+          "name": "3s - 5000kv",
+          "checked": false
+        },
+        {
+          "name": "2s - 5000kv",
+          "checked": false
         }
       ],
-      "title": "FPVCycle Toothpick 3 | 3s",
+      "title": "FPVCycle Toothpick 3 2s/3s",
       "firmware_version": [
         "4.3"
       ],

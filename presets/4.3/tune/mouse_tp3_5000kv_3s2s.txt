@@ -1,10 +1,10 @@
-#$ TITLE:  FPVCycle Toothpick 3 | 2s 
+#$ TITLE:  FPVCycle Toothpick 3 2s/3s
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune, pid, FPVCycle, session
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 2s
+#$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s
 #$ DESCRIPTION: Use with Toothpick 3 Clean Build RPM Filter
 #$ DESCRIPTION: Works best with my Smooth Freestyle RC Smoothing 
 #$ DESCRIPTION: Works best with my Rates
@@ -12,7 +12,6 @@
 #$ DESCRIPTION: DOES NOT reset rates, filters, rc_smoothing, and many other parameters. 
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION: Choose Option for Dynamic Idle For Best Results
-
 
 
 # THE FOLLOWING PARAMETERS ARE CONTROLLED
@@ -31,15 +30,15 @@ set simplified_dmax_gain = 000
 set simplified_i_gain = 90
 set simplified_pitch_d_gain = 85
 set simplified_pitch_pi_gain = 90
-set simplified_master_multiplier = 110
+set simplified_master_multiplier = 100
 simplified_tuning apply
 
-# -- PID values -- --
+# -- PID values --
 set p_yaw = 61
-set i_yaw = 99
+set i_yaw = 95
 set d_yaw = 0
 set d_min_yaw = 0
-set f_yaw = 92
+set f_yaw = 90
 
 # -- iTerm relax --
 set iterm_relax = RP
@@ -149,15 +148,14 @@ set dshot_idle_value = 400
 # Since every preset resets this to off, users with desync prone builds will have to re-apply their personal values after this reset
 set dyn_idle_min_rpm = 0
 
-# -- Cell Count, this is for 2s --
-auto_profile_cell_count = 2
-# ------ OPTIONS GO BELOW THIS LINE ------
-
-
-# -- VBat sag compensation (off, default) --
+# -- VBat sag compensation --
 # Most pilots find that full sag compensation is better than off
 set vbat_sag_compensation = 100
 # set vbat_sag_lpf_period = 2
+
+# ------ OPTIONS GO BELOW THIS LINE ------
+
+
 
 
 # This is where the author includes options that require input from the User
@@ -167,6 +165,20 @@ set dshot_bidir = ON
 set dshot_idle_value = 150
 set dyn_idle_min_rpm = 35
 set dyn_idle_p_gain = 50
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3s - 5000kv
+auto_profile_cell_count = 3
+set motor_output_limit = 100
+set simplified_master_multiplier = 100
+simplified_tuning apply
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 2s - 5000kv
+auto_profile_cell_count = 2
+set motor_output_limit = 100
+set simplified_master_multiplier = 110
+simplified_tuning apply
 #$ OPTION END
 
 
