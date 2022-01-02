@@ -130,6 +130,7 @@
       "DJI",
       "Danalog",
       "ELRS",
+      "FPVCycle",
       "GHOST",
       "Headsup",
       "KarateBrot",
@@ -169,6 +170,7 @@
       "rc_link",
       "rc_smoothing",
       "reset",
+      "session",
       "smooth",
       "smoothing",
       "suagrK",
@@ -902,6 +904,74 @@
       "include": [
         "presets/4.3/tune/defaults.txt",
         "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouse_PT5_Hero9_1750kv.txt",
+      "hash": "20691791285deb244363ddabb14a2b26211d271cb89c028e92673072800dbf3a",
+      "options": [
+        {
+          "name": "Dynamic Idle",
+          "checked": true
+        },
+        {
+          "name": "Over 1800kv 6s",
+          "checked": true
+        }
+      ],
+      "title": "FPVCycle Prototype 5 (Incisor) | 6s | Hero 9 Black",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "pid",
+        "FPVCycle",
+        "session"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Tune for FPVCycle Prototype 5 Carrying a Hero 5 session",
+        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
+        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Choose Option for Dynamic Idle For Best Results",
+        "Choose Option over 1800kv if over 1800kv on 6s"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouse_PT5_Session5_1750kv.txt",
+      "hash": "a7a13067335f6c8b4adc06f49771c9a0f7ca07bc919ee075b6cd5d4e29f43faf",
+      "options": [
+        {
+          "name": "Dynamic Idle",
+          "checked": true
+        },
+        {
+          "name": "Over 1800kv 6s",
+          "checked": true
+        }
+      ],
+      "title": "FPVCycle Prototype 5 (Incisor) | 6s | Hero 5 Session",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "pid",
+        "FPVCycle",
+        "session"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Tune for FPVCycle Prototype 5 Carrying a Hero 5 session",
+        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
+        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Choose Option for Dynamic Idle For Best Results",
+        "Choose Option over 1800kv if over 1800kv on 6s"
       ]
     }
   ]
