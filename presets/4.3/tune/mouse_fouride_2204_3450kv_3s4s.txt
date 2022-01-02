@@ -1,18 +1,18 @@
-#$ TITLE:  FPVCycle Toothpick 3 | 2s 
+#$ TITLE: 4" 2204 3450kv 3s/4s (Fouride)
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: tune, pid, FPVCycle, session
+#$ KEYWORDS: tune, pid
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 2s
-#$ DESCRIPTION: Use with Toothpick 3 Clean Build RPM Filter
+#$ DESCRIPTION: This is for a 4" 2204 quad
+#$ DESCRIPTION: Use with 5" Clean Build RPM Filter
 #$ DESCRIPTION: Works best with my Smooth Freestyle RC Smoothing 
 #$ DESCRIPTION: Works best with my Rates
 #$ DESCRIPTION: WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.
 #$ DESCRIPTION: DOES NOT reset rates, filters, rc_smoothing, and many other parameters. 
+#$ DESCRIPTION: Cell count selections Intended for 3450kv 2203/4 motor
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION: Choose Option for Dynamic Idle For Best Results
-
 
 
 # THE FOLLOWING PARAMETERS ARE CONTROLLED
@@ -24,22 +24,22 @@
 
 # -- PID Sliders  --
 set simplified_pids_mode = RP
-set simplified_d_gain = 150
-set simplified_pi_gain = 125
-set simplified_feedforward_gain = 75
+set simplified_d_gain = 175
+set simplified_pi_gain = 135
+set simplified_feedforward_gain = 70
 set simplified_dmax_gain = 000
 set simplified_i_gain = 90
-set simplified_pitch_d_gain = 85
-set simplified_pitch_pi_gain = 90
-set simplified_master_multiplier = 110
+set simplified_pitch_d_gain = 95
+set simplified_pitch_pi_gain = 100
+set simplified_master_multiplier = 105
 simplified_tuning apply
 
 # -- PID values -- --
-set p_yaw = 61
-set i_yaw = 99
+set p_yaw = 62
+set i_yaw = 90
 set d_yaw = 0
 set d_min_yaw = 0
-set f_yaw = 92
+set f_yaw = 90
 
 # -- iTerm relax --
 set iterm_relax = RP
@@ -79,7 +79,7 @@ set pidsum_limit = 500
 set pidsum_limit_yaw = 400
 set iterm_limit = 400
 
-# -- Antigravity --
+# -- Antigravity (default) --
 set anti_gravity_mode = SMOOTH
 set anti_gravity_threshold = 250
 set anti_gravity_gain = 3000
@@ -124,7 +124,7 @@ set gyro_cal_on_first_arm = OFF
 # best kept off
 set transient_throttle_limit = 0
 
-# -- Thrust linear (off, default) --
+# -- Thrust linear  --
 # increases motor output differentials at low throttle, useful if low thrust at low rpm, commonly used for Whoops
 # reset here to ensure a prior whoop flash won't carry thrust linear into other tunes
 set thrust_linear = 20
@@ -149,24 +149,29 @@ set dshot_idle_value = 400
 # Since every preset resets this to off, users with desync prone builds will have to re-apply their personal values after this reset
 set dyn_idle_min_rpm = 0
 
-# -- Cell Count, this is for 2s --
-auto_profile_cell_count = 2
-# ------ OPTIONS GO BELOW THIS LINE ------
-
-
-# -- VBat sag compensation (off, default) --
-# Most pilots find that full sag compensation is better than off
+# -- VBat sag compensation --
 set vbat_sag_compensation = 100
-# set vbat_sag_lpf_period = 2
 
+
+# ------ OPTIONS GO BELOW THIS LINE ------
 
 # This is where the author includes options that require input from the User
 
 #$ OPTION BEGIN (CHECKED): Dynamic Idle
 set dshot_bidir = ON
 set dshot_idle_value = 150
-set dyn_idle_min_rpm = 35
-set dyn_idle_p_gain = 50
+set dyn_idle_min_rpm = 25
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3450kv 3s
+set motor_output_limit = 100
+auto_profile_cell_count = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3450kv 4s
+set motor_output_limit = 84
+auto_profile_cell_count = 4
+#$ OPTION END
+
 
 
