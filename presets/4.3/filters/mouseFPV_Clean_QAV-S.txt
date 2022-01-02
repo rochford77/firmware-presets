@@ -6,6 +6,7 @@
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: mouseFPV Clean Build QAV-S RPM Filter
 #$ DESCRIPTION: Requires RPM filtering and DShot telemetry!
+#$ DESCRIPTION: Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
@@ -44,7 +45,7 @@ set simplified_dterm_filter_multiplier = 135
 # -- Yaw lowpass (default) --
 
 
-#$ OPTION BEGIN (UNCHECKED): Using f4 @ 4k?
+#$ OPTION BEGIN (UNCHECKED): Using F4 @ 4k?
 set gyro_lpf1_static_hz = 0
 set gyro_lpf1_dyn_min_hz = 0
 set gyro_lpf1_dyn_max_hz = 0
