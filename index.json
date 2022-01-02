@@ -244,15 +244,46 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/filters/mouseFPV_Clean_QAV-S.txt",
-      "hash": "e52a8c1f34424abb9758df907974d673fecb98ed18f61d7285a57cd113ade408",
+      "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
+      "hash": "e4cbf474b2ebbc46ca9927fef49c5c774d92006a4a6f4258476952c61d55f45f",
       "options": [
         {
           "name": "Using F4 @ 4k?",
           "checked": false
         }
       ],
-      "title": "mouseFPV Clean Build QAV-S RPM Filter",
+      "title": "mouseFPV 5\" Clean Build RPM Filter",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "freestyle",
+        "filter",
+        "filters",
+        "RPM"
+      ],
+      "author": "mouseFPV",
+      "description": [
+        "mouseFPV Clean Build QAV-S RPM Filter",
+        "Requires RPM filtering and DShot telemetry!",
+        "Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!"
+      ],
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
+      "hash": "a3b933a788c7d5192c392a695ac6aea946beb098a3c0395170bf920ff9221e4b",
+      "options": [
+        {
+          "name": "Using F4 @ 4k?",
+          "checked": false
+        }
+      ],
+      "title": "mouseFPV 5\" Clean Build RPM Filter",
       "firmware_version": [
         "4.3"
       ],
