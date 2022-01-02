@@ -4,15 +4,14 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: GHOST, rc, link, 250hz
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Basic RC link settings for a Solid250 ELRS link via GHST
+#$ DESCRIPTION: Basic RC link settings for a Solid250 link via GHST
 #$ DESCRIPTION: WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!
 #$ DESCRIPTION: WARNING: check that you are using a compatible version of EdgeTx or OpenTx!
-#$ DESCRIPTION: Voltage option is for OpenTx telemetry back to the transmitter, default is per cell, option whole pack.
 
 feature RX_SERIAL
-serialrx_provider = GHST
+set serialrx_provider = GHST
 
-# rc smoothing should always be enabled with ELRS
+# rc smoothing should always be enabled with GHOST
 set rc_smoothing = ON
 
 set feedforward_averaging = 2_POINT
