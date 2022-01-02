@@ -128,7 +128,6 @@
       "CTZsoonze",
       "Cinematic",
       "DJI",
-      "DShot telemetry",
       "ELRS",
       "GPS",
       "Headsup",
@@ -140,23 +139,19 @@
       "adjustments",
       "aux",
       "basic",
-      "betaflight",
       "blackbox",
       "camera",
       "camera_control",
-      "clean",
       "control",
       "ctzsnooze",
       "default",
       "defaults",
       "disable",
       "filter",
-      "filtering",
       "filters",
       "five33",
       "freestyle",
       "freesytle",
-      "hot",
       "jitter",
       "karate",
       "launch",
@@ -169,9 +164,6 @@
       "mode",
       "modes",
       "names",
-      "no rpm",
-      "noisy",
-      "normal",
       "pid",
       "profile",
       "race",
@@ -190,357 +182,10 @@
       "suagrK",
       "sugarK",
       "switch",
-      "tune",
-      "very",
-      "very clean",
-      "very noisy"
+      "tune"
     ]
   },
   "presets": [
-    {
-      "fullPath": "presets/4.3/filters/ctzsnooze_race.txt",
-      "hash": "505a3cf9aff8fc6b861770d3bcafcb61431e2865f3fa10170f8c5cc044b5fea1",
-      "options": [],
-      "title": "ctzsnooze's race filter settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "race",
-        "filter",
-        "filters",
-        "ctzsnooze",
-        "RPM"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "ctzsnooze's standard race filter setup.",
-        "Requires RPM filtering and DShot telemetry!"
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_no_rpm_clean.txt",
-      "hash": "a49b93320ce1ae4503a2e43061fd00b7fad70ad6d44acb4d97e040163eb72419",
-      "options": [],
-      "title": "4.3 Filter settings for CLEAN build WITH NO RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "filtering",
-        "clean",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Too much filtering may cause wobbling.",
-        "Intended for solid frames, motors with good bearings and clean props.",
-        "If motors get hot, try lowering the gyro or D filter sliders.   If motors remain hot despite strong filtering, it may not be a filtering problem.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_no_rpm_noisy.txt",
-      "hash": "04de8d94400cc218d57ff0896cdce43c3784ddd2c5b65381631b13a7dc09cc88",
-      "options": [],
-      "title": "4.3 Filter settings for NOISY build WITH NO RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "filtering",
-        "noisy",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for slightly beaten up, or larger (7\" and above), builds.",
-        "If motors get hot, try a filter set for very noisy motors, or try lowering the D filter slider.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_no_rpm_normal.txt",
-      "hash": "d7d779631e27f231832409940c0f61cd8408a01acc578166f449999440e602e5",
-      "options": [],
-      "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "filtering",
-        "normal",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for a well maintained build in good condition.",
-        "If motors get hot, try a filter set for noisy or very noisy motors, or try lowering the D filter slider.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_no_rpm_very_clean.txt",
-      "hash": "fc2bcbbae89d4c42d459d16938c20a80fc8d541123e37e7dcad89c5756b3241a",
-      "options": [],
-      "title": "4.3 Filter settings for VERY CLEAN build WITHOUT RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "no rpm",
-        "filter",
-        "filters",
-        "filtering",
-        "very clean",
-        "very",
-        "clean",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Likely to cause motor overheating on many builds!",
-        "Intended only for rock hard frames, motors with good bearings and true shafts, and perfectly balanced props.",
-        "If motors get hot, try a filter set for clean or normal motors, or try enabling gyro filter slider.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_no_rpm_very_noisy.txt",
-      "hash": "e742664e14b7a69434cb235205151942ef7f93b09695ecae70d9790141e7590a",
-      "options": [],
-      "title": "4.3 Filter settings for VERY NOISY build WITH NO RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "very noisy",
-        "very",
-        "noisy",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for slightly beaten up, or larger (10\" and above), builds.",
-        "If motors get hot, they may simply be being asked to do too much.",
-        "May cause 5\" or smaller quads to wobble due to lag."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_rpm_clean.txt",
-      "hash": "7d63ae8fc0c23d33d068667a7ffb5755aafcea2ab3acaf675924c9b21a6786fe",
-      "options": [],
-      "title": "4.3 Filter settings for CLEAN build with RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rpm",
-        "DShot telemetry",
-        "filter",
-        "filters",
-        "clean",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Required RPM filtering.  Ensure that DShot Telemetry is working properly!",
-        "WARNING: May cause motor overheating!",
-        "Intended for solid frames, motors with good bearings and clean props.",
-        "If motors get hot, try a filter set for normal or noisy motors.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_rpm_noisy.txt",
-      "hash": "d2f73d2aa33cbbc2829ec7331b779a1f0f25608b7e6fe1539525d4078bd462b6",
-      "options": [],
-      "title": "4.3 Filter settings for NOISY build with RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rpm",
-        "DShot telemetry",
-        "filter",
-        "filters",
-        "noisy",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Ensure that DShot Telemetry is working properly!",
-        "Intended for slightly beaten up, or larger (7\" and above), builds.",
-        "If motors get hot, try the filter Preset for very noisy motors.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_rpm_normal.txt",
-      "hash": "514677251d86ed5f7894e61fabbb8449f74a53efda71ceff6caa0a2f86acc16c",
-      "options": [],
-      "title": "4.3 Filter settings for NORMAL build with RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rpm",
-        "DShot telemetry",
-        "filter",
-        "filters",
-        "normal",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for a well maintained build in good condition with RPM filtering.",
-        "WARNING: Ensure that DShot Telemetry is working properly!",
-        "If motors get hot, try a filter set for noisy or very noisy motors.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_rpm_very_clean.txt",
-      "hash": "148d14351390490e81f7f868afff72a8252e35bdd294bfa9da983eb34b293490",
-      "options": [],
-      "title": "4.3 Filter settings for VERY CLEAN build with RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rpm",
-        "filter",
-        "filters",
-        "filtering",
-        "very clean",
-        "very",
-        "clean",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Ensure that DShot Telemetry is working properly!",
-        "WARNING: Likely to cause motor overheating on many builds!",
-        "Intended only for rock hard frames, motors with good bearings and true shafts, and perfectly balanced props.",
-        "If motors get hot, try a filter set for clean or normal motors.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/default_rpm_very_noisy.txt",
-      "hash": "f9eb86fb1d3d334e8647621a847d08a38ff781860a0f15632f485ff11fe0d117",
-      "options": [],
-      "title": "4.3 Filter settings for VERY NOISY build with RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "rpm",
-        "filter",
-        "filters",
-        "filtering",
-        "very",
-        "noisy",
-        "very noisy",
-        "hot",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "WARNING: Requires RPM filtering - ensure that DShot Telemetry is working properly!",
-        "WARNING: Too much filtering may cause wobbling.",
-        "Intended for worn, beaten up, or larger (10\" and above), builds.",
-        "If motors remain hot despite strong filtering, it may not be a filtering problem.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
       "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
@@ -593,6 +238,36 @@
       "discussion": "https://github.com/betaflight/firmware-presets/pull/51",
       "include_warning": [
         "misc/warnings/en/rpm_filters.txt"
+      ],
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/filters/mouseFPV_Clean_QAV-S.txt",
+      "hash": "6f526f9a463b544789bd85afc8ac0c7760b1a38e682602b98d2cb8fbb46f44fe",
+      "options": [
+        {
+          "name": "Using f4 @ 4k?",
+          "checked": false
+        }
+      ],
+      "title": "mouseFPV Clean Build QAV-S RPM Filter",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "freestyle",
+        "filter",
+        "filters",
+        "RPM"
+      ],
+      "author": "mouseFPV",
+      "description": [
+        "mouseFPV Clean Build QAV-S RPM Filter",
+        "Requires RPM filtering and DShot telemetry!"
       ],
       "include": [
         "presets/4.3/filters/defaults.txt"

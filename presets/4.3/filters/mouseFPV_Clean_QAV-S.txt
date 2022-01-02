@@ -1,0 +1,54 @@
+#$ TITLE: mouseFPV Clean Build QAV-S RPM Filter
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FILTERS
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: freestyle, filter, filters, RPM
+#$ AUTHOR: mouseFPV
+#$ DESCRIPTION: mouseFPV Clean Build QAV-S RPM Filter
+#$ DESCRIPTION: Requires RPM filtering and DShot telemetry!
+
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# enable dshot rpm telemetry
+set dshot_bidir = ON
+
+# -- Gyro lowpass filters --
+# -- No Gyro Lowpass
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set simplified_gyro_filter = OFF
+
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 150
+set dyn_notch_max_hz = 600
+
+# -- RPM filtering --
+set rpm_filter_q = 550
+set rpm_filter_min_hz = 115
+set rpm_filter_fade_range_hz = 50
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_min_hz = 101
+set dterm_lpf1_dyn_max_hz = 202
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_static_hz = 101
+set dterm_lpf2_static_hz = 202
+
+# -- Dterm sliders 105 --
+set simplified_dterm_filter_multiplier = 135
+
+# -- Yaw lowpass (default) --
+
+
+#$ OPTION BEGIN (UNCHECKED): Using f4 @ 4k?
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set gyro_lpf2_type = PT1
+set gyro_lpf2_static_hz = 800
+set simplified_gyro_filter = on
+set simplified_gyro_filter_multiplier = 160
+#$ OPTION END
