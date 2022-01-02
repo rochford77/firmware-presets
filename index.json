@@ -115,6 +115,7 @@
     "author": [
       "Betaflight",
       "Evan Turner (Headsup)",
+      "Ryan Rochford (mouseFPV) (Rochford77)",
       "ctzsnooze",
       "mouseFPV",
       "sugarK"
@@ -245,14 +246,14 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "e4cbf474b2ebbc46ca9927fef49c5c774d92006a4a6f4258476952c61d55f45f",
+      "hash": "acada91f4f96f8ff6dddb04bfac3f3c55d543537ebe41d6834e26f69f259a0dd",
       "options": [
         {
           "name": "Using F4 @ 4k?",
           "checked": false
         }
       ],
-      "title": "mouseFPV 5\" Clean Build RPM Filter",
+      "title": "5\" Clean Build RPM Filter",
       "firmware_version": [
         "4.3"
       ],
@@ -264,9 +265,9 @@
         "filters",
         "RPM"
       ],
-      "author": "mouseFPV",
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV Clean Build QAV-S RPM Filter",
+        "mouseFPV 5\" Clean Build RPM Filter",
         "Requires RPM filtering and DShot telemetry!",
         "Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!"
       ],
@@ -276,14 +277,14 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "a3b933a788c7d5192c392a695ac6aea946beb098a3c0395170bf920ff9221e4b",
+      "hash": "ebe7f9c9035111638ea1cb1c3c4b1fcc2892e6945d651ea4a52c85061a0f0286",
       "options": [
         {
           "name": "Using F4 @ 4k?",
           "checked": false
         }
       ],
-      "title": "mouseFPV 5\" Clean Build RPM Filter",
+      "title": "Toothpick 3 Clean Build RPM Filter",
       "firmware_version": [
         "4.3"
       ],
@@ -295,9 +296,9 @@
         "filters",
         "RPM"
       ],
-      "author": "mouseFPV",
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV Clean Build QAV-S RPM Filter",
+        "mouseFPV 5\" Clean Build RPM Filter",
         "Requires RPM filtering and DShot telemetry!",
         "Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!"
       ],
@@ -683,9 +684,9 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseCinematic.txt",
-      "hash": "8f96d47928bf875b5510f86f976d59f0647098cb7d08430d9e147c8cc9f088d6",
+      "hash": "3533cae15f1f5fc983a17f98946621bcb64f8501eb2d80698bca6871251ef84c",
       "options": [],
-      "title": "mouseFPV Cinematic Rates",
+      "title": "Cinematic Rates",
       "firmware_version": [
         "4.3"
       ],
@@ -694,7 +695,7 @@
       "keywords": [
         "Cinematic"
       ],
-      "author": "mouseFPV",
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "MouseFPV Cinematic Rates.",
         "Will be applied for the currently selected rate profile",
@@ -707,9 +708,9 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseFreestyle.txt",
-      "hash": "e7b4b93733ebe796d142ce1788bdf05950dc454a851b8ac553bb3313eae6ed6a",
+      "hash": "8ea6b62df3c3dd5166cda49b606181f5d790ad5835c529ae5754d7b91d7ae14e",
       "options": [],
-      "title": "mouseFPV Freestyle Rates",
+      "title": "Freestyle Rates",
       "firmware_version": [
         "4.3"
       ],
@@ -718,7 +719,7 @@
       "keywords": [
         "freestyle"
       ],
-      "author": "mouseFPV",
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "MouseFPV Freestyle Rates.",
         "Will be applied for the currently selected rate profile",
@@ -731,9 +732,9 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseRacing.txt",
-      "hash": "c4b221fa5b31ec052381ab8c14b29c4443e5dbaa6fbda767d3a53b3e0417b192",
+      "hash": "f2200a70ae54d351950eb836b96274c962c3f3d68222ea865c44ca7c0c0c3371",
       "options": [],
-      "title": "mouseFPV Racing Rates",
+      "title": "Racing Rates",
       "firmware_version": [
         "4.3"
       ],
@@ -742,7 +743,7 @@
       "keywords": [
         "Racing"
       ],
-      "author": "mouseFPV",
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "MouseFPV Racing Rates.",
         "Will be applied for the currently selected rate profile",

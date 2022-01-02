@@ -1,10 +1,10 @@
-#$ TITLE: mouseFPV 5" Clean Build RPM Filter
+#$ TITLE: 5" Clean Build RPM Filter
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: freestyle, filter, filters, RPM
-#$ AUTHOR: mouseFPV
-#$ DESCRIPTION: mouseFPV Clean Build QAV-S RPM Filter
+#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ DESCRIPTION: mouseFPV 5" Clean Build RPM Filter
 #$ DESCRIPTION: Requires RPM filtering and DShot telemetry!
 #$ DESCRIPTION: Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!
 

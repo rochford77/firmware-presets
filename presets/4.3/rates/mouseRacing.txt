@@ -1,9 +1,9 @@
-#$ TITLE: mouseFPV Racing Rates
+#$ TITLE: Racing Rates
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Racing
-#$ AUTHOR: mouseFPV
+#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: MouseFPV Racing Rates.
 #$ DESCRIPTION: Will be applied for the currently selected rate profile
 #$ DESCRIPTION: TPA values are not included
