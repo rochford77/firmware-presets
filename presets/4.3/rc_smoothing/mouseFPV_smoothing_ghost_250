@@ -1,0 +1,18 @@
+#$ TITLE: Smooth Freestyle
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_SMOOTHING
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: smooth, rc smoothing, rc_smoothing
+#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ DESCRIPTION: Resets RC Smoothing settings to 4.3 defaults
+
+# NOTE TO AUTHORS: Always include all of the lines below in your Preset, even if keeping some at default
+
+
+set rc_smoothing = ON
+set rc_smoothing_auto_factor = 55
+set rc_smoothing_auto_factor_throttle = 30
+set rc_smoothing_setpoint_cutoff = 0
+set rc_smoothing_feedforward_cutoff = 0
+set rc_smoothing_throttle_cutoff = 0
+set rc_smoothing_debug_axis = ROLL

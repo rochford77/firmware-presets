@@ -7,6 +7,8 @@
 #$ DESCRIPTION: mouseFPV DJI OSD
 #$ DESCRIPTION: This OSD fits well into the DJI OSD.
 
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
 set osd_rssi_pos = 2532
 set osd_throttle_pos = 420
 set osd_current_pos = 2539

@@ -6,6 +6,8 @@
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: mouseFPV Analog OSD
 
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
 set osd_warn_batt_not_full = OFF
 set osd_rssi_pos = 10626
 set osd_link_quality_pos = 67

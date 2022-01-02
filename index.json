@@ -379,7 +379,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/analog_OSD.txt",
-      "hash": "11ad91badc5a02661d28ac42517f8102388c46436ef6853f1efc78b2a2d9e6dc",
+      "hash": "1a4728d2628f436043fdcbea62a4d6d3db5bb6b98de44e234005831b1876ae97",
       "options": [],
       "title": "Analog OSD",
       "firmware_version": [
@@ -394,6 +394,9 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "mouseFPV Analog OSD"
+      ],
+      "include": [
+        "presets/4.3/modes/defaults.txt"
       ]
     },
     {
@@ -418,7 +421,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/dji_osd.txt",
-      "hash": "0ea9f43cdec5b9727176f2525009d322f656376a5dfac103b7af8dcbd8e70e07",
+      "hash": "a78562472d821fe8f08b67704838272829adc0fa30352d115efb1364af681d1b",
       "options": [],
       "title": "DJI OSD",
       "firmware_version": [
@@ -434,6 +437,9 @@
       "description": [
         "mouseFPV DJI OSD",
         "This OSD fits well into the DJI OSD."
+      ],
+      "include": [
+        "presets/4.3/osd/defaults.txt"
       ]
     },
     {
