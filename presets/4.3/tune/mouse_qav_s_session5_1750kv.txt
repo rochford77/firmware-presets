@@ -1,10 +1,10 @@
-#$ TITLE:  FPVCycle Prototype 5 (Incisor) | 6s | Hero 5 Session
+#$ TITLE:  QAV-S | 6s | Hero 5 Session
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune, pid, FPVCycle, session
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Tune for FPVCycle Prototype 5 Carrying a Hero 5 session
+#$ DESCRIPTION: Tune for QAV-S on 6s Carrying a Hero 5 Session
 #$ DESCRIPTION: WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.
 #$ DESCRIPTION: DOES NOT reset rates, filters, rc_smoothing, and many other parameters. 
 #$ DESCRIPTION: Choose Option for Dynamic Idle For Best Results
@@ -20,22 +20,22 @@
 
 # -- PID Sliders  --
 set simplified_pids_mode = RP
-set simplified_d_gain = 140
-set simplified_pi_gain = 115
-set simplified_feedforward_gain = 70
+set simplified_d_gain = 160
+set simplified_pi_gain = 130
+set simplified_feedforward_gain = 75
 set simplified_dmax_gain = 000
-set simplified_i_gain = 100
+set simplified_i_gain = 95
 set simplified_pitch_d_gain = 95
 set simplified_pitch_pi_gain = 100
-set simplified_master_multiplier = 110
+set simplified_master_multiplier = 100
 simplified_tuning apply
 
 # -- PID values -- --
 set p_yaw = 65
-set i_yaw = 101
+set i_yaw = 98
 set d_yaw = 0
 set d_min_yaw = 0
-set f_yaw = 92
+set f_yaw = 90
 
 # -- iTerm relax --
 set iterm_relax = RP
