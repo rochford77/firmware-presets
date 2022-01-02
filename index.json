@@ -151,6 +151,7 @@
       "five33",
       "freestyle",
       "freesytle",
+      "golden",
       "hero9",
       "jitter",
       "karate",
@@ -174,6 +175,7 @@
       "session",
       "smooth",
       "smoothing",
+      "starter",
       "suagrK",
       "sugarK",
       "switch",
@@ -240,7 +242,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "acada91f4f96f8ff6dddb04bfac3f3c55d543537ebe41d6834e26f69f259a0dd",
+      "hash": "38fdb457d54ed070470664817575bfc8f3e82f632ffebff33a03289691af6ea2",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -262,6 +264,7 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "mouseFPV 5\" Clean Build RPM Filter",
+        "!WARNING! This sets motor poles",
         "Requires RPM filtering and DShot telemetry!",
         "Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!"
       ],
@@ -271,7 +274,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "ebe7f9c9035111638ea1cb1c3c4b1fcc2892e6945d651ea4a52c85061a0f0286",
+      "hash": "e27479837d91b05a0f8e45168b505ca1345556dfd19744dd5e8998a3c23b1588",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -293,6 +296,7 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "mouseFPV 5\" Clean Build RPM Filter",
+        "!WARNING! This sets motor poles",
         "Requires RPM filtering and DShot telemetry!",
         "Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!"
       ],
@@ -685,7 +689,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
-      "hash": "e0905b0c5c808ac6ffd9172bbc5567c56880a774353f21bc2b704cc1a100adb3",
+      "hash": "b54bb6698dffa3a62be4d769c25ba3d40a39bbb156c6e35f1e95edae03e6457a",
       "options": [
         {
           "name": "Whole pack voltage readings to Tx",
@@ -694,29 +698,21 @@
         {
           "name": "Race feedforward settings",
           "checked": false
-        },
-        {
-          "name": "HD Freestyle feedforward settings",
-          "checked": false
-        },
-        {
-          "name": "Cinematic feedforward settings",
-          "checked": false
         }
       ],
-      "title": "ELRS 250hz",
+      "title": "ELRS 250hz mouseFPV",
       "firmware_version": [
         "4.3"
       ],
       "category": "RC_LINK",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "ELRS",
         "rc",
         "link",
         "250hz"
       ],
-      "author": "ctzsnooze",
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Basic RC link settings for a 250hz ELRS link via CRSF",
         "WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
@@ -726,14 +722,14 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/mouse_GHST_solid250.txt",
-      "hash": "2210acdc826dca6aefdeed3f2a49252f4d1b0dc77f8fda4b6708ce171e891c9c",
+      "hash": "e09480163407c142875801058c9d19930dbf434f3cd2b6caf40ac9331300f551",
       "options": [
         {
           "name": "Race feedforward settings",
           "checked": false
         }
       ],
-      "title": "GHST Solid 250hz",
+      "title": "GHST Solid 250hz mouseFPV",
       "firmware_version": [
         "4.3"
       ],
@@ -909,7 +905,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_Hero9_1750kv.txt",
-      "hash": "23b1d8e1a024775808b44e8bdd8ae53acc24abe52e33fd7b034d68d4d9ed5834",
+      "hash": "d32544e73136a9d5694ee030e2dbeebcc76e4a49a1fc78944bcd26bae5084e6c",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -935,15 +931,19 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Tune for FPVCycle Prototype 5 Carrying a Hero 5 session",
+        "Use with 5\" Clean Build RPM Filter",
+        "Works best with my Smooth Freestyle RC Smoothing",
+        "Works best with my Rates",
         "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
         "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
         "Choose Option for Dynamic Idle For Best Results",
         "Choose Option over 1800kv if over 1800kv on 6s"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_Session5_1750kv.txt",
-      "hash": "919653baaf855311b53e255dd3fd493fded01fbaea2522347048d6de1af2a081",
+      "hash": "bd63f7208f9bd2f0f0e03a3be9887bee385067cff240c9b778f7e041e18fb3d0",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -969,15 +969,19 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Tune for FPVCycle Prototype 5 Carrying a Hero 5 session",
+        "Use with 5\" Clean Build RPM Filter",
+        "Works best with my Smooth Freestyle RC Smoothing",
+        "Works best with my Rates",
         "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
         "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
         "Choose Option for Dynamic Idle For Best Results",
         "Choose Option over 1800kv if over 1800kv on 6s"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "1a0c10bed03ec0885b5eac57d75ce7afd69ee5fe2f244c68ae747eb3ba3fa1cc",
+      "hash": "66956718e323bb98f1f6c1c5a3ce7b8111575001ff2308377f8919e88ffbae95",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1003,10 +1007,119 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Tune for QAV-S on 6s Carrying a Hero 5 Session",
+        "Use with 5\" Clean Build RPM Filter",
+        "Works best with my Smooth Freestyle RC Smoothing",
+        "Works best with my Rates",
         "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
         "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
         "Choose Option for Dynamic Idle For Best Results",
         "Choose Option over 1800kv if over 1800kv on 6s"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
+      "hash": "02e8b0ea5bfdc052746a7df21950458467f84f1da18bb48be122ef5f059dde14",
+      "options": [
+        {
+          "name": "Dynamic Idle",
+          "checked": true
+        },
+        {
+          "name": "Over 1800kv 6s",
+          "checked": false
+        }
+      ],
+      "title": "Starter Preset 5\" | 6s",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune",
+        "pid",
+        "starter",
+        "session",
+        "golden"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Starting generic tune",
+        "Use with 5\" Clean Build RPM Filter",
+        "Works best with my Smooth Freestyle RC Smoothing",
+        "Works best with my Rates",
+        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
+        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
+        "Choose Option for Dynamic Idle For Best Results",
+        "Choose Option over 1800kv if over 1800kv on 6s"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
+      "hash": "eefcbbfac728f83cb449740af64d2c18e6cb09af9530f36d8372b6218cc24272",
+      "options": [
+        {
+          "name": "Dynamic Idle",
+          "checked": true
+        }
+      ],
+      "title": "FPVCycle Toothpick 3 | 2s",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune",
+        "pid",
+        "FPVCycle",
+        "session"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 2s",
+        "Use with Toothpick 3 Clean Build RPM Filter",
+        "Works best with my Smooth Freestyle RC Smoothing",
+        "Works best with my Rates",
+        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
+        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
+        "Choose Option for Dynamic Idle For Best Results"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
+      "hash": "09196466a8d72284dc3acb727e18edc94ba88c38d9f4a55ecc8ecbe0b1567926",
+      "options": [
+        {
+          "name": "Dynamic Idle",
+          "checked": true
+        }
+      ],
+      "title": "FPVCycle Toothpick 3 | 3s",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune",
+        "pid",
+        "FPVCycle",
+        "session"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s",
+        "Use with Toothpick 3 Clean Build RPM Filter",
+        "Works best with my Smooth Freestyle RC Smoothing",
+        "Works best with my Rates",
+        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
+        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
+        "Choose Option for Dynamic Idle For Best Results"
       ]
     }
   ]

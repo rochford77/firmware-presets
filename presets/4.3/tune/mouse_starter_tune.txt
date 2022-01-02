@@ -1,10 +1,10 @@
-#$ TITLE:  FPVCycle Prototype 5 (Incisor) | 6s | Hero 5 Session
+#$ TITLE:  Starter Preset 5" | 6s 
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITY
-#$ KEYWORDS: tune, pid, FPVCycle, session
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: tune, pid, starter, session, golden
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Tune for FPVCycle Prototype 5 Carrying a Hero 5 session
+#$ DESCRIPTION: Starting generic tune
 #$ DESCRIPTION: Use with 5" Clean Build RPM Filter
 #$ DESCRIPTION: Works best with my Smooth Freestyle RC Smoothing 
 #$ DESCRIPTION: Works best with my Rates
@@ -24,14 +24,14 @@
 
 # -- PID Sliders  --
 set simplified_pids_mode = RP
-set simplified_d_gain = 140
-set simplified_pi_gain = 115
+set simplified_d_gain = 130
+set simplified_pi_gain = 110
 set simplified_feedforward_gain = 70
 set simplified_dmax_gain = 000
 set simplified_i_gain = 100
 set simplified_pitch_d_gain = 95
 set simplified_pitch_pi_gain = 100
-set simplified_master_multiplier = 110
+set simplified_master_multiplier = 115
 simplified_tuning apply
 
 # -- PID values -- --
@@ -39,7 +39,7 @@ set p_yaw = 65
 set i_yaw = 101
 set d_yaw = 0
 set d_min_yaw = 0
-set f_yaw = 92
+set f_yaw = 96
 
 # -- iTerm relax --
 set iterm_relax = RP
@@ -124,7 +124,7 @@ set gyro_cal_on_first_arm = OFF
 # best kept off
 set transient_throttle_limit = 0
 
-# -- Thrust linear (off, default) --
+# -- Thrust linear  --
 # increases motor output differentials at low throttle, useful if low thrust at low rpm, commonly used for Whoops
 # reset here to ensure a prior whoop flash won't carry thrust linear into other tunes
 set thrust_linear = 20

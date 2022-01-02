@@ -5,8 +5,12 @@
 #$ KEYWORDS: tune, pid, FPVCycle, session
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: Tune for QAV-S on 6s Carrying a Hero 5 Session
+#$ DESCRIPTION: Use with 5" Clean Build RPM Filter
+#$ DESCRIPTION: Works best with my Smooth Freestyle RC Smoothing 
+#$ DESCRIPTION: Works best with my Rates
 #$ DESCRIPTION: WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.
 #$ DESCRIPTION: DOES NOT reset rates, filters, rc_smoothing, and many other parameters. 
+#$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION: Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION: Choose Option over 1800kv if over 1800kv on 6s
 
@@ -145,6 +149,9 @@ set dshot_idle_value = 400
 # Since every preset resets this to off, users with desync prone builds will have to re-apply their personal values after this reset
 set dyn_idle_min_rpm = 0
 
+# -- VBat sag compensation  --
+set vbat_sag_compensation = 100
+# set vbat_sag_lpf_period = 2
 
 
 # ------ OPTIONS GO BELOW THIS LINE ------
@@ -162,8 +169,4 @@ set dyn_idle_p_gain = 45
 set motor_output_limit = 93
 #$ OPTION END
 
-# -- VBat sag compensation (off, default) --
-# Most pilots find that full sag compensation is better than off
-set vbat_sag_compensation = 100
-# set vbat_sag_lpf_period = 2
 

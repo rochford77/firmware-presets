@@ -5,8 +5,12 @@
 #$ KEYWORDS: tune, pid, FPVCycle, hero9
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: Tune for FPVCycle Prototype 5 Carrying a Hero 5 session
+#$ DESCRIPTION: Use with 5" Clean Build RPM Filter
+#$ DESCRIPTION: Works best with my Smooth Freestyle RC Smoothing 
+#$ DESCRIPTION: Works best with my Rates
 #$ DESCRIPTION: WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.
 #$ DESCRIPTION: DOES NOT reset rates, filters, rc_smoothing, and many other parameters. 
+#$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION: Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION: Choose Option over 1800kv if over 1800kv on 6s
 

@@ -5,6 +5,7 @@
 #$ KEYWORDS: freestyle, filter, filters, RPM
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: mouseFPV 5" Clean Build RPM Filter
+#$ DESCRIPTION:  !WARNING! This sets motor poles
 #$ DESCRIPTION: Requires RPM filtering and DShot telemetry!
 #$ DESCRIPTION: Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!
 
@@ -12,6 +13,7 @@
 
 # enable dshot rpm telemetry
 set dshot_bidir = ON
+set motor_poles = 12
 
 # -- Gyro lowpass filters --
 # -- No Gyro Lowpass
@@ -38,10 +40,12 @@ set dterm_lpf1_dyn_expo = 5
 set dterm_lpf1_static_hz = 105
 set dterm_lpf2_static_hz = 210
 
-# -- Dterm sliders 140 --
+# -- Dterm sliders --
 set simplified_dterm_filter_multiplier = 140
 
-# -- Yaw lowpass (default) --
+
+# -- Yaw lowpass --
+set yaw_lowpass_hz = 100
 
 #$ OPTION BEGIN (UNCHECKED): Using F4 @ 4k?
 set gyro_lpf1_static_hz = 0
