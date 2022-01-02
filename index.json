@@ -114,7 +114,6 @@
     ],
     "author": [
       "Betaflight",
-      "Directory",
       "Evan Turner (Headsup)",
       "ctzsnooze",
       "mouseFPV",
@@ -127,6 +126,7 @@
       "533",
       "6S",
       "CTZsoonze",
+      "Cinematic",
       "DJI",
       "DShot telemetry",
       "ELRS",
@@ -917,29 +917,6 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/rates/Directory_freestyle.txt",
-      "hash": "2478b869e459450024e482488d4fa3103528d449db747f48e2e873eb18d77a9c",
-      "options": [],
-      "title": "Directory freestyle rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "freestyle"
-      ],
-      "author": "Directory",
-      "discussion": "https://github.com/betaflight/firmware-presets/pull/73",
-      "description": [
-        "The freestyle rates that I, Directory, have gotten used to for both acro and 3D.",
-        "The pitch and roll have a similar max rate (780, 860) with roll being slightly faster. I prefer a fast max rate to be able to do snappy barrel-roll/flips in a split second. The reason that both the pitch and roll axis are so similar is that when doing a roll you do not lose visibility therefor feeling more comfortable and can decelerate the roll in time without overshooting with enough practice. With front/back flips however you lose visibility with the ground which puts you in a state of anxiety wondering how close you are to the ground and if you are going to hit it. With the pitch max rate being almost just as fast as the roll you can reasonably predict for how long full stick deflection is neccasary and have confidance you won't lose much altitude. The pitch curve however is less linier than the roll offering tons of resolution in the middle. This is because during flight pitch is very rarely adjusted so the maximum amount of control is allowed to maintain a steady altitude. This does not get in the way of full stick deflection when doing a snap maneuver. Yaw curve is relativly predictable with a high max rate to be able to do quick spins/lookbacks."
-      ],
-      "include": [
-        "presets/4.3/rates/defaults.txt"
-      ]
-    },
-    {
       "fullPath": "presets/4.3/rates/Headsup533.txt",
       "hash": "82f3e158de3b4e037551a672dabaa752e44943c9b13f6ebf33c092c9d63dade1",
       "options": [
@@ -995,6 +972,78 @@
         "Will be applied for the currently selected rate profile",
         "TPA values are not included",
         "Throttle limit and curve are not included"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rates/mouseCinematic.txt",
+      "hash": "8f96d47928bf875b5510f86f976d59f0647098cb7d08430d9e147c8cc9f088d6",
+      "options": [],
+      "title": "mouseFPV Cinematic Rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Cinematic"
+      ],
+      "author": "mouseFPV",
+      "description": [
+        "MouseFPV Cinematic Rates.",
+        "Will be applied for the currently selected rate profile",
+        "TPA values are not included",
+        "Throttle limit and curve are not included"
+      ],
+      "include": [
+        "presets/4.3/rates/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rates/mouseFreestyle.txt",
+      "hash": "e7b4b93733ebe796d142ce1788bdf05950dc454a851b8ac553bb3313eae6ed6a",
+      "options": [],
+      "title": "mouseFPV Freestyle Rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "freestyle"
+      ],
+      "author": "mouseFPV",
+      "description": [
+        "MouseFPV Freestyle Rates.",
+        "Will be applied for the currently selected rate profile",
+        "TPA values are not included",
+        "Throttle limit and curve are not included"
+      ],
+      "include": [
+        "presets/4.3/rates/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rates/mouseRacing.txt",
+      "hash": "c4b221fa5b31ec052381ab8c14b29c4443e5dbaa6fbda767d3a53b3e0417b192",
+      "options": [],
+      "title": "mouseFPV Racing Rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Racing"
+      ],
+      "author": "mouseFPV",
+      "description": [
+        "MouseFPV Racing Rates.",
+        "Will be applied for the currently selected rate profile",
+        "TPA values are not included",
+        "Throttle limit and curve are not included"
+      ],
+      "include": [
+        "presets/4.3/rates/defaults.txt"
       ]
     },
     {
