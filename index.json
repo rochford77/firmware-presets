@@ -245,7 +245,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_QAV-S.txt",
-      "hash": "f04558ee35d1d93afb2dc3c965964f2cdec3de788fd1b15b4a8f8dfe61b0580f",
+      "hash": "7dc59a51c9f28e2c0264a75202b54dc750eab2268d51212b05fee2110ffd1ecf",
       "options": [
         {
           "name": "Using f4 @ 4k?",
@@ -257,7 +257,7 @@
         "4.3"
       ],
       "category": "FILTERS",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "freestyle",
         "filter",
