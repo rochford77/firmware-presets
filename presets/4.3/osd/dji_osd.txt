@@ -1,9 +1,10 @@
-#$ TITLE: mouseFPV DJI OSD
+#$ TITLE: DJI OSD
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: OSD, DJI
-#$ AUTHOR: mouseFPV
+#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ DESCRIPTION: mouseFPV DJI OSD
 #$ DESCRIPTION: This OSD fits well into the DJI OSD.
 
 set osd_rssi_pos = 2532
