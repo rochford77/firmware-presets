@@ -130,6 +130,7 @@
       "DJI",
       "Danalog",
       "ELRS",
+      "GHOST",
       "GPS",
       "Headsup",
       "KarateBrot",
@@ -856,6 +857,35 @@
       "author": "ctzsnooze",
       "description": [
         "Basic RC link settings for a 250hz ELRS link via CRSF",
+        "WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
+        "WARNING: check that you are using a compatible version of EdgeTx or OpenTx!",
+        "Voltage option is for OpenTx telemetry back to the transmitter, default is per cell, option whole pack."
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/mouse_GHST_solid250.txt",
+      "hash": "7bcf4bcdd31cf64ac0c9b4361f1f9e868de93d2604d89ee4f0f76bf9f46b689a",
+      "options": [
+        {
+          "name": "Race feedforward settings",
+          "checked": false
+        }
+      ],
+      "title": "GHST Solid 250hz",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "GHOST",
+        "rc",
+        "link",
+        "250hz"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Basic RC link settings for a Solid250 ELRS link via GHST",
         "WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
         "WARNING: check that you are using a compatible version of EdgeTx or OpenTx!",
         "Voltage option is for OpenTx telemetry back to the transmitter, default is per cell, option whole pack."
