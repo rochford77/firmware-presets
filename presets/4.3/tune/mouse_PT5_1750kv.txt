@@ -19,6 +19,9 @@
 #$ DESCRIPTION: *Choose Option for Heavy action cam if using hero 8/9/10
 #$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION: *Choose Option over 1800kv if over 1800kv on 6s
+#$ DESCRIPTION:
+#$ WARNING: Dynamic Idle Requires DShot telemetry!
+#$ DISCLAIMER: Flash At Your Own risk
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
 

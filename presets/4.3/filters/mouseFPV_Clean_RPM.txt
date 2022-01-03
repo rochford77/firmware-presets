@@ -5,11 +5,14 @@
 #$ KEYWORDS: freestyle, filter, filters, RPM
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: mouseFPV 5" Clean Build RPM Filter
-#$ DESCRIPTION:  !WARNING! This sets motor poles
-#$ DESCRIPTION: Requires RPM filtering and DShot telemetry!
 #$ DESCRIPTION: Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!
+#$ WARNING: This sets motor poles & Requires RPM filtering and DShot telemetry!
+#$ DISCLAIMER: Flash At Your Own risk
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
 
 # enable dshot rpm telemetry
 set dshot_bidir = ON

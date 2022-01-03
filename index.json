@@ -241,8 +241,40 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
+      "hash": "cdbea7d145bb298a1c270cfb72aed1f105712f4e3e77c96711b3f2794088d5cc",
+      "options": [
+        {
+          "name": "Using F4 @ 4k?",
+          "checked": false
+        }
+      ],
+      "title": "Clean Build Classic (NO RPM) Filter",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "filter",
+        "filters",
+        "RPM"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "mouseFPV Classic Filter",
+        "Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!"
+      ],
+      "warning": "This turns off bi_driectional dshot",
+      "disclaimer": "Flash At Your Own risk",
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "7bdb8e798b83b7fd2ff0c0c09a9aa193ce0c7e33549fd92a3991c45bd6546428",
+      "hash": "7452db0bc8c1bf59848ecb262ee29d1c626444b200b53edcf850c6419b497ace",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -264,17 +296,17 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "mouseFPV 5\" Clean Build RPM Filter",
-        "!WARNING! This sets motor poles",
-        "Requires RPM filtering and DShot telemetry!",
         "Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!"
       ],
+      "warning": "This sets motor poles & Requires RPM filtering and DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/filters/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "5b7b5c7876d0b34be7daa83f9af582bdbdf04bccb33e23bd94da06a0095da005",
+      "hash": "edda11a7eb2d8969577e4096d382d175db2520ff91513a30bcdc0c6458a5aadc",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -296,10 +328,10 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "mouseFPV 5\" Clean Build RPM Filter",
-        "!WARNING! This sets motor poles",
-        "Requires RPM filtering and DShot telemetry!",
         "Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!"
       ],
+      "warning": "This sets motor poles and Requires RPM filtering and DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/filters/defaults.txt"
       ]
@@ -376,7 +408,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/analog_OSD.txt",
-      "hash": "1a4728d2628f436043fdcbea62a4d6d3db5bb6b98de44e234005831b1876ae97",
+      "hash": "8ae3216cdfd474b161ba665c0bdfedc214173bd931df135a559d55630bf48779",
       "options": [],
       "title": "Analog OSD",
       "firmware_version": [
@@ -418,7 +450,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/dji_osd.txt",
-      "hash": "a78562472d821fe8f08b67704838272829adc0fa30352d115efb1364af681d1b",
+      "hash": "bcf4f3de491ed9aecf263077b3fdc6c6b3059fa0834b7fb6b9f5a6a7481f73e8",
       "options": [],
       "title": "DJI OSD",
       "firmware_version": [
@@ -596,7 +628,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseCinematic.txt",
-      "hash": "3533cae15f1f5fc983a17f98946621bcb64f8501eb2d80698bca6871251ef84c",
+      "hash": "ff25ff20e4d1ae1809e93e5bd7ecf72a3c6fd05cfa3c2f476dbf1d3ed584fc3d",
       "options": [],
       "title": "Cinematic Rates",
       "firmware_version": [
@@ -620,7 +652,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseFreestyle.txt",
-      "hash": "8ea6b62df3c3dd5166cda49b606181f5d790ad5835c529ae5754d7b91d7ae14e",
+      "hash": "cce59d7a91f421da24f0f4891674974779a7514d6bc806f9be547929c086a8b5",
       "options": [],
       "title": "Freestyle Rates",
       "firmware_version": [
@@ -644,7 +676,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseRacing.txt",
-      "hash": "f2200a70ae54d351950eb836b96274c962c3f3d68222ea865c44ca7c0c0c3371",
+      "hash": "a5491183b47fb70da53f7a8902561ba7353ed241a3300bbbef4f0f082420981c",
       "options": [],
       "title": "Racing Rates",
       "firmware_version": [
@@ -689,7 +721,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
-      "hash": "4251ce13d6b7999eee4910a5d1b9195e7b59e168fe896f5d291b910641797c92",
+      "hash": "65aa60b6a124c46d65a2e83394babcbf4db84d89e51128b514dfef72eb62a448",
       "options": [
         {
           "name": "Whole pack voltage readings to Tx",
@@ -715,8 +747,8 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Basic RC link settings for a 250hz ELRS link via CRSF",
-        "WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
-        "WARNING: check that you are using a compatible version of EdgeTx or OpenTx!",
+        "make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
+        "check that you are using a compatible version of EdgeTx or OpenTx!",
         "Voltage option is for OpenTx telemetry back to the transmitter, default is per cell, option whole pack."
       ],
       "include": [
@@ -725,7 +757,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/mouse_GHST_solid250.txt",
-      "hash": "07d11e23f095d413e631075b1518a8b6db5835706a3f657dc3ef8032efba7488",
+      "hash": "8495d69713101be1a96981f55ef32eb53ca1e443dd18305abf25b7bd15baea65",
       "options": [
         {
           "name": "Race feedforward settings",
@@ -747,8 +779,8 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Basic RC link settings for a Solid250 link via GHST",
-        "WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
-        "WARNING: check that you are using a compatible version of EdgeTx or OpenTx!"
+        "make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
+        "check that you are using a compatible version of EdgeTx or OpenTx!"
       ],
       "include": [
         "presets/4.3/rc_link/defaults.txt"
@@ -911,7 +943,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv.txt",
-      "hash": "9a323d82e5b844484f7c80b758e29e5268bbcb6b03b444effe04ae39552c0ffc",
+      "hash": "d98f02966f9d80cf3c4dd80b7d3a29649376386c1b6ac97a46a8df3c5694384d",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -958,15 +990,18 @@
         "*Deselect both camera options if not using action camera",
         "*Choose Option for Heavy action cam if using hero 8/9/10",
         "*Choose Option for Dynamic Idle For Best Results",
-        "*Choose Option over 1800kv if over 1800kv on 6s"
+        "*Choose Option over 1800kv if over 1800kv on 6s",
+        ""
       ],
+      "warning": "Dynamic Idle Requires DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/tune/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "dfb14bf6d803be091aaf07d048b91ceddb397b57de199b75e0c57ac1439bc23f",
+      "hash": "737987b7d517ffea03e619eeee5a74726f88ca0a1fbc5d789302e35595647cca",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1014,15 +1049,18 @@
         "*Cell count selections Intended for 3450kv 2203/4 motor",
         "*Cell count selections controll auto_cell_count and motor output",
         "*AUW Selections boost pids to make up for weight",
-        "*Choose Option for Dynamic Idle For Best Results"
+        "*Choose Option for Dynamic Idle For Best Results",
+        ""
       ],
+      "warning": "Dynamic Idle Requires DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/tune/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "46b8c84614b4d70400ad1164ca67d85c3b212fa5ce0a6186a663fc5c000f7037",
+      "hash": "e5a25e75f1d823497b72770a62e9f1bdcc70717c26edec1b6edf6fadb158b270",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
@@ -1068,15 +1106,18 @@
         "*Deselect both camera options if not using action camera",
         "*Choose Option for Heavy action cam if using hero 8/9/10",
         "*Choose Option for Dynamic Idle For Best Results",
-        "*Choose Option over 1800kv if over 1800kv on 6s"
+        "*Choose Option over 1800kv if over 1800kv on 6s",
+        ""
       ],
+      "warning": "Dynamic Idle Requires DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/tune/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "17b3646e32e00299de03daf7d3ba3a224d59d23c098dca57406044dcef0df8a6",
+      "hash": "53ccc14147d4e2fb19580c230374103efb83df89e41677e4f6409bec946f5c3e",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
@@ -1124,15 +1165,18 @@
         "*Deselect both camera options if not using action camera",
         "*Choose Option for Heavy action cam if using hero 8/9/10",
         "*Choose Option for Dynamic Idle For Best Results",
-        "*Choose Option over 1800kv if over 1800kv on 6s"
+        "*Choose Option over 1800kv if over 1800kv on 6s",
+        ""
       ],
+      "warning": "Dynamic Idle Requires DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/tune/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s2s.txt",
-      "hash": "6ac364060483f1be5d3405bb93138cdb1affe19086a88a078406d2627f0f35b3",
+      "hash": "9277d9a1814855efe57df7991c171f0c001cd290fb2f59648e448f4d86a39415",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1172,8 +1216,11 @@
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
         "",
         "*Choose Option for Dynamic Idle For Best Results",
-        "*Be Sure to Choose proper Cell Count."
+        "*Be Sure to Choose proper Cell Count.",
+        ""
       ],
+      "warning": "Dynamic Idle Requires DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/tune/defaults.txt"
       ]

@@ -5,8 +5,8 @@
 #$ KEYWORDS: ELRS, rc, link, 250hz
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: Basic RC link settings for a 250hz ELRS link via CRSF
-#$ DESCRIPTION: WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!
-#$ DESCRIPTION: WARNING: check that you are using a compatible version of EdgeTx or OpenTx!
+#$ DESCRIPTION: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!
+#$ DESCRIPTION: check that you are using a compatible version of EdgeTx or OpenTx!
 #$ DESCRIPTION: Voltage option is for OpenTx telemetry back to the transmitter, default is per cell, option whole pack.
 
 #$ INCLUDE: presets/4.3/rc_link/defaults.txt

@@ -16,6 +16,9 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION: *Be Sure to Choose proper Cell Count.
+#$ DESCRIPTION:
+#$ WARNING: Dynamic Idle Requires DShot telemetry!
+#$ DISCLAIMER: Flash At Your Own risk
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
 # -- End Defaults --

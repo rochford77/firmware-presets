@@ -1,22 +1,20 @@
-#$ TITLE: Toothpick 3 Clean Build RPM Filter
+#$ TITLE: Clean Build Classic (NO RPM) Filter
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: freestyle, filter, filters, RPM
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: mouseFPV 5" Clean Build RPM Filter
+#$ DESCRIPTION: mouseFPV Classic Filter
 #$ DESCRIPTION: Requires 8k PIDLoop! if using F4 and 4k, select option for f4 @ 4k to prevent aliasing!
-#$ WARNING: This sets motor poles and Requires RPM filtering and DShot telemetry!
+#$ WARNING: This turns off bi_driectional dshot
 #$ DISCLAIMER: Flash At Your Own risk
-
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
 # -- End Defaults --
 # -- Begin Mouse Tune --
 
-# enable dshot rpm telemetry
-set dshot_bidir = ON
-set motor_poles = 12
+# Disable dshot rpm telemetry
+set dshot_bidir = off
 
 # -- Gyro lowpass filters --
 # -- No Gyro Lowpass
@@ -26,29 +24,24 @@ set gyro_lpf2_static_hz = 0
 set simplified_gyro_filter = OFF
 
 # -- Gyro Dynamic Notches --
-set dyn_notch_count = 2
-set dyn_notch_q = 500
+set dyn_notch_count = 5
+set dyn_notch_q = 300
 set dyn_notch_min_hz = 150
-set dyn_notch_max_hz = 650
-
-# -- RPM filtering --
-set rpm_filter_q = 500
-set rpm_filter_min_hz = 115
-set rpm_filter_fade_range_hz = 55
+set dyn_notch_max_hz = 600
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 105
-set dterm_lpf1_dyn_max_hz = 210
+set dterm_lpf1_dyn_min_hz = 101
+set dterm_lpf1_dyn_max_hz = 202
 set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 105
-set dterm_lpf2_static_hz = 210
+set dterm_lpf1_static_hz = 101
+set dterm_lpf2_static_hz = 202
 
 # -- Dterm sliders --
-set simplified_dterm_filter_multiplier = 140
-
+set simplified_dterm_filter_multiplier = 135
 
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100
+
 
 #$ OPTION BEGIN (UNCHECKED): Using F4 @ 4k?
 set gyro_lpf1_static_hz = 0

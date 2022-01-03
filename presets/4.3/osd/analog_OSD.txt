@@ -8,6 +8,9 @@
 
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
 set osd_warn_batt_not_full = OFF
 set osd_rssi_pos = 10626
 set osd_link_quality_pos = 67

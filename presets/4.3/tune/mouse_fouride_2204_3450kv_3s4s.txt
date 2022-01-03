@@ -18,6 +18,9 @@
 #$ DESCRIPTION: *Cell count selections controll auto_cell_count and motor output
 #$ DESCRIPTION: *AUW Selections boost pids to make up for weight
 #$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
+#$ DESCRIPTION:
+#$ WARNING: Dynamic Idle Requires DShot telemetry!
+#$ DISCLAIMER: Flash At Your Own risk
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
 # -- End Defaults --
