@@ -242,14 +242,14 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "d7d080fdac3d544eaacad1e4c2c704d3716cf6cd01f806e08baf15432af3fa85",
+      "hash": "7bdb8e798b83b7fd2ff0c0c09a9aa193ce0c7e33549fd92a3991c45bd6546428",
       "options": [
         {
           "name": "Using F4 @ 4k?",
           "checked": false
         }
       ],
-      "title": "5\" Clean Build RPM Filter",
+      "title": "Clean Build RPM Filter (4\"-5\")",
       "firmware_version": [
         "4.3"
       ],

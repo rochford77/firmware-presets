@@ -1,4 +1,4 @@
-#$ TITLE: 5" Clean Build RPM Filter
+#$ TITLE: Clean Build RPM Filter (4"-5")
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
