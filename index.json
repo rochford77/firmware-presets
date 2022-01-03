@@ -1022,7 +1022,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "d87f854bd7b1dc177bf695790641919e80895caf3fdaf945bd241c3109b014ce",
+      "hash": "46b8c84614b4d70400ad1164ca67d85c3b212fa5ce0a6186a663fc5c000f7037",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
@@ -1055,17 +1055,20 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Tune for Lumenier QAV-S bardwell edition on 6s",
-        "Use with 5\" Clean Build RPM Filter",
-        "Works best with my Smooth Freestyle RC Smoothing",
-        "Works best with my Rates",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "",
+        "This is a tune only, NOT filters",
+        "",
+        "*Use with 5\" Clean Build RPM Filter",
+        "*Works best with my Smooth Freestyle RC Smoothing",
+        "*Works best with my Rates",
+        "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "Default Option for Light action cam",
-        "Deselect both camera options if not using action camera",
-        "Choose Option for Heavy action cam if using hero 8/9/10",
-        "Choose Option for Dynamic Idle For Best Results",
-        "Choose Option over 1800kv if over 1800kv on 6s"
+        "",
+        "*Default Option for Light action cam",
+        "*Deselect both camera options if not using action camera",
+        "*Choose Option for Heavy action cam if using hero 8/9/10",
+        "*Choose Option for Dynamic Idle For Best Results",
+        "*Choose Option over 1800kv if over 1800kv on 6s"
       ],
       "include": [
         "presets/4.3/tune/defaults.txt"
