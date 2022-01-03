@@ -177,7 +177,7 @@ set iterm_relax_cutoff = 10
 #$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
 set simplified_master_multiplier = 120
 simplified_tuning apply
-set i_yaw = 115
+set i_yaw = 110
 set f_yaw = 100
 set feedforward_boost = 20
 set iterm_relax_cutoff = 8

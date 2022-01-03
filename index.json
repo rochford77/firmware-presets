@@ -904,7 +904,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_Session5_1750kv.txt",
-      "hash": "31521ecb646f63a2ad06f2bfe3d4bd065e40d1d677f5badcc1b2347d9c1c9c55",
+      "hash": "70142fc55d323186c3edc163b44e5013b043e7ec8857fbd845d74f85515b8a41",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1031,11 +1031,19 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "02e8b0ea5bfdc052746a7df21950458467f84f1da18bb48be122ef5f059dde14",
+      "hash": "f561f7e04bc61a01b74b640319abf6321feabedf64cdeab03b6a221f11ea03f1",
       "options": [
         {
-          "name": "Dynamic Idle",
+          "name": "Dynamic Idle 5\"",
           "checked": true
+        },
+        {
+          "name": "Light Action Cam (Session/Hero7/RC5O/DJI2)",
+          "checked": true
+        },
+        {
+          "name": "Heavy Action Cam (Hero8/9/10)",
+          "checked": false
         },
         {
           "name": "Over 1800kv 6s",
@@ -1047,7 +1055,7 @@
         "4.3"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "tune",
         "pid",
@@ -1064,6 +1072,9 @@
         "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
         "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
+        "Default Option for Light action cam",
+        "Deselect both camera options if not using action camera",
+        "Choose Option for Heavy action cam if using hero 8/9/10",
         "Choose Option for Dynamic Idle For Best Results",
         "Choose Option over 1800kv if over 1800kv on 6s"
       ]
