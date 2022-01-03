@@ -981,7 +981,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "36a518b87cf9367bd1b96ea87799bd9b58720741e46913cd0575b2ccc388fea5",
+      "hash": "fc2a29cd7d4d08b9fcfc75d13751e1989588e07b96039e1bf6a204d8f945c058",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1098,7 +1098,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s2s.txt",
-      "hash": "e3a7ba04352798b8b353e310a467a81ef69ace817cc3c43bcf002ebb95402153",
+      "hash": "e45524ca784ce3270fb028b3630eded653923fcc13c31e7c08d05f0f1eebcad3",
       "options": [
         {
           "name": "Dynamic Idle",

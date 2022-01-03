@@ -157,12 +157,12 @@ set dyn_idle_min_rpm = 25
 
 #$ OPTION BEGIN (UNCHECKED): 3450kv 3s
 set motor_output_limit = 100
-auto_profile_cell_count = 3
+set auto_profile_cell_count = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3450kv 4s
 set motor_output_limit = 84
-auto_profile_cell_count = 4
+set auto_profile_cell_count = 4
 #$ OPTION END
 
 

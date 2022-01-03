@@ -168,14 +168,14 @@ set dyn_idle_p_gain = 50
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3s - 5000kv
-auto_profile_cell_count = 3
+set auto_profile_cell_count = 3
 set motor_output_limit = 100
 set simplified_master_multiplier = 100
 simplified_tuning apply
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2s - 5000kv
-auto_profile_cell_count = 2
+set auto_profile_cell_count = 2
 set motor_output_limit = 100
 set simplified_master_multiplier = 110
 simplified_tuning apply
