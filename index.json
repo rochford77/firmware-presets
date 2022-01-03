@@ -140,7 +140,6 @@
       "actual",
       "adjustments",
       "aux",
-      "bardwell",
       "basic",
       "blackbox",
       "ctzsnooze",
@@ -160,7 +159,6 @@
       "link",
       "log",
       "logging",
-      "lumenier",
       "mode",
       "modes",
       "pid",
@@ -996,7 +994,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "cc4c5dcd47e125709d531b09b7e06cd75991448290974fe60e3eff3f3fdf3a12",
+      "hash": "7917f3d5ee89b67435d6d4920afdb2b6b987ab29cc550b758dbc6034cfb52019",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
@@ -1024,9 +1022,7 @@
       "keywords": [
         "tune",
         "pid",
-        "qav",
-        "bardwell",
-        "lumenier"
+        "qav"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
