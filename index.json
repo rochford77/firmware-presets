@@ -274,7 +274,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "e27479837d91b05a0f8e45168b505ca1345556dfd19744dd5e8998a3c23b1588",
+      "hash": "a724080480c36417a864a999853504d29cbb86a4611dcff413b5a513fc770e58",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -1098,7 +1098,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s2s.txt",
-      "hash": "e45524ca784ce3270fb028b3630eded653923fcc13c31e7c08d05f0f1eebcad3",
+      "hash": "d764342c5540fc7bd97ad33eab4502d72f08ef4aa9121c7cdeabf35d38659237",
       "options": [
         {
           "name": "Dynamic Idle",

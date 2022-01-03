@@ -29,8 +29,8 @@ set dyn_notch_min_hz = 150
 set dyn_notch_max_hz = 750
 
 # -- RPM filtering --
-set rpm_filter_q = 500
-set rpm_filter_min_hz = 100
+set rpm_filter_q = 525
+set rpm_filter_min_hz = 115
 set rpm_filter_fade_range_hz = 65
 
 # -- Dterm filtering --
@@ -52,7 +52,7 @@ set gyro_lpf1_static_hz = 0
 set gyro_lpf1_dyn_min_hz = 0
 set gyro_lpf1_dyn_max_hz = 0
 set gyro_lpf2_type = PT1
-set gyro_lpf2_static_hz = 700
+set gyro_lpf2_static_hz = 825
 set simplified_gyro_filter = on
 set simplified_gyro_filter_multiplier = 160
 #$ OPTION END
