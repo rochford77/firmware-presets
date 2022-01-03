@@ -1098,7 +1098,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s2s.txt",
-      "hash": "d764342c5540fc7bd97ad33eab4502d72f08ef4aa9121c7cdeabf35d38659237",
+      "hash": "96630938ad6e83a406bd60bbbd0b089013c528c8252575f94489292d457336ef",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1118,7 +1118,7 @@
         "4.3"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "tune",
         "pid",
