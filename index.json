@@ -152,7 +152,6 @@
       "freestyle",
       "freesytle",
       "golden",
-      "hero9",
       "jitter",
       "karate",
       "leds",
@@ -242,7 +241,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "1ce345cef3de00ee3db8b48143c85378e36b09c7022c071bcfe7a7843b490489",
+      "hash": "d7d080fdac3d544eaacad1e4c2c704d3716cf6cd01f806e08baf15432af3fa85",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -904,57 +903,27 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/tune/mouse_PT5_Hero9_1750kv.txt",
-      "hash": "d32544e73136a9d5694ee030e2dbeebcc76e4a49a1fc78944bcd26bae5084e6c",
-      "options": [
-        {
-          "name": "Dynamic Idle",
-          "checked": true
-        },
-        {
-          "name": "Over 1800kv 6s",
-          "checked": false
-        }
-      ],
-      "title": "FPVCycle Prototype 5 (Incisor) | 6s | Hero 9 Black",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune",
-        "pid",
-        "FPVCycle",
-        "hero9"
-      ],
-      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "description": [
-        "Tune for FPVCycle Prototype 5 Carrying a Hero 5 session",
-        "Use with 5\" Clean Build RPM Filter",
-        "Works best with my Smooth Freestyle RC Smoothing",
-        "Works best with my Rates",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
-        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "Choose Option for Dynamic Idle For Best Results",
-        "Choose Option over 1800kv if over 1800kv on 6s"
-      ]
-    },
-    {
       "fullPath": "presets/4.3/tune/mouse_PT5_Session5_1750kv.txt",
-      "hash": "bd63f7208f9bd2f0f0e03a3be9887bee385067cff240c9b778f7e041e18fb3d0",
+      "hash": "31521ecb646f63a2ad06f2bfe3d4bd065e40d1d677f5badcc1b2347d9c1c9c55",
       "options": [
         {
           "name": "Dynamic Idle",
           "checked": true
         },
         {
+          "name": "Light Action Cam (Session/Hero7/RC5O/DJI2)",
+          "checked": true
+        },
+        {
+          "name": "Heavy Action Cam (Hero8/9/10)",
+          "checked": false
+        },
+        {
           "name": "Over 1800kv 6s",
           "checked": false
         }
       ],
-      "title": "FPVCycle Prototype 5 (Incisor) | 6s | Hero 5 Session",
+      "title": "FPVCycle Prototype 5 (Incisor) | 6s",
       "firmware_version": [
         "4.3"
       ],
@@ -968,13 +937,16 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "Tune for FPVCycle Prototype 5 Carrying a Hero 5 session",
+        "Tune for FPVCycle Prototype 5",
         "Use with 5\" Clean Build RPM Filter",
         "Works best with my Smooth Freestyle RC Smoothing",
         "Works best with my Rates",
         "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
         "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
+        "Default Option for Light action cam",
+        "Deselect both camera options if not using action camera",
+        "Choose Option for Heavy action cam if using hero 8/9/10",
         "Choose Option for Dynamic Idle For Best Results",
         "Choose Option over 1800kv if over 1800kv on 6s"
       ]

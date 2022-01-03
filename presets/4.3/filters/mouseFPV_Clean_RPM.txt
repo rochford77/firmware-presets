@@ -30,8 +30,8 @@ set dyn_notch_max_hz = 600
 
 # -- RPM filtering --
 set rpm_filter_q = 500
-set rpm_filter_min_hz = 115
-set rpm_filter_fade_range_hz = 60
+set rpm_filter_min_hz = 125
+set rpm_filter_fade_range_hz = 75
 
 # -- Dterm filtering --
 set dterm_lpf1_dyn_min_hz = 101
@@ -46,12 +46,13 @@ set simplified_dterm_filter_multiplier = 135
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100
 
+
 #$ OPTION BEGIN (UNCHECKED): Using F4 @ 4k?
 set gyro_lpf1_static_hz = 0
 set gyro_lpf1_dyn_min_hz = 0
 set gyro_lpf1_dyn_max_hz = 0
 set gyro_lpf2_type = PT1
-set gyro_lpf2_static_hz = 800
+set gyro_lpf2_static_hz = 825
 set simplified_gyro_filter = on
 set simplified_gyro_filter_multiplier = 160
 #$ OPTION END

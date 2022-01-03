@@ -1,16 +1,19 @@
-#$ TITLE:  FPVCycle Prototype 5 (Incisor) | 6s | Hero 5 Session
+#$ TITLE:  FPVCycle Prototype 5 (Incisor) | 6s 
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune, pid, FPVCycle, session
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Tune for FPVCycle Prototype 5 Carrying a Hero 5 session
+#$ DESCRIPTION: Tune for FPVCycle Prototype 5
 #$ DESCRIPTION: Use with 5" Clean Build RPM Filter
 #$ DESCRIPTION: Works best with my Smooth Freestyle RC Smoothing 
 #$ DESCRIPTION: Works best with my Rates
 #$ DESCRIPTION: WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.
 #$ DESCRIPTION: DOES NOT reset rates, filters, rc_smoothing, and many other parameters. 
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
+#$ DESCRIPTION: Default Option for Light action cam
+#$ DESCRIPTION: Deselect both camera options if not using action camera
+#$ DESCRIPTION: Choose Option for Heavy action cam if using hero 8/9/10
 #$ DESCRIPTION: Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION: Choose Option over 1800kv if over 1800kv on 6s
 
@@ -31,12 +34,12 @@ set simplified_dmax_gain = 000
 set simplified_i_gain = 100
 set simplified_pitch_d_gain = 95
 set simplified_pitch_pi_gain = 100
-set simplified_master_multiplier = 110
+set simplified_master_multiplier = 100
 simplified_tuning apply
 
 # -- PID values -- --
 set p_yaw = 65
-set i_yaw = 101
+set i_yaw = 100
 set d_yaw = 0
 set d_min_yaw = 0
 set f_yaw = 92
@@ -44,7 +47,7 @@ set f_yaw = 92
 # -- iTerm relax --
 set iterm_relax = RP
 set iterm_relax_type = SETPOINT
-set iterm_relax_cutoff = 10
+set iterm_relax_cutoff = 12
 
 # -- iTerm windup (default) --
 set iterm_windup = 85
@@ -162,6 +165,22 @@ set dshot_bidir = ON
 set dshot_idle_value = 150
 set dyn_idle_min_rpm = 20
 set dyn_idle_p_gain = 45
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Light Action Cam (Session/Hero7/RC5O/DJI2)
+set simplified_master_multiplier = 110
+simplified_tuning apply
+set iterm_relax_cutoff = 10
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
+set simplified_master_multiplier = 120
+simplified_tuning apply
+set i_yaw = 115
+set f_yaw = 100
+set feedforward_boost = 20
+set iterm_relax_cutoff = 8
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Over 1800kv 6s
