@@ -954,7 +954,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "fc2a29cd7d4d08b9fcfc75d13751e1989588e07b96039e1bf6a204d8f945c058",
+      "hash": "6d2e1efd30d0d12a1f0a8d656561c39994e9b585502915b33f9c37354ea08fa3",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -962,10 +962,18 @@
         },
         {
           "name": "3450kv 3s",
-          "checked": false
+          "checked": true
         },
         {
           "name": "3450kv 4s",
+          "checked": false
+        },
+        {
+          "name": "~350g AUW",
+          "checked": true
+        },
+        {
+          "name": "~400g AUW",
           "checked": false
         }
       ],
@@ -974,7 +982,7 @@
         "4.3"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "tune",
         "pid"

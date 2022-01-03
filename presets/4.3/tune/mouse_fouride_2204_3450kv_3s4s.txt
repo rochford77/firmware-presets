@@ -1,7 +1,7 @@
 #$ TITLE: 4" 2204 3450kv 3s/4s (Fouride)
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: tune, pid
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: This is for a 4" 2204 quad
@@ -24,19 +24,19 @@
 
 # -- PID Sliders  --
 set simplified_pids_mode = RP
-set simplified_d_gain = 175
-set simplified_pi_gain = 135
-set simplified_feedforward_gain = 70
+set simplified_d_gain = 160
+set simplified_pi_gain = 120
+set simplified_feedforward_gain = 65
 set simplified_dmax_gain = 000
 set simplified_i_gain = 90
 set simplified_pitch_d_gain = 95
 set simplified_pitch_pi_gain = 100
-set simplified_master_multiplier = 105
+set simplified_master_multiplier = 115
 simplified_tuning apply
 
 # -- PID values -- --
 set p_yaw = 62
-set i_yaw = 90
+set i_yaw = 99
 set d_yaw = 0
 set d_min_yaw = 0
 set f_yaw = 90
@@ -155,7 +155,7 @@ set dshot_idle_value = 150
 set dyn_idle_min_rpm = 25
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3450kv 3s
+#$ OPTION BEGIN (checked): 3450kv 3s
 set motor_output_limit = 100
 set auto_profile_cell_count = 3
 #$ OPTION END
@@ -164,6 +164,25 @@ set auto_profile_cell_count = 3
 set motor_output_limit = 84
 set auto_profile_cell_count = 4
 #$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): ~350g AUW
+set simplified_master_multiplier = 115
+simplified_tuning apply
+
+set p_yaw = 62
+set i_yaw = 99
+set f_yaw = 90
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): ~400g AUW
+set simplified_master_multiplier = 120
+simplified_tuning apply
+set p_yaw = 64
+set i_yaw = 103
+set f_yaw = 93
+#$ OPTION END
+
 
 
 
