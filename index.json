@@ -337,6 +337,27 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/leds/arm_led.txt",
+      "hash": "fc82f8fa75546b9af1ccfc105e64679a412d5f10ecb8bca21bd02a5ecabcc222",
+      "options": [],
+      "title": "Red ARM LED Flywoo",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "leds"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Red led on arming for flywoo boards"
+      ],
+      "include": [
+        "presets/4.3/leds/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/leds/defaults.txt",
       "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
       "options": [],
