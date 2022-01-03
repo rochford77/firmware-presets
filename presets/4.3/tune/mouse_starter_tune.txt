@@ -1,4 +1,4 @@
-#$ TITLE:  Starter Preset 5" | 6s 
+#$ TITLE:  Golden Cheese | 6s 
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY

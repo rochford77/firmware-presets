@@ -903,7 +903,7 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/tune/mouse_PT5_Session5_1750kv.txt",
+      "fullPath": "presets/4.3/tune/mouse_PT5_1750kv.txt",
       "hash": "70142fc55d323186c3edc163b44e5013b043e7ec8857fbd845d74f85515b8a41",
       "options": [
         {
@@ -993,45 +993,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "66956718e323bb98f1f6c1c5a3ce7b8111575001ff2308377f8919e88ffbae95",
-      "options": [
-        {
-          "name": "Dynamic Idle",
-          "checked": true
-        },
-        {
-          "name": "Over 1800kv 6s",
-          "checked": false
-        }
-      ],
-      "title": "QAV-S | 6s | Hero 5 Session",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune",
-        "pid",
-        "FPVCycle",
-        "session"
-      ],
-      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "description": [
-        "Tune for QAV-S on 6s Carrying a Hero 5 Session",
-        "Use with 5\" Clean Build RPM Filter",
-        "Works best with my Smooth Freestyle RC Smoothing",
-        "Works best with my Rates",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
-        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "Choose Option for Dynamic Idle For Best Results",
-        "Choose Option over 1800kv if over 1800kv on 6s"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "f561f7e04bc61a01b74b640319abf6321feabedf64cdeab03b6a221f11ea03f1",
+      "hash": "0e72fe3e934e0cdc12477d573c6c751e4b111dd226e1e91e37fcdcc6045a97f1",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
@@ -1050,7 +1012,56 @@
           "checked": false
         }
       ],
-      "title": "Starter Preset 5\" | 6s",
+      "title": "QAV-S | 6s",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "pid",
+        "FPVCycle",
+        "session"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Tune for QAV-S on 6s",
+        "Use with 5\" Clean Build RPM Filter",
+        "Works best with my Smooth Freestyle RC Smoothing",
+        "Works best with my Rates",
+        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
+        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
+        "Default Option for Light action cam",
+        "Deselect both camera options if not using action camera",
+        "Choose Option for Heavy action cam if using hero 8/9/10",
+        "Choose Option for Dynamic Idle For Best Results",
+        "Choose Option over 1800kv if over 1800kv on 6s"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
+      "hash": "a9574b3142ef20cbd6eaffea6937031b85f38ec9d791b48552b8892ed78d628d",
+      "options": [
+        {
+          "name": "Dynamic Idle 5\"",
+          "checked": true
+        },
+        {
+          "name": "Light Action Cam (Session/Hero7/RC5O/DJI2)",
+          "checked": true
+        },
+        {
+          "name": "Heavy Action Cam (Hero8/9/10)",
+          "checked": false
+        },
+        {
+          "name": "Over 1800kv 6s",
+          "checked": false
+        }
+      ],
+      "title": "Golden Cheese | 6s",
       "firmware_version": [
         "4.3"
       ],
