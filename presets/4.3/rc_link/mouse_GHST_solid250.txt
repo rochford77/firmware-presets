@@ -8,6 +8,8 @@
 #$ DESCRIPTION: WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!
 #$ DESCRIPTION: WARNING: check that you are using a compatible version of EdgeTx or OpenTx!
 
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+
 feature RX_SERIAL
 set serialrx_provider = GHST
 

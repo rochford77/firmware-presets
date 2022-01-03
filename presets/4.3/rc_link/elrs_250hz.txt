@@ -9,6 +9,8 @@
 #$ DESCRIPTION: WARNING: check that you are using a compatible version of EdgeTx or OpenTx!
 #$ DESCRIPTION: Voltage option is for OpenTx telemetry back to the transmitter, default is per cell, option whole pack.
 
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+
 feature RX_SERIAL
 set serialrx_provider = CRSF
 

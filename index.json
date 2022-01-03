@@ -689,7 +689,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
-      "hash": "b54bb6698dffa3a62be4d769c25ba3d40a39bbb156c6e35f1e95edae03e6457a",
+      "hash": "4251ce13d6b7999eee4910a5d1b9195e7b59e168fe896f5d291b910641797c92",
       "options": [
         {
           "name": "Whole pack voltage readings to Tx",
@@ -718,11 +718,14 @@
         "WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
         "WARNING: check that you are using a compatible version of EdgeTx or OpenTx!",
         "Voltage option is for OpenTx telemetry back to the transmitter, default is per cell, option whole pack."
+      ],
+      "include": [
+        "presets/4.3/rc_link/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/rc_link/mouse_GHST_solid250.txt",
-      "hash": "e09480163407c142875801058c9d19930dbf434f3cd2b6caf40ac9331300f551",
+      "hash": "07d11e23f095d413e631075b1518a8b6db5835706a3f657dc3ef8032efba7488",
       "options": [
         {
           "name": "Race feedforward settings",
@@ -746,6 +749,9 @@
         "Basic RC link settings for a Solid250 link via GHST",
         "WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
         "WARNING: check that you are using a compatible version of EdgeTx or OpenTx!"
+      ],
+      "include": [
+        "presets/4.3/rc_link/defaults.txt"
       ]
     },
     {
@@ -905,7 +911,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv.txt",
-      "hash": "70142fc55d323186c3edc163b44e5013b043e7ec8857fbd845d74f85515b8a41",
+      "hash": "9a323d82e5b844484f7c80b758e29e5268bbcb6b03b444effe04ae39552c0ffc",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -939,22 +945,28 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Tune for FPVCycle Prototype 5",
-        "Use with 5\" Clean Build RPM Filter",
-        "Works best with my Smooth Freestyle RC Smoothing",
-        "Works best with my Rates",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "",
+        "This is a tune only, NOT filters",
+        "",
+        "*Use with 5\" Clean Build RPM Filter",
+        "*Works best with my Smooth Freestyle RC Smoothing",
+        "*Works best with my Rates",
+        "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "Default Option for Light action cam",
-        "Deselect both camera options if not using action camera",
-        "Choose Option for Heavy action cam if using hero 8/9/10",
-        "Choose Option for Dynamic Idle For Best Results",
-        "Choose Option over 1800kv if over 1800kv on 6s"
+        "",
+        "*Default Option for Light action cam",
+        "*Deselect both camera options if not using action camera",
+        "*Choose Option for Heavy action cam if using hero 8/9/10",
+        "*Choose Option for Dynamic Idle For Best Results",
+        "*Choose Option over 1800kv if over 1800kv on 6s"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "6d2e1efd30d0d12a1f0a8d656561c39994e9b585502915b33f9c37354ea08fa3",
+      "hash": "dfb14bf6d803be091aaf07d048b91ceddb397b57de199b75e0c57ac1439bc23f",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -990,19 +1002,27 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "This is for a 4\" 2204 quad",
-        "Use with 5\" Clean Build RPM Filter",
-        "Works best with my Smooth Freestyle RC Smoothing",
-        "Works best with my Rates",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
-        "Cell count selections Intended for 3450kv 2203/4 motor",
+        "",
+        "This is a tune only, NOT filters",
+        "",
+        "*Use with 5\" Clean Build RPM Filter",
+        "*Works best with my Smooth Freestyle RC Smoothing",
+        "*Works best with my Rates",
+        "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "Choose Option for Dynamic Idle For Best Results"
+        "",
+        "*Cell count selections Intended for 3450kv 2203/4 motor",
+        "*Cell count selections controll auto_cell_count and motor output",
+        "*AUW Selections boost pids to make up for weight",
+        "*Choose Option for Dynamic Idle For Best Results"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "7917f3d5ee89b67435d6d4920afdb2b6b987ab29cc550b758dbc6034cfb52019",
+      "hash": "d87f854bd7b1dc177bf695790641919e80895caf3fdaf945bd241c3109b014ce",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
@@ -1046,11 +1066,14 @@
         "Choose Option for Heavy action cam if using hero 8/9/10",
         "Choose Option for Dynamic Idle For Best Results",
         "Choose Option over 1800kv if over 1800kv on 6s"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "a9574b3142ef20cbd6eaffea6937031b85f38ec9d791b48552b8892ed78d628d",
+      "hash": "17b3646e32e00299de03daf7d3ba3a224d59d23c098dca57406044dcef0df8a6",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
@@ -1085,22 +1108,28 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Starting generic tune",
-        "Use with 5\" Clean Build RPM Filter",
-        "Works best with my Smooth Freestyle RC Smoothing",
-        "Works best with my Rates",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "",
+        "This is a tune only, NOT filters",
+        "",
+        "*Use with 5\" Clean Build RPM Filter",
+        "*Works best with my Smooth Freestyle RC Smoothing",
+        "*Works best with my Rates",
+        "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "Default Option for Light action cam",
-        "Deselect both camera options if not using action camera",
-        "Choose Option for Heavy action cam if using hero 8/9/10",
-        "Choose Option for Dynamic Idle For Best Results",
-        "Choose Option over 1800kv if over 1800kv on 6s"
+        "",
+        "*Default Option is for Light Action Cam",
+        "*Deselect both camera options if not using action camera",
+        "*Choose Option for Heavy action cam if using hero 8/9/10",
+        "*Choose Option for Dynamic Idle For Best Results",
+        "*Choose Option over 1800kv if over 1800kv on 6s"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s2s.txt",
-      "hash": "96630938ad6e83a406bd60bbbd0b089013c528c8252575f94489292d457336ef",
+      "hash": "6ac364060483f1be5d3405bb93138cdb1affe19086a88a078406d2627f0f35b3",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1130,13 +1159,20 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s",
-        "Use with Toothpick 3 Clean Build RPM Filter",
-        "Works best with my Smooth Freestyle RC Smoothing",
-        "Works best with my Rates",
-        "WARNING: Overwrites all settings mentioned below to defaults.  The User cannot retain their previous values.",
-        "DOES NOT reset rates, filters, rc_smoothing, and many other parameters.",
+        "",
+        "This is a tune only, NOT filters",
+        "",
+        "*Use with Toothpick 3 Clean Build RPM Filter",
+        "*Works best with my Smooth Freestyle RC Smoothing",
+        "*Works best with my Rates",
+        "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "Choose Option for Dynamic Idle For Best Results"
+        "",
+        "*Choose Option for Dynamic Idle For Best Results",
+        "*Be Sure to Choose proper Cell Count."
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt"
       ]
     }
   ]
