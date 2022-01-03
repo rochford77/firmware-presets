@@ -2,9 +2,9 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: tune, pid, FPVCycle, session
+#$ KEYWORDS: tune, pid, qav, bardwell, lumenier 
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Tune for QAV-S on 6s
+#$ DESCRIPTION: Tune for Lumenier QAV-S bardwell edition on 6s
 #$ DESCRIPTION: Use with 5" Clean Build RPM Filter
 #$ DESCRIPTION: Works best with my Smooth Freestyle RC Smoothing 
 #$ DESCRIPTION: Works best with my Rates
@@ -28,7 +28,7 @@
 # -- PID Sliders  --
 set simplified_pids_mode = RP
 set simplified_d_gain = 145
-set simplified_pi_gain = 110
+set simplified_pi_gain = 120
 set simplified_feedforward_gain = 70
 set simplified_dmax_gain = 000
 set simplified_i_gain = 95

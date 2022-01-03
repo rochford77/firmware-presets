@@ -993,7 +993,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "0e72fe3e934e0cdc12477d573c6c751e4b111dd226e1e91e37fcdcc6045a97f1",
+      "hash": "88467b865abd2351b544ab7c4366812967a2fdd7aa25fa4032cf3c1d2e140e37",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
@@ -1132,4 +1132,4 @@
       ]
     }
   ]
-}
+}                                                                                           
