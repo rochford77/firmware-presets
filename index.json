@@ -1288,6 +1288,43 @@
       "include": [
         "presets/4.3/tune/defaults.txt"
       ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouse_whoop_tune.txt",
+      "hash": "0c51f6ac7784ed3d7555a3c4e045dabdf93010dccc4e29c32eea8cb0a6674178",
+      "options": [
+        {
+          "name": "Over 20000kv?",
+          "checked": false
+        }
+      ],
+      "title": "Whoop",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "pid",
+        "whoop"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Tune for 1s whoops, 17000-19500kv. Select Option if over 20000kv",
+        "",
+        "This is a tune only, NOT filters",
+        "",
+        "*Use with SDFT Filter (No RPM)",
+        "*If Using f411 whoop and SDFT (no RPM) Overclock CPU to 120mhz and use dshot600/8k",
+        "*Works best with my Smooth Racer RC Smoothing",
+        "*Works best with my Rates",
+        "",
+        "Recommended 48k PWM"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt"
+      ]
     }
   ]
 }

@@ -1,0 +1,63 @@
+#$ TITLE:  Whoop
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: tune, pid, whoop
+#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ DESCRIPTION: Tune for 1s whoops, 17000-19500kv. Select Option if over 20000kv
+#$ DESCRIPTION: 
+#$ DESCRIPTION: This is a tune only, NOT filters
+#$ DESCRIPTION: 
+#$ DESCRIPTION: *Use with SDFT Filter (No RPM)
+#$ DESCRIPTION: *If Using f411 whoop and SDFT (no RPM) Overclock CPU to 120mhz and use dshot600/8k
+#$ DESCRIPTION: *Works best with my Smooth Racer RC Smoothing 
+#$ DESCRIPTION: *Works best with my Rates
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Recommended 48k PWM
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
+
+# -- PID Sliders  --
+set simplified_pids_mode = RPY
+set simplified_d_gain = 145
+set simplified_pi_gain = 100
+set simplified_feedforward_gain = 60
+set simplified_dmax_gain = 000
+set simplified_i_gain = 100
+set simplified_pitch_d_gain = 100
+set simplified_pitch_pi_gain = 100
+set simplified_master_multiplier = 150
+simplified_tuning apply
+
+
+# -- Feedforward jitter reduction --
+set feedforward_jitter_factor = 8
+
+# -- Thrust linear--
+set thrust_linear = 20
+
+# -- VBat warning threshold--
+set vbat_warning_cell_voltage = 300
+set vbat_min_cell_voltage = 275
+
+# -- DShot Idle (default)--
+# Commonly set lower when dynamic idle is active.
+set dshot_idle_value = 600
+
+# -- VBat sag compensation --
+set vbat_sag_compensation = 100
+
+
+# ------ OPTIONS GO BELOW THIS LINE ------
+
+
+# This is where the author includes options that require input from the User
+
+#$ OPTION BEGIN (UNCHECKED): Over 20000kv?
+set motor_output_limit = 93
+#$ OPTION END
+
+
