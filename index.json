@@ -242,19 +242,14 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "fb947598bbef889dd64d318274b25d029a0aa1bc112aaa86d47296e074192cf7",
-      "options": [
-        {
-          "name": "Using F4 @ 4k?",
-          "checked": false
-        }
-      ],
-      "title": "Clean Build Classic (NO RPM) Filter",
+      "hash": "7e2d1be1e8a96185e7c1639b8d678125c28d544ba26f75dd6235880196b62c24",
+      "options": [],
+      "title": "SDFT Filter (No RPM)",
       "firmware_version": [
         "4.3"
       ],
       "category": "FILTERS",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "freestyle",
         "filter",
@@ -263,10 +258,12 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV Classic Filter",
-        "Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!"
+        "mouseFPV SDFT Filter, good for quads with no bi_driectional DSHOT and whoops",
+        "",
+        "I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.",
+        ""
       ],
-      "warning": "This Turns Off bi_driectional DShot",
+      "warning": "This Turns Off bi_driectional DShot!!!",
       "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/filters/defaults.txt"

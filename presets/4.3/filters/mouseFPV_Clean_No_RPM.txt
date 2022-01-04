@@ -1,12 +1,14 @@
-#$ TITLE: Clean Build Classic (NO RPM) Filter
+#$ TITLE: SDFT Filter (No RPM)
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: freestyle, filter, filters, RPM
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: mouseFPV Classic Filter
-#$ DESCRIPTION: Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!
-#$ WARNING: This Turns Off bi_driectional DShot
+#$ DESCRIPTION: mouseFPV SDFT Filter, good for quads with no bi_driectional DSHOT and whoops
+#$ DESCRIPTION:
+#$ DESCRIPTION: I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.
+#$ DESCRIPTION:
+#$ WARNING: This Turns Off bi_driectional DShot!!!
 #$ DISCLAIMER: Flash At Your Own risk
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
@@ -18,37 +20,29 @@ set dshot_bidir = off
 
 # -- Gyro lowpass filters --
 # -- No Gyro Lowpass
-set gyro_lpf1_static_hz = 0
-set gyro_lpf1_dyn_min_hz = 0
-set gyro_lpf2_static_hz = 0
-set simplified_gyro_filter = OFF
+set gyro_lpf1_static_hz = 425
+set gyro_lpf1_dyn_min_hz = 425
+set gyro_lpf1_dyn_max_hz = 850
+set gyro_lpf1_dyn_expo = 5
+set gyro_lpf2_static_hz = 850
+set simplified_gyro_filter = on
+set simplified_gyro_filter_multiplier = 170
 
 # -- Gyro Dynamic Notches --
 set dyn_notch_count = 5
 set dyn_notch_q = 300
 set dyn_notch_min_hz = 150
-set dyn_notch_max_hz = 600
+set dyn_notch_max_hz = 800
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 101
-set dterm_lpf1_dyn_max_hz = 202
+set dterm_lpf1_dyn_min_hz = 112
+set dterm_lpf1_dyn_max_hz = 225
 set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 101
-set dterm_lpf2_static_hz = 202
+set dterm_lpf1_static_hz = 112
+set dterm_lpf2_static_hz = 225
 
 # -- Dterm sliders --
-set simplified_dterm_filter_multiplier = 135
+set simplified_dterm_filter_multiplier = 150
 
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100
-
-
-#$ OPTION BEGIN (UNCHECKED): Using F4 @ 4k?
-set gyro_lpf1_static_hz = 0
-set gyro_lpf1_dyn_min_hz = 0
-set gyro_lpf1_dyn_max_hz = 0
-set gyro_lpf2_type = PT1
-set gyro_lpf2_static_hz = 825
-set simplified_gyro_filter = on
-set simplified_gyro_filter_multiplier = 160
-#$ OPTION END
