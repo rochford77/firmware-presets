@@ -179,7 +179,8 @@
       "suagrK",
       "sugarK",
       "switch",
-      "tune"
+      "tune",
+      "whoop"
     ]
   },
   "presets": [
@@ -805,6 +806,31 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/rc_link/redpine.txt",
+      "hash": "b8dc8d11f628ddb93e3c71bd125017a94350d8cda142771271d363cb25df8176",
+      "options": [],
+      "title": "RedPine SPI Whoop",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "whoop",
+        "rc",
+        "link"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "Redpine SPI",
+        "make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!",
+        "check that you are using a compatible version of EdgeTx or OpenTx!"
+      ],
+      "include": [
+        "presets/4.3/rc_link/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/rc_smoothing/defaults.txt",
       "hash": "a1c12a5b8fb6d7859f70e603144b74a570e664573b6f4455807d6c427cb35621",
       "options": [],
@@ -859,7 +885,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/mouseFPV_smoothing_ghost_250.txt",
-      "hash": "c976cd6fbb79cb0ff99353685844cf5e3e9391dbeaa5ca82ad16937cbc0e7b0b",
+      "hash": "860290ad896c793671a587bd3cd3f34868182a57948a2f5b8d7908d48524112b",
       "options": [],
       "title": "Smooth Freestyle",
       "firmware_version": [
@@ -874,7 +900,27 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "Resets RC Smoothing settings to 4.3 defaults"
+        "RC_Smoothing for Smooth Freestyle on static links 150hz+"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rc_smoothing/raceWhoopRedpine.txt",
+      "hash": "7b4e7e38930c096e924ef97332666ff9821d2225983eba465a89dd4becf0255f",
+      "options": [],
+      "title": "Smooth Racer",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_SMOOTHING",
+      "status": "COMMUNITY",
+      "keywords": [
+        "race",
+        "rc smoothing",
+        "rc_smoothing"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "For Smooth Racing, not too jumpy, also not too laggy"
       ]
     },
     {

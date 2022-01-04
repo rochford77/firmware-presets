@@ -1,16 +1,16 @@
-#$ TITLE: Smooth Freestyle
+#$ TITLE: Smooth Racer
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RC_SMOOTHING
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: smooth, rc smoothing, rc_smoothing
+#$ KEYWORDS: race, rc smoothing, rc_smoothing
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: RC_Smoothing for Smooth Freestyle on static links 150hz+
+#$ DESCRIPTION: For Smooth Racing, not too jumpy, also not too laggy
 
 # NOTE TO AUTHORS: Always include all of the lines below in your Preset, even if keeping some at default
 
 
 set rc_smoothing = ON
-set rc_smoothing_auto_factor = 55
+set rc_smoothing_auto_factor = 40
 set rc_smoothing_auto_factor_throttle = 30
 set rc_smoothing_setpoint_cutoff = 0
 set rc_smoothing_feedforward_cutoff = 0
