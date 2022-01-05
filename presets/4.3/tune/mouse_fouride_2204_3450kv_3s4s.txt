@@ -16,6 +16,8 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: *Cell count selections Intended for 3450kv 2203/4 motor
 #$ DESCRIPTION: *Cell count selections controll auto_cell_count and motor output
+#$ DESCRIPTION:  Dont choose any cell count if you have other motors...
+#$ DESCRIPTION:
 #$ DESCRIPTION: *AUW Selections boost pids to make up for weight
 #$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION:

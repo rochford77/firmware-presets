@@ -1065,7 +1065,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "737987b7d517ffea03e619eeee5a74726f88ca0a1fbc5d789302e35595647cca",
+      "hash": "a88bb492a4557d949beabb85ed0fc59004090d2d58d8bed46dcff9a9726fdeaf",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1112,6 +1112,8 @@
         "",
         "*Cell count selections Intended for 3450kv 2203/4 motor",
         "*Cell count selections controll auto_cell_count and motor output",
+        "Dont choose any cell count if you have other motors...",
+        "",
         "*AUW Selections boost pids to make up for weight",
         "*Choose Option for Dynamic Idle For Best Results",
         ""
