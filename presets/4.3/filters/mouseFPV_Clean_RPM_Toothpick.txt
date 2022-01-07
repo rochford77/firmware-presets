@@ -27,24 +27,24 @@ set simplified_gyro_filter = OFF
 
 # -- Gyro Dynamic Notches --
 set dyn_notch_count = 2
-set dyn_notch_q = 500
-set dyn_notch_min_hz = 150
-set dyn_notch_max_hz = 650
+set dyn_notch_q = 450
+set dyn_notch_min_hz = 115
+set dyn_notch_max_hz = 575
 
 # -- RPM filtering --
 set rpm_filter_q = 500
-set rpm_filter_min_hz = 115
-set rpm_filter_fade_range_hz = 55
+set rpm_filter_min_hz = 125
+set rpm_filter_fade_range_hz = 75
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 105
-set dterm_lpf1_dyn_max_hz = 210
+set dterm_lpf1_dyn_min_hz = 112
+set dterm_lpf1_dyn_max_hz = 225
 set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 105
-set dterm_lpf2_static_hz = 210
+set dterm_lpf1_static_hz = 112
+set dterm_lpf2_static_hz = 225
 
 # -- Dterm sliders --
-set simplified_dterm_filter_multiplier = 140
+set simplified_dterm_filter_multiplier = 150
 
 
 # -- Yaw lowpass --
