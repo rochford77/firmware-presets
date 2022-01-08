@@ -1,8 +1,8 @@
-#$ TITLE:  FPVCycle Toothpick 3 2s/3s
+#$ TITLE:  FPVCycle Toothpick 3 3s
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: tune, pid, FPVCycle, session
+#$ KEYWORDS: tune, pid, FPVCycle, 3s
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s
 #$ DESCRIPTION: 
@@ -79,6 +79,9 @@ set dyn_idle_min_rpm = 0
 # -- VBat sag compensation --
 set vbat_sag_compensation = 100
 
+# -- battery profile --
+set auto_profile_cell_count = 3
+
 
 # ------ OPTIONS GO BELOW THIS LINE ------
 
@@ -91,19 +94,3 @@ set dshot_idle_value = 150
 set dyn_idle_min_rpm = 35
 set dyn_idle_p_gain = 50
 #$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3s - 5000kv
-set auto_profile_cell_count = 3
-set motor_output_limit = 100
-set simplified_master_multiplier = 100
-simplified_tuning apply
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 2s - 5000kv
-set auto_profile_cell_count = 2
-set motor_output_limit = 100
-set simplified_master_multiplier = 110
-simplified_tuning apply
-#$ OPTION END
-
-

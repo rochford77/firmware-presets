@@ -1,0 +1,100 @@
+#$ TITLE:  FPVCycle Toothpick 3 2s
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: tune, pid, FPVCycle, 2s
+#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 2s
+#$ DESCRIPTION: 
+#$ DESCRIPTION: This is a tune only, NOT filters
+#$ DESCRIPTION: 
+#$ DESCRIPTION: *Use with Toothpick 3 Clean Build RPM Filter
+#$ DESCRIPTION: *Works best with my Smooth Freestyle RC Smoothing 
+#$ DESCRIPTION: *Works best with my Rates
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
+#$ DESCRIPTION: 
+#$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
+#$ DESCRIPTION: *Be Sure to Choose proper Cell Count.
+#$ DESCRIPTION:
+#$ WARNING: Dynamic Idle Requires DShot telemetry!
+#$ DISCLAIMER: Flash At Your Own risk
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
+
+# -- PID Sliders  --
+set simplified_pids_mode = RP
+set simplified_d_gain = 150
+set simplified_pi_gain = 125
+set simplified_feedforward_gain = 75
+set simplified_dmax_gain = 000
+set simplified_i_gain = 90
+set simplified_pitch_d_gain = 90
+set simplified_pitch_pi_gain = 90
+set simplified_master_multiplier = 110
+simplified_tuning apply
+
+# -- PID values --
+set p_yaw = 61
+set i_yaw = 95
+set d_yaw = 0
+set d_min_yaw = 0
+set f_yaw = 90
+
+# -- iTerm relax --
+set iterm_relax = RP
+set iterm_relax_type = SETPOINT
+set iterm_relax_cutoff = 10
+
+# -- TPA  --
+set tpa_rate = 70
+
+
+# -- Feedforward --
+set feedforward_boost = 10
+
+# -- Feedforward jitter reduction --
+set feedforward_jitter_factor = 14
+
+# -- Antigravity --
+set anti_gravity_gain = 3000
+
+
+# -- Thrust linear (off, default) --
+set thrust_linear = 20
+
+# -- VBat warning threshold (3.5V, default)--
+set vbat_warning_cell_voltage = 340
+
+# -- DShot Idle (default)--
+# Commonly set lower when dynamic idle is active.
+set dshot_idle_value = 400
+
+# -- Dyn Idle (off, default) --
+set dyn_idle_min_rpm = 0
+
+# -- VBat sag compensation --
+set vbat_sag_compensation = 100
+
+# -- battery profile --
+set auto_profile_cell_count = 2
+
+
+# ------ OPTIONS GO BELOW THIS LINE ------
+
+
+# This is where the author includes options that require input from the User
+
+#$ OPTION BEGIN (CHECKED): Dynamic Idle
+set dshot_bidir = ON
+set dshot_idle_value = 150
+set dyn_idle_min_rpm = 35
+set dyn_idle_p_gain = 50
+#$ OPTION END
+
+
+
+
