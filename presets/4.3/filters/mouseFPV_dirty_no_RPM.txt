@@ -19,29 +19,30 @@
 set dshot_bidir = off
 
 # -- Gyro lowpass filters --
-set gyro_lpf1_static_hz = 500
-set gyro_lpf1_dyn_min_hz = 500
-set gyro_lpf1_dyn_max_hz = 1000
+# -- No Gyro Lowpass
+set gyro_lpf1_static_hz = 425
+set gyro_lpf1_dyn_min_hz = 425
+set gyro_lpf1_dyn_max_hz = 850
 set gyro_lpf1_dyn_expo = 5
-set gyro_lpf2_static_hz = 100
+set gyro_lpf2_static_hz = 850
 set simplified_gyro_filter = on
-set simplified_gyro_filter_multiplier = 200
+set simplified_gyro_filter_multiplier = 170
 
 # -- Gyro Dynamic Notches --
 set dyn_notch_count = 5
 set dyn_notch_q = 300
-set dyn_notch_min_hz = 150
-set dyn_notch_max_hz = 600
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 575
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 131
-set dterm_lpf1_dyn_max_hz = 262
+set dterm_lpf1_dyn_min_hz = 112
+set dterm_lpf1_dyn_max_hz = 225
 set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 131
-set dterm_lpf2_static_hz = 262
+set dterm_lpf1_static_hz = 112
+set dterm_lpf2_static_hz = 225
 
 # -- Dterm sliders --
-set simplified_dterm_filter_multiplier = 175
+set simplified_dterm_filter_multiplier = 150
 
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100

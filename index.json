@@ -243,7 +243,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "7e2d1be1e8a96185e7c1639b8d678125c28d544ba26f75dd6235880196b62c24",
+      "hash": "25d7bdc05f45e143de13d9dc97d442fe22437ec4042bc1b4932d8d037614573a",
       "options": [],
       "title": "SDFT Filter (No RPM)",
       "firmware_version": [
@@ -329,6 +329,35 @@
         "Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!"
       ],
       "warning": "This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/filters/mouseFPV_dirty_no_RPM.txt",
+      "hash": "ebaf09b98fbf266b2d50659fb46d590c58c9a0786e588bc26a3e7139164090b1",
+      "options": [],
+      "title": "SDFT Filter (No RPM)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "freestyle",
+        "filter",
+        "filters",
+        "RPM"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "mouseFPV SDFT Filter, good for quads with no bi_driectional DSHOT and whoops",
+        "",
+        "I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.",
+        ""
+      ],
+      "warning": "This Turns Off bi_driectional DShot!!!",
       "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/filters/defaults.txt"
