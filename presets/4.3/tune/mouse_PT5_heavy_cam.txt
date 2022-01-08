@@ -1,10 +1,10 @@
-#$ TITLE:  FPVCycle Prototype 5 (Incisor) | 6s 
+#$ TITLE:  FPVCycle Prototype 5 | Heavy Action Cam | 6s 
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune, pid, FPVCycle, session
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Tune for FPVCycle Prototype 5
+#$ DESCRIPTION: Tune for FPVCycle Prototype 5 For a Heavy Action Cam
 #$ DESCRIPTION:
 #$ DESCRIPTION: This is a tune only, NOT filters
 #$ DESCRIPTION:
@@ -14,8 +14,6 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION:
-#$ DESCRIPTION: *Default Option for Light action cam
-#$ DESCRIPTION: *Deselect both camera options if not using action camera
 #$ DESCRIPTION: *Choose Option for Heavy action cam if using hero 8/9/10
 #$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION: *Choose Option over 1800kv if over 1800kv on 6s
@@ -56,16 +54,16 @@ set iterm_relax_cutoff = 8
 # -- TPA  --
 set tpa_rate = 70
 
-# -- Feedforward (default) --
+# -- Feedforward --
 set feedforward_boost = 20
 
 # -- Feedforward jitter reduction --
 set feedforward_jitter_factor = 14
 
-# -- Thrust linear (off, default) --
+# -- Thrust linear  --
 set thrust_linear = 20
 
-# -- DShot Idle (default)--
+# -- DShot Idle --
 set dshot_idle_value = 400
 
 # -- Dyn Idle (off, default) --

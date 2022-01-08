@@ -14,7 +14,7 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION:
-#$ DESCRIPTION: *Choose Option for Heavy action cam if using hero 8/9/10
+#$ DESCRIPTION: *Choose Option for Light action cam if using Hero Session/Hero 7/RC50/DJI2
 #$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION: *Choose Option over 1800kv if over 1800kv on 6s
 #$ DESCRIPTION:
@@ -54,16 +54,16 @@ set iterm_relax_cutoff = 10
 # -- TPA  --
 set tpa_rate = 70
 
-# -- Feedforward (default) --
+# -- Feedforward --
 set feedforward_boost = 10
 
 # -- Feedforward jitter reduction --
 set feedforward_jitter_factor = 14
 
-# -- Thrust linear (off, default) --
+# -- Thrust linear  --
 set thrust_linear = 20
 
-# -- DShot Idle (default)--
+# -- DShot Idle --
 set dshot_idle_value = 400
 
 # -- Dyn Idle (off, default) --

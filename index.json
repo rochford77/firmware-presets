@@ -1038,7 +1038,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "9f1864a1fd66d950a7d1c3a7a9084c539136f875ffea9c51bd94fc03886d7a99",
+      "hash": "c4a40ba9c5cec20f37d165a5b388616c30488c3c1ea8fc330ff87f8b5b962155",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1073,7 +1073,7 @@
         "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
         "",
-        "*Choose Option for Heavy action cam if using hero 8/9/10",
+        "*Choose Option for Light action cam if using Hero Session/Hero 7/RC50/DJI2",
         "*Choose Option for Dynamic Idle For Best Results",
         "*Choose Option over 1800kv if over 1800kv on 6s",
         ""
@@ -1086,7 +1086,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_no_cam.txt",
-      "hash": "a2dfbcc825fb38af56075aed86717db80cb6c6b41f17b0956b509d12685cbc08",
+      "hash": "28865aae63b277f0f528656e47c67fa670d66ad3f67f996e2cc624f5d7606678",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1097,7 +1097,7 @@
           "checked": false
         }
       ],
-      "title": "FPVCycle Prototype 5 | Heavy Cam | 6s",
+      "title": "FPVCycle Prototype 5 | No Action Cam | 6s",
       "firmware_version": [
         "4.3"
       ],
@@ -1121,9 +1121,6 @@
         "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
         "",
-        "*Default Option for Light action cam",
-        "*Deselect both camera options if not using action camera",
-        "*Choose Option for Heavy action cam if using hero 8/9/10",
         "*Choose Option for Dynamic Idle For Best Results",
         "*Choose Option over 1800kv if over 1800kv on 6s",
         ""
@@ -1136,7 +1133,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_heavy_cam.txt",
-      "hash": "ccc6bcb7a58c60754396d98bf153547865952208cee7223d3800ac77ce4c1e8e",
+      "hash": "b2b8addfb0c1dfd77dda691c93359b48e0776b98d4c333fcaa8340afbe78939b",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1147,7 +1144,7 @@
           "checked": false
         }
       ],
-      "title": "FPVCycle Prototype 5 (Incisor) | 6s",
+      "title": "FPVCycle Prototype 5 | Heavy Action Cam | 6s",
       "firmware_version": [
         "4.3"
       ],
@@ -1161,7 +1158,7 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "Tune for FPVCycle Prototype 5",
+        "Tune for FPVCycle Prototype 5 For a Heavy Action Cam",
         "",
         "This is a tune only, NOT filters",
         "",
@@ -1171,8 +1168,6 @@
         "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
         "",
-        "*Default Option for Light action cam",
-        "*Deselect both camera options if not using action camera",
         "*Choose Option for Heavy action cam if using hero 8/9/10",
         "*Choose Option for Dynamic Idle For Best Results",
         "*Choose Option over 1800kv if over 1800kv on 6s",
