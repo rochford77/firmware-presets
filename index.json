@@ -306,7 +306,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "5395616439b24f67da0cdfbbf92551e56318b063f3a94b4e4f33206b7944c165",
+      "hash": "c70375f2e97482255454ccde5101dee15393a52546f1335dc3152ed8f1a734cc",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -329,6 +329,32 @@
       "description": [
         "mouseFPV 5\" Clean Build RPM Filter",
         "Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!"
+      ],
+      "warning": "This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/filters/mouseFPV_Dirty_RPM_toothpick.txt",
+      "hash": "aabe1737d980840135d4e7c94a12ea2ebc1ab835f7422e3a16a88319a6725183",
+      "options": [],
+      "title": "Toothpick 3 Dirty Build RPM Filter",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "freestyle",
+        "filter",
+        "filters",
+        "RPM"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "mouseFPV 5\" Clean Build RPM Filter"
       ],
       "warning": "This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!",
       "disclaimer": "Flash At Your Own risk",
