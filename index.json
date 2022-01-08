@@ -243,7 +243,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "e6708fcf87069f9d8d07e944109a8236a74bb3af1b2959c91e8dc518f2be236c",
+      "hash": "b18eb47012d748537f57c2d73a6fb9901b4ed819084cd9f795269889db7c4c11",
       "options": [],
       "title": "SDFT Filter (No RPM) | Clean",
       "firmware_version": [
@@ -304,7 +304,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "3bc2b38fb2fc3fe19c7d3c0e797e19db57252770405550dbba2c53b9c5af0991",
+      "hash": "5395616439b24f67da0cdfbbf92551e56318b063f3a94b4e4f33206b7944c165",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -336,7 +336,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_dirty_no_RPM.txt",
-      "hash": "e556f10d16a62eadc66ffdf24c90bf2468ede1f687b3be2f6a23db5ae26ce2bd",
+      "hash": "768b1773c73b0641807126a14f9238e669466ae3cfd6499dc7c99370066489cb",
       "options": [],
       "title": "SDFT Filter (No RPM) | Dirty",
       "firmware_version": [

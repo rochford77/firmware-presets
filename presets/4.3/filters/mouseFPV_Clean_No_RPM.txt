@@ -42,6 +42,7 @@ set dterm_lpf2_static_hz = 262
 
 # -- Dterm sliders --
 set simplified_dterm_filter_multiplier = 175
+set simplified_dterm_filter = on
 
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100
