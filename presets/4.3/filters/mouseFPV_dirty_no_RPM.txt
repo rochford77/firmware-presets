@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: freestyle, filter, filters, RPM
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: mouseFPV SDFT Filter, good for quads with no bi_driectional DSHOT and whoops
+#$ DESCRIPTION: mouseFPV SDFT Filter for dirty builds, good for quads with no bi_driectional DSHOT and whoops. 
 #$ DESCRIPTION:
 #$ DESCRIPTION: I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.
 #$ DESCRIPTION:

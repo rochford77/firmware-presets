@@ -243,7 +243,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "c14d4e232066c2e15ce18d6156c25c806f2cadbfb88aebbb75aa3e0489b8c92f",
+      "hash": "e6708fcf87069f9d8d07e944109a8236a74bb3af1b2959c91e8dc518f2be236c",
       "options": [],
       "title": "SDFT Filter (No RPM) | Clean",
       "firmware_version": [
@@ -259,7 +259,7 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV SDFT Filter, good for quads with no bi_driectional DSHOT and whoops",
+        "mouseFPV SDFT Filter for clean builds, good for quads with no bi_driectional DSHOT and whoops",
         "",
         "I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.",
         ""
@@ -336,7 +336,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_dirty_no_RPM.txt",
-      "hash": "36fbdf172b57994bd50b8307b94303ca2eeee5f0a2fbed3338b44d5f0ef3a7db",
+      "hash": "e556f10d16a62eadc66ffdf24c90bf2468ede1f687b3be2f6a23db5ae26ce2bd",
       "options": [],
       "title": "SDFT Filter (No RPM) | Dirty",
       "firmware_version": [
@@ -352,7 +352,7 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV SDFT Filter, good for quads with no bi_driectional DSHOT and whoops",
+        "mouseFPV SDFT Filter for dirty builds, good for quads with no bi_driectional DSHOT and whoops.",
         "",
         "I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.",
         ""
