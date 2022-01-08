@@ -1064,11 +1064,15 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "c4a40ba9c5cec20f37d165a5b388616c30488c3c1ea8fc330ff87f8b5b962155",
+      "hash": "6ffa4614419c83937365b42b639735b8eb2705350a55e6a9c08f940199f92084",
       "options": [
         {
           "name": "Dynamic Idle",
           "checked": true
+        },
+        {
+          "name": "Heavy Action Cam (Hero8/9/10)",
+          "checked": false
         },
         {
           "name": "Over 1800kv 6s",
@@ -1090,101 +1094,6 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Tune for FPVCycle Prototype 5 For a Light Action Cam",
-        "",
-        "This is a tune only, NOT filters",
-        "",
-        "*Use with 5\" Clean Build RPM Filter",
-        "*Works best with my Smooth Freestyle RC Smoothing",
-        "*Works best with my Rates",
-        "",
-        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "",
-        "*Choose Option for Light action cam if using Hero Session/Hero 7/RC50/DJI2",
-        "*Choose Option for Dynamic Idle For Best Results",
-        "*Choose Option over 1800kv if over 1800kv on 6s",
-        ""
-      ],
-      "warning": "Dynamic Idle Requires DShot telemetry!",
-      "disclaimer": "Flash At Your Own risk",
-      "include": [
-        "presets/4.3/tune/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_no_cam.txt",
-      "hash": "28865aae63b277f0f528656e47c67fa670d66ad3f67f996e2cc624f5d7606678",
-      "options": [
-        {
-          "name": "Dynamic Idle",
-          "checked": true
-        },
-        {
-          "name": "Over 1800kv 6s",
-          "checked": false
-        }
-      ],
-      "title": "FPVCycle Prototype 5 | No Action Cam | 6s",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "tune",
-        "pid",
-        "FPVCycle",
-        "session"
-      ],
-      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "description": [
-        "Tune for FPVCycle Prototype 5",
-        "",
-        "This is a tune only, NOT filters",
-        "",
-        "*Use with 5\" Clean Build RPM Filter",
-        "*Works best with my Smooth Freestyle RC Smoothing",
-        "*Works best with my Rates",
-        "",
-        "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
-        "",
-        "*Choose Option for Dynamic Idle For Best Results",
-        "*Choose Option over 1800kv if over 1800kv on 6s",
-        ""
-      ],
-      "warning": "Dynamic Idle Requires DShot telemetry!",
-      "disclaimer": "Flash At Your Own risk",
-      "include": [
-        "presets/4.3/tune/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/tune/mouse_PT5_heavy_cam.txt",
-      "hash": "b2b8addfb0c1dfd77dda691c93359b48e0776b98d4c333fcaa8340afbe78939b",
-      "options": [
-        {
-          "name": "Dynamic Idle",
-          "checked": true
-        },
-        {
-          "name": "Over 1800kv 6s",
-          "checked": false
-        }
-      ],
-      "title": "FPVCycle Prototype 5 | Heavy Action Cam | 6s",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "tune",
-        "pid",
-        "FPVCycle",
-        "session"
-      ],
-      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "description": [
-        "Tune for FPVCycle Prototype 5 For a Heavy Action Cam",
         "",
         "This is a tune only, NOT filters",
         "",
