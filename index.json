@@ -1295,14 +1295,10 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "53ccc14147d4e2fb19580c230374103efb83df89e41677e4f6409bec946f5c3e",
+      "hash": "e820d1a95a8b4a02322514de26d61f3a7e87e6812620c078586d7166539e1238",
       "options": [
         {
           "name": "Dynamic Idle 5\"",
-          "checked": true
-        },
-        {
-          "name": "Light Action Cam (Session/Hero7/RC5O/DJI2)",
           "checked": true
         },
         {
@@ -1339,8 +1335,6 @@
         "",
         "Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM",
         "",
-        "*Default Option is for Light Action Cam",
-        "*Deselect both camera options if not using action camera",
         "*Choose Option for Heavy action cam if using hero 8/9/10",
         "*Choose Option for Dynamic Idle For Best Results",
         "*Choose Option over 1800kv if over 1800kv on 6s",
