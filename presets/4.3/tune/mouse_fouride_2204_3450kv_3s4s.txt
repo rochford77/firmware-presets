@@ -86,30 +86,23 @@ set dshot_idle_value = 150
 set dyn_idle_min_rpm = 25
 #$ OPTION END
 
-#$ OPTION BEGIN (checked): 3450kv 3s
+#$ OPTION BEGIN (checked): Set 3450kv 3s Cell Count?
 set motor_output_limit = 100
 set auto_profile_cell_count = 3
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3450kv 4s
+#$ OPTION BEGIN (UNCHECKED): Set 3450kv 4s Motor Limit & Cell Count?
 set motor_output_limit = 84
 set auto_profile_cell_count = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): ~350g AUW
-set simplified_master_multiplier = 115
-simplified_tuning apply
-set p_yaw = 62
-set i_yaw = 99
-set f_yaw = 90
-#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): ~400g AUW
-set simplified_master_multiplier = 120
-simplified_tuning apply
+#$ OPTION BEGIN (UNCHECKED): 400g+ AUW?
 set p_yaw = 64
 set i_yaw = 103
 set f_yaw = 93
+set simplified_master_multiplier = 120
+simplified_tuning apply
 #$ OPTION END
 
 
