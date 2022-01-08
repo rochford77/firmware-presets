@@ -243,9 +243,9 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "25d7bdc05f45e143de13d9dc97d442fe22437ec4042bc1b4932d8d037614573a",
+      "hash": "c14d4e232066c2e15ce18d6156c25c806f2cadbfb88aebbb75aa3e0489b8c92f",
       "options": [],
-      "title": "SDFT Filter (No RPM)",
+      "title": "SDFT Filter (No RPM) | Clean",
       "firmware_version": [
         "4.3"
       ],
@@ -336,9 +336,9 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_dirty_no_RPM.txt",
-      "hash": "ebaf09b98fbf266b2d50659fb46d590c58c9a0786e588bc26a3e7139164090b1",
+      "hash": "36fbdf172b57994bd50b8307b94303ca2eeee5f0a2fbed3338b44d5f0ef3a7db",
       "options": [],
-      "title": "SDFT Filter (No RPM)",
+      "title": "SDFT Filter (No RPM) | Dirty",
       "firmware_version": [
         "4.3"
       ],
