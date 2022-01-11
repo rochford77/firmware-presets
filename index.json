@@ -1278,7 +1278,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "c0d183d5d8aceda06bfa4e9af3e43d8448e2d8624d4dfa709d2228e99de03c50",
+      "hash": "458ac2c0798c4332b829dbccc05b34741b21c4c25a14e8bcae4a66ad5bb1b9eb",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1321,7 +1321,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "83c8f1c71b21f9264ab220d953b72e39a2323ec2f0f7ffa368c80bbe4f29c2db",
+      "hash": "23812f130566b87e0d6ae517c6ca2045134a66a24204e559e611bf8903db933a",
       "options": [
         {
           "name": "Dynamic Idle",
