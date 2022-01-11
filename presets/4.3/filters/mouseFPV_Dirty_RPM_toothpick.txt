@@ -36,6 +36,7 @@ set dyn_notch_max_hz = 575
 set rpm_filter_q = 500
 set rpm_filter_min_hz = 115
 set rpm_filter_fade_range_hz = 60
+set rpm_filter_harmonics = 3
 
 # -- Dterm filtering --
 set dterm_lpf1_dyn_min_hz = 93

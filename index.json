@@ -306,7 +306,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "c70375f2e97482255454ccde5101dee15393a52546f1335dc3152ed8f1a734cc",
+      "hash": "9f1f0b53861db4e94c1a09b5adcf836145b2d7992647e6879cd9dea8a88ad747",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -338,7 +338,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Dirty_RPM_toothpick.txt",
-      "hash": "aabe1737d980840135d4e7c94a12ea2ebc1ab835f7422e3a16a88319a6725183",
+      "hash": "c7c2e4e6e552d65d56c04ac5a84f3352c1be07efa0e4a1c7134a0c9bcf2cd16e",
       "options": [],
       "title": "Toothpick 3 Dirty Build RPM Filter",
       "firmware_version": [
