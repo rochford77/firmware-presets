@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RC_SMOOTHING
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: smooth, rc smoothing, rc_smoothing
+#$ KEYWORDS: Freestyle, RC
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: RC_Smoothing for Smooth Freestyle on static links 150hz+
 

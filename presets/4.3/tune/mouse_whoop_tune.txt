@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: tune, pid, whoop
+#$ KEYWORDS: Whoop
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: Tune for 1s whoops, 17000-19500kv. Select Option if over 20000kv
 #$ DESCRIPTION: 

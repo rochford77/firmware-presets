@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: tune, pid, FPVCycle, 3s
+#$ KEYWORDS: FPVCycle, 3s
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s
 #$ DESCRIPTION: 

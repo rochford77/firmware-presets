@@ -1,8 +1,8 @@
-#$ TITLE: 4" 2204 3450kv 3s/4s (Fouride)
+#$ TITLE: 4 Inch 2204 3450kv 3s/4s (Fouride)
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: tune, pid
+#$ KEYWORDS: FPVCycle
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: This is for a 4" 2204 quad
 #$ DESCRIPTION: 

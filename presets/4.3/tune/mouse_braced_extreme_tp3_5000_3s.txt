@@ -1,50 +1,47 @@
-#$ TITLE:  QAV-S | 6s 
+#$ TITLE:  Braced Digipick 3 3s Extreme
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: QAV
+#$ KEYWORDS: FPVCycle, Digipick, Toothpick, Braced
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: Tune for Lumenier QAV-S bardwell edition on 6s
-#$ DESCRIPTION:
+#$ DESCRIPTION: Tune for Digital FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s 115g+
+#$ DESCRIPTION: 
 #$ DESCRIPTION: This is a tune only, NOT filters
-#$ DESCRIPTION:
-#$ DESCRIPTION: *Use with 5" Clean Build RPM Filter
+#$ DESCRIPTION: 
+#$ DESCRIPTION: *Use with Toothpick 3 Braced Extreme RPM Filter
 #$ DESCRIPTION: *Works best with my Smooth Freestyle RC Smoothing 
 #$ DESCRIPTION: *Works best with my Rates
-#$ DESCRIPTION:
+#$ DESCRIPTION: 
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
-#$ DESCRIPTION:
-#$ DESCRIPTION: *Default Option for Light action cam
-#$ DESCRIPTION: *Choose Option for Heavy action cam if using hero 8/9/10
+#$ DESCRIPTION: 
 #$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
-#$ DESCRIPTION: *Choose Option over 1800kv if over 1800kv on 6s
 #$ DESCRIPTION:
-#$ WARNING: Dynamic Idle Requires DShot telemetry!
+#$ WARNING: This tune has very high DGain. DO NOT Flash without braces. Dynamic Idle Requires DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
 # -- End Defaults --
 # -- Begin Mouse Tune --
 
+
 # -- PID Sliders  --
 set simplified_pids_mode = RP
-set simplified_d_gain = 145
-set simplified_pi_gain = 120
+set simplified_d_gain = 155
+set simplified_pi_gain = 122
 set simplified_feedforward_gain = 70
 set simplified_dmax_gain = 000
 set simplified_i_gain = 95
-set simplified_pitch_d_gain = 95
-set simplified_pitch_pi_gain = 100
-set simplified_master_multiplier = 110
+set simplified_pitch_d_gain = 90
+set simplified_pitch_pi_gain = 90
+set simplified_master_multiplier = 125
 simplified_tuning apply
 
-# -- PID values -- --
-set p_yaw = 65
-set i_yaw = 100
+# -- PID values --
+set p_yaw = 70
+set i_yaw = 112
 set d_yaw = 0
 set d_min_yaw = 0
-set i_yaw = 100
-set f_yaw = 96
+set f_yaw = 97
 
 # -- iTerm relax --
 set iterm_relax = RP
@@ -54,52 +51,45 @@ set iterm_relax_cutoff = 10
 # -- TPA  --
 set tpa_rate = 70
 
-# -- Feedforward (default) --
-set feedforward_boost = 10
+
+# -- Feedforward --
+set feedforward_boost = 15
 
 # -- Feedforward jitter reduction --
 set feedforward_jitter_factor = 14
+
+# -- Antigravity --
+set anti_gravity_gain = 3500
+
 
 # -- Thrust linear (off, default) --
 set thrust_linear = 20
 
 # -- VBat warning threshold (3.5V, default)--
-#  Often set lower in whoop builds
-set vbat_warning_cell_voltage = 350
+set vbat_warning_cell_voltage = 340
 
 # -- DShot Idle (default)--
+# Commonly set lower when dynamic idle is active.
 set dshot_idle_value = 400
 
 # -- Dyn Idle (off, default) --
 set dyn_idle_min_rpm = 0
 
-# -- VBat sag compensation  --
+# -- VBat sag compensation --
 set vbat_sag_compensation = 100
+
+# -- battery profile --
+set auto_profile_cell_count = 3
 
 
 # ------ OPTIONS GO BELOW THIS LINE ------
 
 
-#$ OPTION BEGIN (CHECKED): Dynamic Idle 5"
+# This is where the author includes options that require input from the User
+
+#$ OPTION BEGIN (CHECKED): Dynamic Idle
 set dshot_bidir = ON
 set dshot_idle_value = 150
-set dyn_idle_min_rpm = 20
-set dyn_idle_p_gain = 45
+set dyn_idle_min_rpm = 35
+set dyn_idle_p_gain = 50
 #$ OPTION END
-
-
-#$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
-set i_yaw = 109
-set f_yaw = 100
-set feedforward_boost = 20
-set iterm_relax_cutoff = 8
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Over 1800kv 6s
-set motor_output_limit = 93
-#$ OPTION END
-
-
-
-
-

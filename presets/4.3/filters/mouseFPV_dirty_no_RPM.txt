@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: freestyle, filter, filters, RPM
+#$ KEYWORDS: SDFT
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: mouseFPV SDFT Filter for dirty builds, good for quads with no bi_driectional DSHOT and whoops. 
 #$ DESCRIPTION:
@@ -19,7 +19,6 @@
 set dshot_bidir = off
 
 # -- Gyro lowpass filters --
-# -- No Gyro Lowpass
 set gyro_lpf1_static_hz = 425
 set gyro_lpf1_dyn_min_hz = 425
 set gyro_lpf1_dyn_max_hz = 850

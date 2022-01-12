@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: whoop, rc, link
+#$ KEYWORDS:  Whoop, RC
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: Redpine SPI
 #$ DESCRIPTION: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!

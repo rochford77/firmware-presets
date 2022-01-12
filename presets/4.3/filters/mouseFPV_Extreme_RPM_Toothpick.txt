@@ -1,12 +1,12 @@
-#$ TITLE: Clean Build RPM Filter (4"-5")
+#$ TITLE: Toothpick 3 Braced Extreme RPM Filter
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: RPM
+#$ KEYWORDS: Braced, Toothpick, Digipick, RPM
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: mouseFPV 5" Clean Build RPM Filter
 #$ DESCRIPTION: Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!
-#$ WARNING: This Sets Motor Poles to 14 and Requires RPM filtering and DShot telemetry!
+#$ WARNING: THIS IS FOR BRACED Toothpicks ONLY. This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
@@ -16,7 +16,7 @@
 
 # enable dshot rpm telemetry
 set dshot_bidir = ON
-set motor_poles = 14
+set motor_poles = 12
 
 # -- Gyro lowpass filters --
 # -- No Gyro Lowpass
@@ -32,23 +32,24 @@ set dyn_notch_min_hz = 150
 set dyn_notch_max_hz = 600
 
 # -- RPM filtering --
-set rpm_filter_q = 500
+set rpm_filter_q = 550
 set rpm_filter_min_hz = 125
 set rpm_filter_fade_range_hz = 75
+set rpm_filter_harmonics = 2
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 101
-set dterm_lpf1_dyn_max_hz = 202
+set dterm_lpf1_dyn_min_hz = 112
+set dterm_lpf1_dyn_max_hz = 225
 set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 101
-set dterm_lpf2_static_hz = 202
+set dterm_lpf1_static_hz = 112
+set dterm_lpf2_static_hz = 225
 
 # -- Dterm sliders --
-set simplified_dterm_filter_multiplier = 135
+set simplified_dterm_filter_multiplier = 150
+
 
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100
-
 
 #$ OPTION BEGIN (UNCHECKED): Using F4 @ 4k?
 set gyro_lpf1_static_hz = 0
