@@ -4,7 +4,8 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: RPM, Toothpick
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: mouseFPV 5" Clean Build RPM Filter
+#$ DESCRIPTION: RPM Filter setup for "Dirty" Toothpick Builds.
+#$ DESCRIPTION: Use This if you have issues running the "Clean" filter.
 #$ WARNING: This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
 

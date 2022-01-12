@@ -270,7 +270,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "4009654266f6291a2523720a6b72c361c3b1587be8ccee45b7bdf6590ba68a06",
+      "hash": "bc7bde8f07491113bbab655126dbcc3e35387599ab28cc3c27a84b42193a1faf",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -288,7 +288,7 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV 5\" Clean Build RPM Filter",
+        "4 Inch to 5 Inch RPM Filter for Clean Builds",
         "Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!"
       ],
       "warning": "This Sets Motor Poles to 14 and Requires RPM filtering and DShot telemetry!",
@@ -299,7 +299,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "4d5770fc2ba155929f5f0116a4255b3ce006937c735ab7069afa64e4fe47f8a9",
+      "hash": "052dfd6c59ea428aceae5e25103cc1feaa7e13748fbb3d38cd9bb66e5694841b",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -318,8 +318,7 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV 5\" Clean Build RPM Filter",
-        "Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!"
+        "RPM Filter setup for \"Clean\" Toothpick Builds."
       ],
       "warning": "This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!",
       "disclaimer": "Flash At Your Own risk",
@@ -329,7 +328,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Dirty_RPM_toothpick.txt",
-      "hash": "76ef8c4ec3654301a33149329b6b90a1a6310a7ee835fb05a5742ff685c1933f",
+      "hash": "0903b5381b07ff3173d241d70799aca386c02c28be3172dc83941ed8e2f3d9c9",
       "options": [],
       "title": "Toothpick 3 Dirty Build RPM Filter",
       "firmware_version": [
@@ -343,7 +342,8 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV 5\" Clean Build RPM Filter"
+        "RPM Filter setup for \"Dirty\" Toothpick Builds.",
+        "Use This if you have issues running the \"Clean\" filter."
       ],
       "warning": "This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!",
       "disclaimer": "Flash At Your Own risk",
@@ -353,7 +353,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Extreme_RPM_Toothpick.txt",
-      "hash": "10fc3d23ae5073af6fd5f088a78479a7fa11c5510e280293337c03caf3e864a7",
+      "hash": "e57ae66adcac3cfa58a88cdaac2e7478291a7028369567cf74acf3876e4e1275",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -374,8 +374,9 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV 5\" Clean Build RPM Filter",
-        "Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!"
+        "RPM Filter for Toothpicks and Digipicks with Braces (or amazing Resonant Performance)",
+        "Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!",
+        "THIS IS FOR BRACED Toothpicks ONLY."
       ],
       "warning": "THIS IS FOR BRACED Toothpicks ONLY. This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!",
       "disclaimer": "Flash At Your Own risk",
@@ -385,7 +386,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_dirty_no_RPM.txt",
-      "hash": "34b1ffdc7cdb1c71e80000bbd1652a64feade40135119ac30f907c09eade6774",
+      "hash": "4d5e6dce6a905dd0b2b04ea1f25078289ff7ac275ef99401b82ea8ed905c11ed",
       "options": [],
       "title": "SDFT Filter (No RPM) | Dirty",
       "firmware_version": [
@@ -398,7 +399,7 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
-        "mouseFPV SDFT Filter for dirty builds, good for quads with no bi_driectional DSHOT and whoops.",
+        "SDFT Filter for dirty builds, good for quads with no bi_driectional DSHOT and whoops.",
         "",
         "I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.",
         ""
