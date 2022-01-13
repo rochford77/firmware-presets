@@ -353,7 +353,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Extreme_RPM_Toothpick.txt",
-      "hash": "e57ae66adcac3cfa58a88cdaac2e7478291a7028369567cf74acf3876e4e1275",
+      "hash": "ab7bf553086292e20c49917540b282f9be080e89cd8e2187ebf79fc8c3e8d032",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -1119,7 +1119,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "a58220b1e2a0260c6c601a5dcf0d1fa7ada0cebdcb1d17fa6e9ba039ae69c380",
+      "hash": "ac8413cdcad591047a7a7a30d04c71dc84f075e5b191ca3f416a69bfd85e2999",
       "options": [
         {
           "name": "Dynamic Idle",

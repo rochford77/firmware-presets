@@ -38,10 +38,10 @@ simplified_tuning apply
 
 # -- PID values --
 set p_yaw = 70
-set i_yaw = 112
+set i_yaw = 115
 set d_yaw = 0
 set d_min_yaw = 0
-set f_yaw = 97
+set f_yaw = 95
 
 # -- iTerm relax --
 set iterm_relax = RP
