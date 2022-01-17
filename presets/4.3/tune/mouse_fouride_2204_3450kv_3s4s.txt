@@ -86,12 +86,12 @@ set dshot_idle_value = 150
 set dyn_idle_min_rpm = 25
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Set 3450kv 3s Cell Count?
+#$ OPTION BEGIN (CHECKED): 3450kv 3s?
 set auto_profile_cell_count = 3
 set motor_output_limit = 100
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Set 3450kv 4s Motor Limit & Cell Count?
+#$ OPTION BEGIN (UNCHECKED): 3450kv 4s?
 set auto_profile_cell_count = 4
 set motor_output_limit = 84
 #$ OPTION END

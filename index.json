@@ -1161,18 +1161,18 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "fa85e77ac7485d59ab16adc7a53a55224bbb94b9542609f0fb922ce965ae1b16",
+      "hash": "d1a55e9edffc31acfae7c87181f330db520655bbb7dcc1f9b406d2fe7fbdee7e",
       "options": [
         {
           "name": "Dynamic Idle",
           "checked": true
         },
         {
-          "name": "Set 3450kv 3s Cell Count?",
+          "name": "3450kv 3s?",
           "checked": true
         },
         {
-          "name": "Set 3450kv 4s Motor Limit & Cell Count?",
+          "name": "3450kv 4s?",
           "checked": false
         },
         {
