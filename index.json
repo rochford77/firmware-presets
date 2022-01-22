@@ -353,7 +353,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Extreme_RPM_Toothpick.txt",
-      "hash": "ab7bf553086292e20c49917540b282f9be080e89cd8e2187ebf79fc8c3e8d032",
+      "hash": "5b354cbcdac00a2ab1c79fde91462ff8ec61128ac142390e2dbe50bc220706f8",
       "options": [
         {
           "name": "Using F4 @ 4k?",
@@ -375,6 +375,10 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "RPM Filter for Toothpicks and Digipicks with Braces (or amazing Resonant Performance)",
+        "",
+        "NOT APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces",
+        "Only flash If you have a Braced TP3 or an AOS-T3",
+        "",
         "Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!",
         "THIS IS FOR BRACED Toothpicks ONLY."
       ],
@@ -1119,7 +1123,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "ac8413cdcad591047a7a7a30d04c71dc84f075e5b191ca3f416a69bfd85e2999",
+      "hash": "f209dd36093366572b50cdf9a4b7d91c5d786825639d3ad54554fdea4c05cd83",
       "options": [
         {
           "name": "Dynamic Idle",
@@ -1141,6 +1145,9 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "Tune for Digital FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s 115g+",
+        "",
+        "NOT APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces",
+        "Only flash If you have a Braced TP3 or an AOS-T3",
         "",
         "This is a tune only, NOT filters",
         "",

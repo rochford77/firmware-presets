@@ -5,6 +5,10 @@
 #$ KEYWORDS: Braced, Toothpick, Digipick, RPM
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: RPM Filter for Toothpicks and Digipicks with Braces (or amazing Resonant Performance)
+#$ DESCRIPTION:
+#$ DESCRIPTION: NOT APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces
+#$ DESCRIPTION: Only flash If you have a Braced TP3 or an AOS-T3
+#$ DESCRIPTION:
 #$ DESCRIPTION: Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!
 #$ DESCRIPTION: THIS IS FOR BRACED Toothpicks ONLY. 
 #$ WARNING: THIS IS FOR BRACED Toothpicks ONLY. This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!

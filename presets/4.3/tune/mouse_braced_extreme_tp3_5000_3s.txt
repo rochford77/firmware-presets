@@ -6,6 +6,9 @@
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: Tune for Digital FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s 115g+
 #$ DESCRIPTION: 
+#$ DESCRIPTION: NOT APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces
+#$ DESCRIPTION: Only flash If you have a Braced TP3 or an AOS-T3
+#$ DESCRIPTION: 
 #$ DESCRIPTION: This is a tune only, NOT filters
 #$ DESCRIPTION: 
 #$ DESCRIPTION: *Use with Toothpick 3 Braced Extreme RPM Filter
