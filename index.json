@@ -244,7 +244,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "3d86e3750fcc64c369a840148bc34f995a93ca202e307c94ceabd513154bd342",
+      "hash": "d770158838bf64af3c33081ae1304bc2454d10c641b1263513ab7e6a79114253",
       "options": [],
       "title": "SDFT Filter (No RPM) | Clean",
       "firmware_version": [
@@ -258,8 +258,6 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "mouseFPV SDFT Filter for clean builds, good for quads with no bi_driectional DSHOT and whoops",
-        "",
-        "I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.",
         ""
       ],
       "warning": "This Turns Off bi_driectional DShot!!!",
@@ -321,6 +319,32 @@
         "RPM Filter setup for \"Clean\" Toothpick Builds."
       ],
       "warning": "This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!",
+      "disclaimer": "Flash At Your Own risk",
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt",
+      "hash": "d472d4ad3480c83a7d77ffbc90d18f4ddc2b1145981c35d49e9903539613d0c7",
+      "options": [],
+      "title": "SDFT Whoop Filter (No RPM) | Clean",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "SDFT"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "description": [
+        "mouseFPV SDFT Filter for clean builds, specifically built for whoops, no bi_driectional DSHOT",
+        "",
+        "I am using this on an f411 whoop, 120OC, DSHOT300, and 4k loop, bi_driectional off.",
+        ""
+      ],
+      "warning": "This Turns Off bi_driectional DShot!!!",
       "disclaimer": "Flash At Your Own risk",
       "include": [
         "presets/4.3/filters/defaults.txt"
@@ -390,7 +414,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_dirty_no_RPM.txt",
-      "hash": "4d5e6dce6a905dd0b2b04ea1f25078289ff7ac275ef99401b82ea8ed905c11ed",
+      "hash": "df3a16e7c38774c5b20226e52701aa08faf211b0b45348c68a604e6b8a0ec7be",
       "options": [],
       "title": "SDFT Filter (No RPM) | Dirty",
       "firmware_version": [
@@ -404,8 +428,6 @@
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "description": [
         "SDFT Filter for dirty builds, good for quads with no bi_driectional DSHOT and whoops.",
-        "",
-        "I am using this on an f411 whoop, 120OC, DSHOT600, and 8k loop, bi_driectional off.",
         ""
       ],
       "warning": "This Turns Off bi_driectional DShot!!!",
@@ -1406,7 +1428,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_whoop_tune.txt",
-      "hash": "9e25eef66ff9c55ea25441bb6e9cd01414d5ade74a34a4475f272c91417b8855",
+      "hash": "a9dfe1b223b8f699126b47c580c708d57c55082c57d416f32230434b3a6ad964",
       "options": [
         {
           "name": "Over 20000kv?",

@@ -22,33 +22,36 @@
 
 # -- PID Sliders  --
 set simplified_pids_mode = RPY
-set simplified_d_gain = 145
-set simplified_pi_gain = 100
-set simplified_feedforward_gain = 60
+set simplified_d_gain = 160
+set simplified_pi_gain = 115
+set simplified_feedforward_gain = 55
 set simplified_dmax_gain = 000
-set simplified_i_gain = 100
-set simplified_pitch_d_gain = 100
+set simplified_i_gain = 90
+set simplified_pitch_d_gain = 095
 set simplified_pitch_pi_gain = 100
-set simplified_master_multiplier = 150
+set simplified_master_multiplier = 140
 simplified_tuning apply
 
 
 # -- Feedforward jitter reduction --
-set feedforward_jitter_factor = 8
+set feedforward_jitter_factor = 11
 
 # -- Thrust linear--
 set thrust_linear = 20
 
+# -- Antigravity --
+set anti_gravity_gain = 4500
+
 # -- VBat warning threshold--
-set vbat_warning_cell_voltage = 300
-set vbat_min_cell_voltage = 275
+set vbat_warning_cell_voltage = 310
+set vbat_min_cell_voltage = 290
 
 # -- DShot Idle (default)--
 # Commonly set lower when dynamic idle is active.
-set dshot_idle_value = 600
+set dshot_idle_value = 700
 
 # -- VBat sag compensation --
-set vbat_sag_compensation = 100
+set vbat_sag_compensation = 115
 
 
 # ------ OPTIONS GO BELOW THIS LINE ------
@@ -57,7 +60,7 @@ set vbat_sag_compensation = 100
 # This is where the author includes options that require input from the User
 
 #$ OPTION BEGIN (UNCHECKED): Over 20000kv?
-set motor_output_limit = 93
+set motor_output_limit = 95
 #$ OPTION END
 
 

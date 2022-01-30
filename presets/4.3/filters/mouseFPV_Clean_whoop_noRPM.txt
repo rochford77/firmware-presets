@@ -1,10 +1,12 @@
-#$ TITLE: SDFT Filter (No RPM) | Dirty
+#$ TITLE: SDFT Whoop Filter (No RPM) | Clean
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: SDFT
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
-#$ DESCRIPTION: SDFT Filter for dirty builds, good for quads with no bi_driectional DSHOT and whoops. 
+#$ DESCRIPTION: mouseFPV SDFT Filter for clean builds, specifically built for whoops, no bi_driectional DSHOT
+#$ DESCRIPTION:
+#$ DESCRIPTION: I am using this on an f411 whoop, 120OC, DSHOT300, and 4k loop, bi_driectional off.
 #$ DESCRIPTION:
 #$ WARNING: This Turns Off bi_driectional DShot!!!
 #$ DISCLAIMER: Flash At Your Own risk
@@ -17,19 +19,19 @@
 set dshot_bidir = off
 
 # -- Gyro lowpass filters --
-set gyro_lpf1_static_hz = 425
-set gyro_lpf1_dyn_min_hz = 425
-set gyro_lpf1_dyn_max_hz = 850
+set gyro_lpf1_static_hz = 350
+set gyro_lpf1_dyn_min_hz = 350
+set gyro_lpf1_dyn_max_hz = 700
 set gyro_lpf1_dyn_expo = 5
-set gyro_lpf2_static_hz = 850
+set gyro_lpf2_static_hz = 700
 set simplified_gyro_filter = on
-set simplified_gyro_filter_multiplier = 170
+set simplified_gyro_filter_multiplier = 140
 
 # -- Gyro Dynamic Notches --
-set dyn_notch_count = 5
-set dyn_notch_q = 300
+set dyn_notch_count = 4
+set dyn_notch_q = 350
 set dyn_notch_min_hz = 125
-set dyn_notch_max_hz = 575
+set dyn_notch_max_hz = 715
 
 # -- Dterm filtering --
 set dterm_lpf1_dyn_min_hz = 112
@@ -39,8 +41,8 @@ set dterm_lpf1_static_hz = 112
 set dterm_lpf2_static_hz = 225
 
 # -- Dterm sliders --
-set simplified_dterm_filter_multiplier = 150
 set simplified_dterm_filter = on
+set simplified_dterm_filter_multiplier = 150
 
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100
