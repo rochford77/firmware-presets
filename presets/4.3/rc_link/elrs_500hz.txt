@@ -1,12 +1,13 @@
-#$ TITLE: ExpressLRS 250Hz
+#$ TITLE: ExpressLRS 500Hz
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RC_LINK
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: ELRS, rc, link, 250Hz, express
+#$ KEYWORDS: ELRS, rc, link, 500Hz, express
 #$ AUTHOR: ctzsnooze
-#$ DESCRIPTION: Basic RC link settings for a 250Hz ELRS link via CRSF.
+#$ DESCRIPTION: Basic RC link settings for a 500Hz ELRS link via CRSF.
 #$ DESCRIPTION: WARNING: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!
-#$ DESCRIPTION: WARNING: check that you are using a compatible version of EdgeTx or OpenTx!
+#$ DESCRIPTION: WARNING: Use a compatible version of EdgeTx or OpenTx!
+#$ DESCRIPTION: If a log shows excessive noise in your feedforward trace, most likely there is a Tx firmware issue.
 #$ DESCRIPTION: Sends single cell voltage back to the transmitter, unless you choose the whole pack option.
 
 feature RX_SERIAL
@@ -16,27 +17,26 @@ set serialrx_provider = CRSF
 set rc_smoothing = ON
 
 set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 45
-set feedforward_jitter_factor = 6
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 5
 
 # sharper handling for racing:
 #$ OPTION BEGIN (UNCHECKED): Race feedforward settings
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 35
-set feedforward_jitter_factor = 5
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 4
 #$ OPTION END
 
-# stronger smoothing for HD freestyle (not for racing):
+# stronger smoothing for HD freestyle:
 #$ OPTION BEGIN (UNCHECKED): HD Freestyle feedforward settings
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 50
-set feedforward_jitter_factor = 9
+set feedforward_averaging = 3_POINT
+set feedforward_smooth_factor = 70
+set feedforward_jitter_factor = 8
 #$ OPTION END
 
 # stronger smoothing for Cinematic flying (not for racing):
 #$ OPTION BEGIN (UNCHECKED): Cinematic feedforward settings
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 65
+set feedforward_averaging = 3_POINT
+set feedforward_smooth_factor = 75
 set feedforward_jitter_factor = 12
 #$ OPTION END
 
