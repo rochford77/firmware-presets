@@ -55,6 +55,8 @@ set dshot_idle_value = 700
 # -- VBat sag compensation --
 set vbat_sag_compensation = 115
 
+# -- Crash Recovery --
+set crash_recovery = ON
 
 # ------ OPTIONS GO BELOW THIS LINE ------
 
