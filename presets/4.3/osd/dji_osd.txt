@@ -3,7 +3,7 @@
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: OSD, DJI
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: mouseFPV DJI OSD
 #$ DESCRIPTION: This OSD fits well into the DJI OSD.
 

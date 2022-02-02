@@ -3,7 +3,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: FPVCycle
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Tune for FPVCycle Prototype 5
 #$ DESCRIPTION:
 #$ DESCRIPTION: This is a tune only, NOT filters

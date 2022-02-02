@@ -3,7 +3,7 @@
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Braced, Toothpick, Digipick, RPM
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: RPM Filter for Toothpicks and Digipicks with Braces (or amazing Resonant Performance)
 #$ DESCRIPTION:
 #$ DESCRIPTION: NOT APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces

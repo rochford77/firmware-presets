@@ -3,7 +3,7 @@
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: freestyle
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: MouseFPV Freestyle Rates.
 #$ DESCRIPTION: Will be applied for the currently selected rate profile
 #$ DESCRIPTION: TPA values are not included

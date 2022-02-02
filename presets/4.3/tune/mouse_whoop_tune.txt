@@ -3,7 +3,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Whoop
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Tune for 1s whoops, 17000-19500kv. Select Option if over 20000kv
 #$ DESCRIPTION: 
 #$ DESCRIPTION: This is a tune only, NOT filters

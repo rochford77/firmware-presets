@@ -3,7 +3,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Starter, Golden
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Starting generic tune
 #$ DESCRIPTION: 
 #$ DESCRIPTION: This is a tune only, NOT filters

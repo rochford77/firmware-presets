@@ -3,7 +3,7 @@
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Modes
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: mouseFPV aux and modes
 
 #$ INCLUDE: presets/4.3/modes/defaults.txt

@@ -3,7 +3,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: FPVCycle, 2s
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 2s
 #$ DESCRIPTION: 
 #$ DESCRIPTION: This is a tune only, NOT filters

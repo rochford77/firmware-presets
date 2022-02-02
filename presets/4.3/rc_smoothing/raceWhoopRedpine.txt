@@ -3,7 +3,7 @@
 #$ CATEGORY: RC_SMOOTHING
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Race, RC
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: For Smooth Racing, not too jumpy, also not too laggy
 
 # NOTE TO AUTHORS: Always include all of the lines below in your Preset, even if keeping some at default

@@ -3,7 +3,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: FPVCycle, Digipick, Toothpick, Braced
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Tune for Digital FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s 115g+
 #$ DESCRIPTION: 
 #$ DESCRIPTION: NOT APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces

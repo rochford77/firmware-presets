@@ -3,7 +3,7 @@
 #$ CATEGORY: LEDS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  leds
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Red led on arming for flywoo boards
 #$ INCLUDE: presets/4.3/leds/defaults.txt
 

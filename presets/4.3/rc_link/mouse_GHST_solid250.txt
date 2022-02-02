@@ -3,7 +3,7 @@
 #$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: GHOST, RC, 250hz
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Basic RC link settings for a Solid250 link via GHST
 #$ DESCRIPTION: make ABSOLUTELY SURE that the OpenTx or EdgeTx Hardware ADC Filter is un-checked!
 #$ DESCRIPTION: check that you are using a compatible version of EdgeTx or OpenTx!

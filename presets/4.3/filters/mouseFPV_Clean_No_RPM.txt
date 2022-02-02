@@ -3,7 +3,7 @@
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: SDFT
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: mouseFPV SDFT Filter for clean builds, good for quads with no bi_driectional DSHOT and whoops
 #$ DESCRIPTION:
 #$ WARNING: This Turns Off bi_driectional DShot!!!

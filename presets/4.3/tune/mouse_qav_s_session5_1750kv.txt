@@ -3,7 +3,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: QAV
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Tune for Lumenier QAV-S bardwell edition on 6s
 #$ DESCRIPTION:
 #$ DESCRIPTION: This is a tune only, NOT filters

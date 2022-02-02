@@ -3,7 +3,7 @@
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Racing
-#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ AUTHOR: mouseFPV
 #$ DESCRIPTION: MouseFPV Racing Rates.
 #$ DESCRIPTION: Will be applied for the currently selected rate profile
 #$ DESCRIPTION: TPA values are not included
