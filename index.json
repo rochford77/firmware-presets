@@ -1003,7 +1003,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/redpine.txt",
-      "hash": "e84f2a3119d2d5724543eff4bfba9b0da09e459812dc68bc2ae2af4eee536014",
+      "hash": "0f5d3e2684a60a9994d0f7ca3649deb1f24f61446c34b0f167013a630de9bb4d",
       "title": "RedPine SPI Whoop",
       "firmware_version": [
         "4.3"

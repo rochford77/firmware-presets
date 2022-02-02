@@ -15,10 +15,10 @@ set rx_spi_protocol = REDPINE
 set rc_smoothing = ON
 set feedforward_averaging = 2_POINT
 set feedforward_jitter_factor = 8
-set feedforward_smooth_factor = 50
+set feedforward_smooth_factor = 60   
 set feedforward_boost = 15 
 set rx_spi_bus = 3
-set rx_spi_led_inversion = ON
+
 
 
 
