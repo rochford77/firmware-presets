@@ -58,6 +58,10 @@ set vbat_sag_compensation = 115
 # -- Crash Recovery --
 set crash_recovery = ON
 
+# --whoop stuff
+set angle_level_strength = 70
+set level_limit = 75
+
 # ------ OPTIONS GO BELOW THIS LINE ------
 
 
