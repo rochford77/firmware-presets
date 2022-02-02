@@ -572,6 +572,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/osd/analogWhoop_OSD.txt",
+      "hash": "4fe9143e8e2f777a9d84f6c67ff5347e0359b6e0ef9a4c9aaf6a2cd99235bc74",
+      "title": "Analog Whoop OSD",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD",
+        "Danalog"
+      ],
+      "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "priority": 1
+    },
+    {
       "fullPath": "presets/4.3/osd/analog_OSD.txt",
       "hash": "386978e70d8473a29204e70e4f6f380c6c9532e26739dbd86893b0cbfb01dbbd",
       "title": "Analog OSD",

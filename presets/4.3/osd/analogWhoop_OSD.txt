@@ -1,0 +1,20 @@
+#$ TITLE: Analog Whoop OSD
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: OSD, Danalog
+#$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
+#$ DESCRIPTION: mouseFPV Analog Whoop OSD
+#$ PRIORITY: 1
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
+set osd_rssi_pos = 2435
+set osd_tim_2_pos = 2422
+set osd_flymode_pos = 2441
+set osd_craft_name_pos = 2092
+set osd_pidrate_profile_pos = 2449
+set osd_avg_cell_voltage_pos = 2454
+set osd_stat_max_fft = ON
