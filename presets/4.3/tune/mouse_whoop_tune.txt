@@ -36,7 +36,7 @@ simplified_tuning apply
 
 
 # -- Feedforward jitter reduction --
-set feedforward_jitter_factor = 11
+set feedforward_jitter_factor = 10
 
 # -- Thrust linear--
 set thrust_linear = 20
