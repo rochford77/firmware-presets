@@ -21,6 +21,7 @@
 #$ DESCRIPTION:
 #$ WARNING: This tune has very high DGain. DO NOT Flash without braces. Dynamic Idle Requires DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
+#$ FORCE_OPTIONS_REVIEW: TRUE
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
 # -- End Defaults --

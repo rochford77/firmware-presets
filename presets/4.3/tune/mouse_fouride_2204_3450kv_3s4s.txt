@@ -24,6 +24,7 @@
 #$ WARNING: Dynamic Idle Requires DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
 #$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 # -- End Defaults --
 # -- Begin Mouse Tune --
@@ -80,13 +81,9 @@ set vbat_sag_compensation = 100
 
 # ------ OPTIONS GO BELOW THIS LINE ------
 
-#$ OPTION BEGIN (CHECKED): Dynamic Idle
-set dshot_bidir = ON
-set dshot_idle_value = 150
-set dyn_idle_min_rpm = 25
-#$ OPTION END
+#$ OPTION_GROUP BEGIN: Cell Count (Choose One or None)
 
-#$ OPTION BEGIN (CHECKED): 3450kv 3s?
+#$ OPTION BEGIN (UNCHECKED): 3450kv 3s?
 set auto_profile_cell_count = 3
 set motor_output_limit = 100
 #$ OPTION END
@@ -96,6 +93,9 @@ set auto_profile_cell_count = 4
 set motor_output_limit = 84
 #$ OPTION END
 
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Weight Adjustments
 
 #$ OPTION BEGIN (UNCHECKED): 400g+ AUW?
 set p_yaw = 64
@@ -105,6 +105,18 @@ set simplified_master_multiplier = 120
 simplified_tuning apply
 #$ OPTION END
 
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Additional Settings
+
+#$ OPTION BEGIN (CHECKED): Dynamic Idle
+set dshot_bidir = ON
+set dshot_idle_value = 150
+set dyn_idle_min_rpm = 25
+#$ OPTION END
+
+#$ OPTION_GROUP END
 
 
 

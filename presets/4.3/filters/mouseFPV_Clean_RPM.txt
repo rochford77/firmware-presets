@@ -8,6 +8,7 @@
 #$ DESCRIPTION: Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!
 #$ WARNING: This Sets Motor Poles to 14 and Requires RPM filtering and DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 

@@ -141,13 +141,11 @@
       "VTX"
     ],
     "author": [
-      "AyyyKayyy - Anthony Knight",
       "Betaflight",
       "ctzsnooze",
       "Directory",
       "DusKing1 (Hugo Chiang), Pitronic",
       "Evan Turner (Headsup)",
-      "FPVian",
       "Ivan Efimov (Limon)",
       "Jye Smith",
       "NemesisXB",
@@ -158,12 +156,10 @@
     ],
     "keywords": [
       "150Hz",
-      "1S",
       "250Hz",
       "2s",
       "3s",
       "4S",
-      "5 In",
       "5 inch",
       "5\"",
       "500Hz",
@@ -171,24 +167,18 @@
       "533",
       "6 Inch",
       "6\"",
-      "65mm",
       "666Hz",
       "6S",
       "7 Inch",
       "7\"",
-      "acro",
       "actual",
       "adjustments",
       "aux",
-      "AyyyKayyy",
-      "bando",
-      "basher",
       "basic",
       "betaflight",
       "blackbox",
       "BMI270",
       "Braced",
-      "brushless",
       "cfv2",
       "Cinematic",
       "clean",
@@ -218,7 +208,6 @@
       "filters",
       "five33",
       "FPVCycle",
-      "fpvian",
       "freedom",
       "freedom spec",
       "freestyle",
@@ -244,7 +233,6 @@
       "logging",
       "longrange",
       "mamba",
-      "meteor",
       "mode",
       "modes",
       "MultiGP",
@@ -313,7 +301,6 @@
       "vtx table",
       "vtxtable",
       "Whoop",
-      "whooptopia",
       "world champion"
     ]
   },
@@ -420,7 +407,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "57ba7942637f17a798b12e989fbdcc522645ceb14d995c8ca9f31cff4ca73134",
+      "hash": "0c1a5cd6b701aa054221e16e9900015a95b5cbdfceb0496ac954f8d8d83c5a63",
       "title": "Clean Build RPM Filter (4\"-5\")",
       "firmware_version": [
         "4.3"
@@ -431,11 +418,12 @@
         "RPM"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 100
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "3c522ee0fd20daee9b499335a5c5a931bebf17f9dd88bd7a99ed723f2468d0cf",
+      "hash": "85b7c2bf50446deb8f59ddce6393fd753fed04a0f58e9b306df2b853d0a5d9ec",
       "title": "Toothpick 3 Clean Build RPM Filter",
       "firmware_version": [
         "4.3"
@@ -447,6 +435,7 @@
         "Toothpick"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 100
     },
     {
@@ -482,7 +471,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Extreme_RPM_Toothpick.txt",
-      "hash": "8c4bb15b73469dab3ca2b66e03968456f77af1ea81ac9afb802698f582361ddf",
+      "hash": "ce4552442ae6d11c1d3b53beba8087e84811b7c9db79e558df83c1c96f0b9cce",
       "title": "Toothpick 3 Braced Extreme RPM Filter",
       "firmware_version": [
         "4.3"
@@ -496,6 +485,7 @@
         "RPM"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 100
     },
     {
@@ -1209,28 +1199,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/tune/fpvian_basher_freestyle.txt",
-      "hash": "03b21087600c46dec99c7c6f6c0dbba6a48011830a5b26e3a3d1c9ea220d4dde",
-      "title": "Basher Freestyle 6S 5\" by FPVian",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "basher",
-        "freestyle",
-        "5 Inch",
-        "5 In",
-        "5\"",
-        "bando",
-        "fpvian"
-      ],
-      "author": "FPVian",
-      "force_options_review": true,
-      "priority": 1000000000000
-    },
-    {
       "fullPath": "presets/4.3/tune/freedom_spec_460g.txt",
       "hash": "4c78aaef6d00df291b956cf5c3d53d7f789dd12b91094e81b7a37591c4bd8e95",
       "title": "Freedom Spec 460 - 500g",
@@ -1304,7 +1272,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "76c5488c88fc8e8adb2658736d9a6766f5ae16f7d5ec90f3e715986ca260e760",
+      "hash": "f52a742d85ccfb4dc51a6628ac2ffb449c763c736daf7ce11582efc574da122d",
       "title": "FPVCycle Prototype 5 | 6s",
       "firmware_version": [
         "4.3"
@@ -1315,11 +1283,12 @@
         "FPVCycle"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "660ba9558157f90af9fd9998b5d7c05d0c73249a9c30fd68d6727dc6ac842de7",
+      "hash": "6846c3b06de0136141917fcfe56f79801d8e5b4ec97cbf264f2cfc0a649245c0",
       "title": "Braced Digipick 3 3s Extreme",
       "firmware_version": [
         "4.3"
@@ -1333,11 +1302,12 @@
         "Braced"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "d1a55e9edffc31acfae7c87181f330db520655bbb7dcc1f9b406d2fe7fbdee7e",
+      "hash": "2ce63e46190c61d76b2893397b1203f49abad9562b666466682b52af06ac9166",
       "title": "4 Inch 2204 3450kv 3s/4s (Fouride)",
       "firmware_version": [
         "4.3"
@@ -1348,11 +1318,12 @@
         "FPVCycle"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "8fdf05bd01f26c42f6c5141a705981e740002e68045c5d8ed245f57268d20afc",
+      "hash": "f2e1f3d1ebc883bdb75db5c0e6defc971a3f3d8bf14d36bf9ab3c21e024575a1",
       "title": "QAV-S | 6s",
       "firmware_version": [
         "4.3"
@@ -1363,11 +1334,12 @@
         "QAV"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "b8b681fc2a42546c6d2ce0bb606133fff50da2e8ba989d4fa57aa7494e92a7ff",
+      "hash": "3f25173a49348b24e37171a6ff16a1c18a4192619667011977fcf095c8bd49a9",
       "title": "Golden Cheese | 6s",
       "firmware_version": [
         "4.3"
@@ -1379,11 +1351,12 @@
         "Golden"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "89d5376a7c0f86a3663182f84e26c04ac61d35bddb5b3e9878a834f9eaaa767b",
+      "hash": "faaf685550ff31954332190292fa28faf71b0a3cc24fe560a8cd4ccdd1672881",
       "title": "FPVCycle Toothpick 3 2s",
       "firmware_version": [
         "4.3"
@@ -1395,11 +1368,12 @@
         "2s"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "aa981518a5240485cc49836f69b64a42103de3b827087ba74973aa512912e419",
+      "hash": "3308cd09a0f4fed5004a00577fb26e0148d2b6bb000c813430cb5668ebbaff8d",
       "title": "FPVCycle Toothpick 3 3s",
       "firmware_version": [
         "4.3"
@@ -1411,11 +1385,12 @@
         "3s"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_whoop_tune.txt",
-      "hash": "9391256748942aaf28a5cbb0ce155620f098694e393110ca5fc63d82e0a23322",
+      "hash": "65de675de3c078914a26c405257f6116111167d77d24f7f6cbe8ab34d9f4d1d1",
       "title": "Whoop",
       "firmware_version": [
         "4.3"
@@ -1426,6 +1401,7 @@
         "Whoop"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
@@ -1467,30 +1443,6 @@
       ],
       "author": "Betaflight",
       "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/tune/whoop_ayyykayyy.txt",
-      "hash": "18a0a21b675f4c2e4719bae8d448684e58b51981f657755fe4c2f95e7eaea2c7",
-      "title": "Whoop race tune by AyyyKayyy",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "whoop",
-        "65mm",
-        "1S",
-        "race",
-        "acro",
-        "tune",
-        "AyyyKayyy",
-        "meteor",
-        "whooptopia",
-        "brushless"
-      ],
-      "author": "AyyyKayyy - Anthony Knight",
-      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/vtx/HDZero_race2.txt",

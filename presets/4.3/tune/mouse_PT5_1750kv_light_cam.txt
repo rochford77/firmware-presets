@@ -20,6 +20,7 @@
 #$ DESCRIPTION:
 #$ WARNING: Dynamic Idle Requires DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
+#$ FORCE_OPTIONS_REVIEW: TRUE
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
 
@@ -74,12 +75,7 @@ set vbat_sag_compensation = 100
 
 # ------ OPTIONS GO BELOW THIS LINE ------
 
-#$ OPTION BEGIN (CHECKED): Dynamic Idle
-set dshot_bidir = ON
-set dshot_idle_value = 150
-set dyn_idle_min_rpm = 20
-set dyn_idle_p_gain = 45
-#$ OPTION END
+
 
 #$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
 set i_yaw = 109
@@ -94,5 +90,11 @@ simplified_tuning apply
 set motor_output_limit = 93
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): Dynamic Idle
+set dshot_bidir = ON
+set dshot_idle_value = 150
+set dyn_idle_min_rpm = 20
+set dyn_idle_p_gain = 45
+#$ OPTION END
 
 
