@@ -5,7 +5,7 @@
 #$ KEYWORDS: Freestyle, RC
 #$ AUTHOR: Ryan Rochford (mouseFPV) (Rochford77)
 #$ DESCRIPTION: RC_Smoothing for Smooth Freestyle on static links 150hz+
-
+#$ PRIORITY: 1
 # NOTE TO AUTHORS: Always include all of the lines below in your Preset, even if keeping some at default
 
 

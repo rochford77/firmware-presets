@@ -16,6 +16,7 @@
 #$ DESCRIPTION: Recommended 48k PWM
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 1
 
 # -- End Defaults --
 # -- Begin Mouse Tune --

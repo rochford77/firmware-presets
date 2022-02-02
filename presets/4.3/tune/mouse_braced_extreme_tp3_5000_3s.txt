@@ -23,6 +23,7 @@
 #$ DISCLAIMER: Flash At Your Own risk
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ PRIORITY: 1
 
 # -- End Defaults --
 # -- Begin Mouse Tune --

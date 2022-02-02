@@ -8,6 +8,7 @@
 #$ DESCRIPTION: Use This if you have issues running the "Clean" filter.
 #$ WARNING: This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
+#$ PRIORITY: 1
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 

@@ -8,6 +8,7 @@
 #$ WARNING: This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
 #$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 1
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 

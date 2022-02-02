@@ -392,7 +392,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "0090e86d48bdcab97ec05a752a12c2a7a6c27b689ecfded1959cf4c6554434fb",
+      "hash": "a1f9b9443683a972df4248f2942e1bbf69667e29599f40c9351706570b634ebc",
       "title": "SDFT Filter (No RPM) | Clean",
       "firmware_version": [
         "4.3"
@@ -403,11 +403,11 @@
         "SDFT"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "priority": 100
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "0c1a5cd6b701aa054221e16e9900015a95b5cbdfceb0496ac954f8d8d83c5a63",
+      "hash": "8719d7aaff4505acd0c3c7fbf89edaccecc7e6a8e2f5c5957b8aa399e0f3af44",
       "title": "Clean Build RPM Filter (4\"-5\")",
       "firmware_version": [
         "4.3"
@@ -419,11 +419,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 100
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "85b7c2bf50446deb8f59ddce6393fd753fed04a0f58e9b306df2b853d0a5d9ec",
+      "hash": "7769e947f51cb1e5b5a285e30f34169ad7b23c407cbf3e579968c6702efcf9b0",
       "title": "Toothpick 3 Clean Build RPM Filter",
       "firmware_version": [
         "4.3"
@@ -436,11 +436,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 100
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt",
-      "hash": "1c65197e018998ab1f4ed557b526361c80b9219a24d24e3d5a9c10c11bd4e8b8",
+      "hash": "373e33c6fb59aa2ac26c1b23b669aaf692b4d5508e5b4044c0c958e7ac4d5545",
       "title": "SDFT Whoop Filter (No RPM) | Clean",
       "firmware_version": [
         "4.3"
@@ -451,11 +451,11 @@
         "SDFT"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "priority": 100
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Dirty_RPM_toothpick.txt",
-      "hash": "27ca71d2f5dd1ea3da55593b6343af25abaec12e3f514a0a5672f6200fa479db",
+      "hash": "ab6405e677d5cd3479a3c593c954c6ce51b8ed1135fa364148cff9a4e9be90fa",
       "title": "Toothpick 3 Dirty Build RPM Filter",
       "firmware_version": [
         "4.3"
@@ -467,11 +467,11 @@
         "Toothpick"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "priority": 100
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Extreme_RPM_Toothpick.txt",
-      "hash": "ce4552442ae6d11c1d3b53beba8087e84811b7c9db79e558df83c1c96f0b9cce",
+      "hash": "dbfc4c553af23a3e8202c9ba32994a8ae39cfc2bda08055c1e3e262819a2b206",
       "title": "Toothpick 3 Braced Extreme RPM Filter",
       "firmware_version": [
         "4.3"
@@ -486,11 +486,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 100
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_dirty_no_RPM.txt",
-      "hash": "179f4e3a28d8547ad29b8deb380627b0560baa12f1d2cf94efdf4a4f1a670f10",
+      "hash": "1e428757cde84ceab2489bf2f961585354cc2f9d98c5553dfdd0d2778da32418",
       "title": "SDFT Filter (No RPM) | Dirty",
       "firmware_version": [
         "4.3"
@@ -501,7 +501,7 @@
         "SDFT"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "priority": 100
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/leds/arm_led.txt",
@@ -1089,7 +1089,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/mouseFPV_smoothing_ghost_250.txt",
-      "hash": "05d23e3d3962ed9d9ee474942ca35ab9387c514e33fdb0a018a8c623e069802d",
+      "hash": "6774f692a297699e08ec18246ba44d274071cb942f343361c3c15599e2d3d94f",
       "title": "Smooth Freestyle",
       "firmware_version": [
         "4.3"
@@ -1101,7 +1101,7 @@
         "RC"
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
-      "priority": 100000000
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/rc_smoothing/raceWhoopRedpine.txt",
@@ -1272,7 +1272,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "f52a742d85ccfb4dc51a6628ac2ffb449c763c736daf7ce11582efc574da122d",
+      "hash": "98e00919bc5d644f83cebaa88591ec742bec747a7b53cb31b94a9a872120fc4d",
       "title": "FPVCycle Prototype 5 | 6s",
       "firmware_version": [
         "4.3"
@@ -1284,11 +1284,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "6846c3b06de0136141917fcfe56f79801d8e5b4ec97cbf264f2cfc0a649245c0",
+      "hash": "f7657e3da87dbba10afeeb7afab0a25a2a45cd28b794452db49014ad947c5bf4",
       "title": "Braced Digipick 3 3s Extreme",
       "firmware_version": [
         "4.3"
@@ -1303,11 +1303,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "2ce63e46190c61d76b2893397b1203f49abad9562b666466682b52af06ac9166",
+      "hash": "351af47459060857843330baf7fb1cc745f0da06f7b36aae4f4fe0b574243e6a",
       "title": "4 Inch 2204 3450kv 3s/4s (Fouride)",
       "firmware_version": [
         "4.3"
@@ -1319,11 +1319,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "f2e1f3d1ebc883bdb75db5c0e6defc971a3f3d8bf14d36bf9ab3c21e024575a1",
+      "hash": "e0548ac84d33bfc45f8a3b0f8b4293f40a8cad80427193feb854d05dd9869886",
       "title": "QAV-S | 6s",
       "firmware_version": [
         "4.3"
@@ -1335,11 +1335,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "3f25173a49348b24e37171a6ff16a1c18a4192619667011977fcf095c8bd49a9",
+      "hash": "d3648ba11c0818d0d185f3d1665d7264f237edfabf9202e7009859e496a49d56",
       "title": "Golden Cheese | 6s",
       "firmware_version": [
         "4.3"
@@ -1352,11 +1352,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "faaf685550ff31954332190292fa28faf71b0a3cc24fe560a8cd4ccdd1672881",
+      "hash": "d20e452b4c8b0f235edd888018a1f2b56cc61f5e79c0ed910bda354c48ec2dc7",
       "title": "FPVCycle Toothpick 3 2s",
       "firmware_version": [
         "4.3"
@@ -1369,11 +1369,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "3308cd09a0f4fed5004a00577fb26e0148d2b6bb000c813430cb5668ebbaff8d",
+      "hash": "0e9ba77118ed7a9a4167709dfc4153c84437f0d87cbb410dd611171997aee762",
       "title": "FPVCycle Toothpick 3 3s",
       "firmware_version": [
         "4.3"
@@ -1386,11 +1386,11 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/tune/mouse_whoop_tune.txt",
-      "hash": "65de675de3c078914a26c405257f6116111167d77d24f7f6cbe8ab34d9f4d1d1",
+      "hash": "ab43073a3bdf171a415719ae0064ebd597de1d9ca8e307ed757312a1430c09b6",
       "title": "Whoop",
       "firmware_version": [
         "4.3"
@@ -1402,7 +1402,7 @@
       ],
       "author": "Ryan Rochford (mouseFPV) (Rochford77)",
       "force_options_review": true,
-      "priority": 1000000000000
+      "priority": 1
     },
     {
       "fullPath": "presets/4.3/tune/reset_all.txt",
