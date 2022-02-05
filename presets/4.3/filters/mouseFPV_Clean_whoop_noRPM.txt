@@ -23,7 +23,7 @@ set dshot_bidir = off
 set gyro_lpf1_static_hz = 0
 set gyro_lpf1_dyn_min_hz = 0
 set gyro_lpf1_dyn_max_hz = 0
-set gyro_lpf2_static_hz = 700
+set gyro_lpf2_static_hz = 650
 set simplified_gyro_filter = on
 set simplified_gyro_filter_multiplier = 130
 

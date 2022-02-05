@@ -440,7 +440,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt",
-      "hash": "3b111fcac2433f6f6a3b520d6e4e533093490fbf01386f78a86155cf033589e3",
+      "hash": "241b1976ae21b8abdb5f84c8138342dc220ff4a355b9083c7ec273beb459f0a0",
       "title": "SDFT Whoop Filter (No RPM) | Clean",
       "firmware_version": [
         "4.3"
