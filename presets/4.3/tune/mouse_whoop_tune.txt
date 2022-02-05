@@ -53,10 +53,9 @@ set vbat_min_cell_voltage = 290
 set dshot_idle_value = 700
 
 # -- VBat sag compensation --
-set vbat_sag_compensation = 115
+set vbat_sag_compensation = 110
 
-# -- Crash Recovery --
-set crash_recovery = ON
+
 
 # --whoop stuff
 set angle_level_strength = 70
@@ -70,5 +69,10 @@ set level_limit = 75
 #$ OPTION BEGIN (UNCHECKED): Over 20000kv?
 set motor_output_limit = 95
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Enable Crash Recovery?
+set crash_recovery = ON
+#$ OPTION END
+
 
 
