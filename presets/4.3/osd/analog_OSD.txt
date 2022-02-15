@@ -6,7 +6,7 @@
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: mouseFPV Analog OSD
 
-#$ INCLUDE: presets/4.3/modes/defaults.txt
+#$ INCLUDE: presets/4.3/osd/defaults.txt
 
 # -- End Defaults --
 # -- Begin Mouse Tune --

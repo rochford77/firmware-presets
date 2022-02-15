@@ -440,8 +440,23 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt",
-      "hash": "241b1976ae21b8abdb5f84c8138342dc220ff4a355b9083c7ec273beb459f0a0",
-      "title": "SDFT Whoop Filter (No RPM) | Clean",
+      "hash": "200fcf94cc1d819035d13672f6805b0053fa3abbc6cc24f8fc52a7da3dd3a075",
+      "title": "SDFT Whoop Filter (No RPM) | Clean/Cockroach",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "SDFT"
+      ],
+      "author": "mouseFPV",
+      "priority": 1
+    },
+    {
+      "fullPath": "presets/4.3/filters/mouseFPV_DirtyWhoop_no_rpm.txt",
+      "hash": "00e65ab9844e257e21f458758f7d5bcd6050eeb1324a6120834aae628fa24b4d",
+      "title": "SDFT Whoop Filter (No RPM) | Dirty/meteor65",
       "firmware_version": [
         "4.3"
       ],
@@ -471,7 +486,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Extreme_RPM_Toothpick.txt",
-      "hash": "478f8ea2f3ca5e761b656a7a8230898b81830c3b29692527edfe814bbda2e13e",
+      "hash": "dec1b1e26d248713aef7fd0bae317e9ab3e794ef8c581d13bb97c121a11916e3",
       "title": "Toothpick 3 Braced Extreme RPM Filter",
       "firmware_version": [
         "4.3"
@@ -573,7 +588,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/analogWhoop_OSD.txt",
-      "hash": "01f2bc1f0a7a7cefd0758e21614f47a69855ae104c305b93bd553b8312c6ad55",
+      "hash": "5e34c44f310ee83b53d3f176b39305154a15dab773014782dac58bd08dc76e82",
       "title": "Analog Whoop OSD",
       "firmware_version": [
         "4.3"
@@ -589,7 +604,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/analog_OSD.txt",
-      "hash": "0c0a7de9204f452cf40aaf0aa405ac9d8f122407692ea6f88db38842e8d9a33c",
+      "hash": "aa44014e68042e8ced26d079c6ecd61bd0e0b4fbddb41ad5fd2de69867411564",
       "title": "Analog OSD",
       "firmware_version": [
         "4.3"

@@ -1,10 +1,10 @@
-#$ TITLE: SDFT Whoop Filter (No RPM) | Clean/Cockroach
+#$ TITLE: SDFT Whoop Filter (No RPM) | Dirty/meteor65
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: SDFT
 #$ AUTHOR: mouseFPV
-#$ DESCRIPTION: mouseFPV SDFT Filter for clean builds, specifically built for the cockroach, no bi_driectional DSHOT
+#$ DESCRIPTION: mouseFPV SDFT Filter for noisey builds, specifically built for meteor65, no bi_driectional DSHOT
 #$ DESCRIPTION:
 #$ DESCRIPTION: I am using this on an f411 whoop, 120OC, DSHOT300, and 4k loop, bi_driectional off.
 #$ DESCRIPTION:
@@ -21,8 +21,8 @@ set dshot_bidir = off
 
 # -- Gyro lowpass filters --
 set gyro_lpf1_static_hz = 0
-set gyro_lpf1_dyn_min_hz = 0
-set gyro_lpf1_dyn_max_hz = 0
+set gyro_lpf1_dyn_min_hz = 300
+set gyro_lpf1_dyn_max_hz = 600
 set gyro_lpf2_static_hz = 600
 set simplified_gyro_filter = on
 set simplified_gyro_filter_multiplier = 120
@@ -34,15 +34,15 @@ set dyn_notch_min_hz = 125
 set dyn_notch_max_hz = 700
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 90
-set dterm_lpf1_dyn_max_hz = 180
+set dterm_lpf1_dyn_min_hz = 75
+set dterm_lpf1_dyn_max_hz = 150
 set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 90
-set dterm_lpf2_static_hz = 180
+set dterm_lpf1_static_hz = 75
+set dterm_lpf2_static_hz = 150
 
 # -- Dterm sliders --
 set simplified_dterm_filter = on
-set simplified_dterm_filter_multiplier = 120
+set simplified_dterm_filter_multiplier = 100
 
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100
