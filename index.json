@@ -440,7 +440,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt",
-      "hash": "200fcf94cc1d819035d13672f6805b0053fa3abbc6cc24f8fc52a7da3dd3a075",
+      "hash": "9ab2d9f40edc643dfaa9f658b6eb31d6b93b4f3a33242a726cf85a67da7adac4",
       "title": "SDFT Whoop Filter (No RPM) | Clean/Cockroach",
       "firmware_version": [
         "4.3"
@@ -455,7 +455,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_DirtyWhoop_no_rpm.txt",
-      "hash": "00e65ab9844e257e21f458758f7d5bcd6050eeb1324a6120834aae628fa24b4d",
+      "hash": "ea80922e83fb570b2e6487df01c92764884388182a5bb7c9859c2d793ac95bac",
       "title": "SDFT Whoop Filter (No RPM) | Dirty/meteor65",
       "firmware_version": [
         "4.3"
@@ -1421,7 +1421,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_whoop_tune.txt",
-      "hash": "863137093307335b2a5949101e22035e4cff741d44d54afd16540fc507efc1f3",
+      "hash": "91825716f3f936f3f8c69c59283071755fa58aad01f030808830f14b9be04049",
       "title": "Whoop",
       "firmware_version": [
         "4.3"

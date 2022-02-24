@@ -31,7 +31,7 @@ set simplified_dmax_gain = 000
 set simplified_i_gain = 90
 set simplified_pitch_d_gain = 095
 set simplified_pitch_pi_gain = 100
-set simplified_master_multiplier = 140
+set simplified_master_multiplier = 150
 simplified_tuning apply
 
 
@@ -44,13 +44,18 @@ set thrust_linear = 20
 # -- Antigravity --
 set anti_gravity_gain = 4500
 
+# -- iTerm relax --
+set iterm_relax = RP
+set iterm_relax_type = SETPOINT
+set iterm_relax_cutoff = 10
+
 # -- VBat warning threshold--
-set vbat_warning_cell_voltage = 310
-set vbat_min_cell_voltage = 290
+set vbat_warning_cell_voltage = 330
+set vbat_min_cell_voltage = 310
 
 # -- DShot Idle (default)--
 # Commonly set lower when dynamic idle is active.
-set dshot_idle_value = 700
+set dshot_idle_value = 900
 
 # -- VBat sag compensation --
 set vbat_sag_compensation = 110
