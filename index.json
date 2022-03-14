@@ -486,7 +486,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Extreme_RPM_Toothpick.txt",
-      "hash": "c127f40d9abeaf979acd56ab39168f5d1b735902bb94e7ba6e9347f56c8a09d1",
+      "hash": "d447e1e65526de18e0f4b84110cca27bdd8414108be25466203dfe9dd3410cc9",
       "title": "Toothpick 3 Braced Extreme RPM Filter",
       "firmware_version": [
         "4.3"
@@ -1303,7 +1303,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "052507e5f57c16add0372646ce882e541cb52501ff2fd0c60b5979790610a46f",
+      "hash": "2d72d1816dd11e9b61bc29ce2286dea96aca20a38a806ae86d219f40b97a8398",
       "title": "Braced Digipick 3 3s Extreme",
       "firmware_version": [
         "4.3"
