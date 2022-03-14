@@ -486,7 +486,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Extreme_RPM_Toothpick.txt",
-      "hash": "dec1b1e26d248713aef7fd0bae317e9ab3e794ef8c581d13bb97c121a11916e3",
+      "hash": "c127f40d9abeaf979acd56ab39168f5d1b735902bb94e7ba6e9347f56c8a09d1",
       "title": "Toothpick 3 Braced Extreme RPM Filter",
       "firmware_version": [
         "4.3"
@@ -1028,22 +1028,6 @@
         "GHOST",
         "RC",
         "250hz"
-      ],
-      "author": "mouseFPV",
-      "priority": 10000000000
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/redpine.txt",
-      "hash": "d4966776b4b233f68503b36daec82d1b720b8833762c9e8d8236d2d86ba2e735",
-      "title": "RedPine SPI Whoop",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "COMMUNITY",
-      "keywords": [
-        "Whoop",
-        "RC"
       ],
       "author": "mouseFPV",
       "priority": 10000000000
