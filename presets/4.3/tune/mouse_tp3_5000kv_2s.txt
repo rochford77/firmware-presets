@@ -8,7 +8,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: This is a tune only, NOT filters
 #$ DESCRIPTION: 
-#$ DESCRIPTION: *Use with Toothpick 3 Clean Build RPM Filter
+#$ DESCRIPTION: *Use with Toothpick 3 RPM Filter
 #$ DESCRIPTION: *Works best with my Smooth Freestyle RC Smoothing 
 #$ DESCRIPTION: *Works best with my Rates
 #$ DESCRIPTION: 
