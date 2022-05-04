@@ -1268,7 +1268,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "f6da2909e06e4853a1028a7cf6263b3b74e381fb78384c88d99c0ea930878342",
+      "hash": "7d4eb8142085b7d0b56c9d3ea3b8e2adbf5d647def8843372a0c85c9d4a430c9",
       "title": "Braced Digipick 3 3s Extreme",
       "firmware_version": [
         "4.3"
@@ -1336,7 +1336,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "f64f1bce769b6d34cc86c2d37ca583d865de722df5f15dd08cf0e3c9fb66f391",
+      "hash": "96ae6e44cfbd96f9b449efcca4aeb6e1490d4721e2b0a5270db42f384a8595bc",
       "title": "FPVCycle Toothpick 3 2s",
       "firmware_version": [
         "4.3"
@@ -1353,7 +1353,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "65d1a27f1505bca3e7a253df5d5434d590b182bc028cb4147629d4f2de8a9f49",
+      "hash": "fa21635a84d4e828e7ccbc8c65c2572a313ae449ee9e8233f3e2a4284e338c3e",
       "title": "FPVCycle Toothpick 3 3s",
       "firmware_version": [
         "4.3"

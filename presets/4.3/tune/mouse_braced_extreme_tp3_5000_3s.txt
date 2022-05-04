@@ -33,12 +33,12 @@
 set simplified_pids_mode = RP
 set simplified_d_gain = 155
 set simplified_pi_gain = 120
-set simplified_feedforward_gain = 60
+set simplified_feedforward_gain = 65
 set simplified_dmax_gain = 000
 set simplified_i_gain = 95
 set simplified_pitch_d_gain = 90
 set simplified_pitch_pi_gain = 90
-set simplified_master_multiplier = 135
+set simplified_master_multiplier = 125
 simplified_tuning apply
 
 # -- PID values --
@@ -95,6 +95,6 @@ set auto_profile_cell_count = 3
 #$ OPTION BEGIN (CHECKED): Dynamic Idle
 set dshot_bidir = ON
 set dshot_idle_value = 150
-set dyn_idle_min_rpm = 35
+set dyn_idle_min_rpm = 30
 set dyn_idle_p_gain = 50
 #$ OPTION END

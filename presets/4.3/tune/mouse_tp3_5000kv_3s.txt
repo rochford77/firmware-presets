@@ -93,6 +93,6 @@ set auto_profile_cell_count = 3
 #$ OPTION BEGIN (CHECKED): Dynamic Idle
 set dshot_bidir = ON
 set dshot_idle_value = 150
-set dyn_idle_min_rpm = 35
+set dyn_idle_min_rpm = 30
 set dyn_idle_p_gain = 50
 #$ OPTION END
