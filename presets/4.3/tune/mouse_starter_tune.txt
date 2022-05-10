@@ -85,7 +85,7 @@ set iterm_relax_cutoff = 9
 set motor_output_limit = 93
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Dynamic Idle 5"
+#$ OPTION BEGIN (CHECKED): Dynamic Idle 5
 set dshot_bidir = ON
 set dshot_idle_value = 150
 set dyn_idle_min_rpm = 20

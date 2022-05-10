@@ -1303,7 +1303,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "8351d13352d971284f57e7fce2ca660ddd304c037e2fd8fd476ac49273fcbf95",
+      "hash": "d42f95578c4ee1747e8efa2692508fc2d6bb7356a5efc9c60d72af6adc390568",
       "title": "QAV-S | 6s",
       "firmware_version": [
         "4.3"
@@ -1319,7 +1319,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "83cf9fa0bebe6f22dd2771a6d1c8d5f820dd3578ed096badc8e98a2f4d714a7e",
+      "hash": "6fdf937668f3f56c323afececa5239363533d3b0da361e7662e253726e45349d",
       "title": "Golden Cheese | 6s",
       "firmware_version": [
         "4.3"
