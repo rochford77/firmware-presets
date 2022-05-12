@@ -1230,7 +1230,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "060d2d2c70558ccdde15985be659008ffeda367f2e532d9c6e7079b0ee147ef5",
+      "hash": "ac86963aa9c0d4f58ac14251ebfb321b9a0dc08078b9de74dfa7960910901616",
       "title": "FPVCycle Prototype 5 | 6s",
       "firmware_version": [
         "4.3"

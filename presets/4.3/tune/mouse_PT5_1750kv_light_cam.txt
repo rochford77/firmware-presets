@@ -97,4 +97,11 @@ set dyn_idle_min_rpm = 20
 set dyn_idle_p_gain = 45
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): Include RPM Filter? (CHOOSE ONE)
+#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_RPM.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Include SDFT Filter? (CHOOSE ONE)
+#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_No_RPM.txt
+#$ OPTION END
 
