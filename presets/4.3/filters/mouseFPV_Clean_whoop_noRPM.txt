@@ -1,10 +1,10 @@
-#$ TITLE: SDFT Whoop Filter (No RPM) | Clean Builds
+#$ TITLE: SDFT Whoop Filter (No RPM)
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: SDFT
+#$ KEYWORDS: SDFT, whoop
 #$ AUTHOR: mouseFPV
-#$ DESCRIPTION: mouseFPV SDFT Filter for clean builds, specifically built for the cockroach, no bi_driectional DSHOT
+#$ DESCRIPTION: mouseFPV SDFT Filter for clean builds, no bi_driectional DSHOT
 #$ DESCRIPTION:
 #$ DESCRIPTION: I am using this on an f411 whoop, 120OC, DSHOT300, and 4k loop, bi_driectional off.
 #$ DESCRIPTION:

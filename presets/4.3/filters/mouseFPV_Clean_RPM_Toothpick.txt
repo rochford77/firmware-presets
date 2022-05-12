@@ -1,8 +1,8 @@
-#$ TITLE: Toothpick 3 RPM Filter
+#$ TITLE: RPM Filter | Toothpick 3 
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: RPM, Toothpick
+#$ KEYWORDS: Toothpick, Digipick, FPVCycle TP3, 2s, 3s, 4s
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: RPM Filter setup for Toothpick Builds, including braced frames.
 #$ WARNING: This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!
@@ -21,8 +21,8 @@ set motor_poles = 12
 
 # -- Gyro lowpass filters --
 # -- No Gyro Lowpass
-set gyro_lpf1_dyn_min_hz = 375
-set gyro_lpf1_dyn_max_hz = 750
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
 set gyro_lpf2_static_hz = 750
 set simplified_gyro_filter = on
 set simplified_gyro_filter_multiplier = 150
@@ -37,16 +37,16 @@ set dyn_notch_max_hz = 600
 set rpm_filter_q = 500
 set rpm_filter_min_hz = 115
 set rpm_filter_fade_range_hz = 60
-set rpm_filter_harmonics = 2
+set rpm_filter_harmonics = 3
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 82
-set dterm_lpf1_dyn_max_hz = 165
+set dterm_lpf1_dyn_min_hz = 90 
+set dterm_lpf1_dyn_max_hz = 180
 set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 82
-set dterm_lpf2_static_hz = 165
+set dterm_lpf1_static_hz = 90
+set dterm_lpf2_static_hz = 180
 set simplified_dterm_filter = on
-set simplified_dterm_filter_multiplier = 110
+set simplified_dterm_filter_multiplier = 120
 
 
 # -- Yaw lowpass --

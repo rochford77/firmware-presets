@@ -158,8 +158,10 @@
       "150Hz",
       "250Hz",
       "2s",
+      "3 Inch",
       "3s",
-      "4S",
+      "4 Inch",
+      "4s",
       "5 inch",
       "5\"",
       "500Hz",
@@ -178,7 +180,6 @@
       "betaflight",
       "blackbox",
       "BMI270",
-      "Braced",
       "cfv2",
       "Cinematic",
       "clean",
@@ -207,14 +208,16 @@
       "filter",
       "filters",
       "five33",
-      "FPVCycle",
+      "FPVCycle Fouride",
+      "FPVCycle Incisor",
+      "FPVCycle Prototype 5",
+      "FPVCycle TP3",
       "freedom",
       "freedom spec",
       "freestyle",
       "freesytle",
       "ghost",
       "GHST",
-      "Golden",
       "gyro",
       "gyros",
       "gyroscope",
@@ -248,7 +251,7 @@
       "pid",
       "pro32",
       "purerace",
-      "QAV",
+      "QAV-S",
       "race",
       "race250",
       "race500",
@@ -300,7 +303,7 @@
       "vtx",
       "vtx table",
       "vtxtable",
-      "Whoop",
+      "whoop",
       "world champion"
     ]
   },
@@ -392,8 +395,8 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "40be8cf3e7a22550a81e048ffce3744308fbe8227756a719d712fc8b35cf69ac",
-      "title": "SDFT Filter (No RPM) | Clean",
+      "hash": "3c351a058936a1c86ecefc4dd7af1074e251a69f54bfc51433cc00c0aedd732c",
+      "title": "SDFT Dynamic Notch Filter (No RPM)",
       "firmware_version": [
         "4.3"
       ],
@@ -407,8 +410,8 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "4c290ec0cb8666525881fa91d0e8a36895fea590882ab16267288515e2715952",
-      "title": "Clean Build RPM Filter (4\"-5\")",
+      "hash": "7089778a4e27a8569545ff4c41b2536348827eb734a7f5052963ea9b4eb81484",
+      "title": "RPM Filter",
       "firmware_version": [
         "4.3"
       ],
@@ -423,16 +426,20 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "4366f3c359aecda40adc03f4cb0d80cfa7ca983d62d58641486ef4280c8ad055",
-      "title": "Toothpick 3 RPM Filter",
+      "hash": "52eb51adef3ab9ef46acf8848bfa5cbf1e1b1a381d7c0025ce0ad957d852f8ad",
+      "title": "RPM Filter | Toothpick 3",
       "firmware_version": [
         "4.3"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
       "keywords": [
-        "RPM",
-        "Toothpick"
+        "Toothpick",
+        "Digipick",
+        "FPVCycle TP3",
+        "2s",
+        "3s",
+        "4s"
       ],
       "author": "mouseFPV",
       "force_options_review": false,
@@ -440,45 +447,16 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt",
-      "hash": "6da39d9bdc88b44250fd27e8676ac5c6de131ae01a3aa734475fc06268e78d09",
-      "title": "SDFT Whoop Filter (No RPM) | Clean Builds",
+      "hash": "6f4fdaaac880c210938ea58e32bb7df27618a347bf6b91ebe5a9a9a026ddd1c0",
+      "title": "SDFT Whoop Filter (No RPM)",
       "firmware_version": [
         "4.3"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
       "keywords": [
-        "SDFT"
-      ],
-      "author": "mouseFPV",
-      "priority": 1
-    },
-    {
-      "fullPath": "presets/4.3/filters/mouseFPV_DirtyWhoop_no_rpm.txt",
-      "hash": "7cb2f08f4cf6baa323966e683b9527662a6bad1f50d7fbddae9a786071fd2d00",
-      "title": "SDFT Whoop Filter (No RPM) | Dirty Builds",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "SDFT"
-      ],
-      "author": "mouseFPV",
-      "priority": 1
-    },
-    {
-      "fullPath": "presets/4.3/filters/mouseFPV_dirty_no_RPM.txt",
-      "hash": "6b17db82780f631c3136f226bfb23d782fbae341a1f15375398ae3e45e8d027d",
-      "title": "SDFT Filter (No RPM) | Dirty",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "SDFT"
+        "SDFT",
+        "whoop"
       ],
       "author": "mouseFPV",
       "priority": 1
@@ -1252,7 +1230,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "adde2131a00419831a5cb2a6680764bc670d172066cf346219fd46b22925d686",
+      "hash": "060d2d2c70558ccdde15985be659008ffeda367f2e532d9c6e7079b0ee147ef5",
       "title": "FPVCycle Prototype 5 | 6s",
       "firmware_version": [
         "4.3"
@@ -1260,7 +1238,9 @@
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "FPVCycle"
+        "FPVCycle Incisor",
+        "FPVCycle Prototype 5",
+        "5 Inch"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
@@ -1268,18 +1248,39 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "7d4eb8142085b7d0b56c9d3ea3b8e2adbf5d647def8843372a0c85c9d4a430c9",
-      "title": "Braced Digipick 3 3s Extreme",
+      "hash": "156470bfe99d0276555105d1cd86c1b507883d182534921c33bcf940850b2f24",
+      "title": "Digipick 3inch 3s (Braced)",
       "firmware_version": [
         "4.3"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "FPVCycle",
+        "FPVCycle TP3",
         "Digipick",
         "Toothpick",
-        "Braced"
+        "3s",
+        "3 Inch"
+      ],
+      "author": "mouseFPV",
+      "force_options_review": true,
+      "priority": 1
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_4s.txt",
+      "hash": "70e884e30eee26456e269cc15e238fc413aac1fce94ec087426aecd927c3bc16",
+      "title": "Digipick 3inch 4s (Braced)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVCycle TP3",
+        "Digipick",
+        "Toothpick",
+        "4s",
+        "3 Inch"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
@@ -1287,7 +1288,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "618a354090f19c0f2f3558a4cf66aaaff840e656ee63ec9f8976f0f8761922a9",
+      "hash": "0f5ca07258c9b984efffab4e3fa64ffcf6ab587b86ed049936a076f98696b9b9",
       "title": "4 Inch 2204 3450kv 3s/4s (Fouride)",
       "firmware_version": [
         "4.3"
@@ -1295,7 +1296,10 @@
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "FPVCycle"
+        "FPVCycle Fouride",
+        "4 Inch",
+        "3s",
+        "4s"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
@@ -1303,7 +1307,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "d42f95578c4ee1747e8efa2692508fc2d6bb7356a5efc9c60d72af6adc390568",
+      "hash": "120d17646392458e6cabea7d836b3a3c33e54af4b10f97967fc791df5f532793",
       "title": "QAV-S | 6s",
       "firmware_version": [
         "4.3"
@@ -1311,7 +1315,8 @@
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "QAV"
+        "QAV-S",
+        "5 Inch"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
@@ -1319,7 +1324,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "6fdf937668f3f56c323afececa5239363533d3b0da361e7662e253726e45349d",
+      "hash": "7057386eef4479badb7db7729ed444a303529a7961a17cd9732a3b5eaf978a4a",
       "title": "Golden Cheese | 6s",
       "firmware_version": [
         "4.3"
@@ -1328,7 +1333,8 @@
       "status": "COMMUNITY",
       "keywords": [
         "Starter",
-        "Golden"
+        "6s",
+        "5 Inch"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
@@ -1336,7 +1342,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "96ae6e44cfbd96f9b449efcca4aeb6e1490d4721e2b0a5270db42f384a8595bc",
+      "hash": "8cc9db7737809f9dcd0aa83d193ff52928bc60c31aaef0be1350509052a7bc8f",
       "title": "FPVCycle Toothpick 3 2s",
       "firmware_version": [
         "4.3"
@@ -1344,7 +1350,8 @@
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "FPVCycle",
+        "FPVCycle TP3",
+        "Toothpick",
         "2s"
       ],
       "author": "mouseFPV",
@@ -1353,7 +1360,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "fa21635a84d4e828e7ccbc8c65c2572a313ae449ee9e8233f3e2a4284e338c3e",
+      "hash": "9113579fbe47d5cded48a2e6554fd57983927d7642bd3e2e35a804df370963d3",
       "title": "FPVCycle Toothpick 3 3s",
       "firmware_version": [
         "4.3"
@@ -1361,7 +1368,8 @@
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "FPVCycle",
+        "FPVCycle TP3",
+        "Toothpick",
         "3s"
       ],
       "author": "mouseFPV",

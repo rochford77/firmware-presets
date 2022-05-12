@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: Starter, Golden
+#$ KEYWORDS: Starter, 6s, 5 Inch
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Starting generic tune
 #$ DESCRIPTION: 
