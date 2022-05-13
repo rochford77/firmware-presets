@@ -79,5 +79,12 @@ set motor_output_limit = 95
 set crash_recovery = ON
 #$ OPTION END
 
+#$ OPTION_GROUP BEGIN: Tunes (Choose One or None)
+
+#$ OPTION BEGIN (UNCHECKED): Include SDFT Filter?
+#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
 
 

@@ -1230,7 +1230,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "ac86963aa9c0d4f58ac14251ebfb321b9a0dc08078b9de74dfa7960910901616",
+      "hash": "84a5deafb7beef344f6868a58776821ba2f1235bd23dbff6f5204db3a7768c3d",
       "title": "FPVCycle Prototype 5 | 6s",
       "firmware_version": [
         "4.3"
@@ -1248,7 +1248,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "156470bfe99d0276555105d1cd86c1b507883d182534921c33bcf940850b2f24",
+      "hash": "447c2151df2280f21af491c0cfe9d7a23284304831acde0f0fb11875dad97450",
       "title": "Digipick 3inch 3s (Braced)",
       "firmware_version": [
         "4.3"
@@ -1268,7 +1268,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_4s.txt",
-      "hash": "70e884e30eee26456e269cc15e238fc413aac1fce94ec087426aecd927c3bc16",
+      "hash": "973ec7a1dd2800ccd714e872257ed9fc5f5621d4527546b97a62a3db05ca7793",
       "title": "Digipick 3inch 4s (Braced)",
       "firmware_version": [
         "4.3"
@@ -1288,7 +1288,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "0f5ca07258c9b984efffab4e3fa64ffcf6ab587b86ed049936a076f98696b9b9",
+      "hash": "12ecef17d4e9e470a8e5d1b5cdae61258d60fc39f883b8e85db1a933bab0667c",
       "title": "4 Inch 2204 3450kv 3s/4s (Fouride)",
       "firmware_version": [
         "4.3"
@@ -1307,7 +1307,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "120d17646392458e6cabea7d836b3a3c33e54af4b10f97967fc791df5f532793",
+      "hash": "4884e8f187b7e110b40ddf7f656226b407e4b2ed66a7041edc04158ec913fb8a",
       "title": "QAV-S | 6s",
       "firmware_version": [
         "4.3"
@@ -1324,7 +1324,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "7057386eef4479badb7db7729ed444a303529a7961a17cd9732a3b5eaf978a4a",
+      "hash": "4b7f4f210737fac17b9695451ca40abd8b7e8b25853224132a593dedf8aeaf6c",
       "title": "Golden Cheese | 6s",
       "firmware_version": [
         "4.3"
@@ -1342,7 +1342,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "8cc9db7737809f9dcd0aa83d193ff52928bc60c31aaef0be1350509052a7bc8f",
+      "hash": "b2d6aa7cdf1a07accf412c2b318dfdeb95107ce115b721883eff52041d301b13",
       "title": "FPVCycle Toothpick 3 2s",
       "firmware_version": [
         "4.3"
@@ -1360,7 +1360,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "9113579fbe47d5cded48a2e6554fd57983927d7642bd3e2e35a804df370963d3",
+      "hash": "a0f7595b6b942f5da5978da51a7966606cbc679ce1c624f94fb5d4a7a35fa125",
       "title": "FPVCycle Toothpick 3 3s",
       "firmware_version": [
         "4.3"
@@ -1378,7 +1378,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_whoop_tune.txt",
-      "hash": "91825716f3f936f3f8c69c59283071755fa58aad01f030808830f14b9be04049",
+      "hash": "13a78aab1a603818bc4a9a47c67670641e13451dcd020c8723b50f7f63746ef0",
       "title": "Whoop",
       "firmware_version": [
         "4.3"

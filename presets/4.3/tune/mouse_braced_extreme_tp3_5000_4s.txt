@@ -101,3 +101,16 @@ set dshot_idle_value = 150
 set dyn_idle_min_rpm = 30
 set dyn_idle_p_gain = 50
 #$ OPTION END
+
+
+#$ OPTION_GROUP BEGIN: Tunes (Choose One or None)
+
+#$ OPTION BEGIN (UNCHECKED): Include RPM Filter?
+#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Include SDFT Filter?
+#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_No_RPM.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
