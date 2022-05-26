@@ -6,11 +6,8 @@
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 3s
 #$ DESCRIPTION: 
-#$ DESCRIPTION: This is a tune only, NOT filters
-#$ DESCRIPTION: 
-#$ DESCRIPTION: *Use with Toothpick 3 RPM Filter
-#$ DESCRIPTION: *Works best with my Smooth Freestyle RC Smoothing 
-#$ DESCRIPTION: *Works best with my Rates
+#$ DESCRIPTION: *Use with RPM Filter | Toothpick 3
+
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION: 
@@ -28,23 +25,17 @@
 
 
 # -- PID Sliders  --
-set simplified_pids_mode = RP
-set simplified_d_gain = 150
-set simplified_pi_gain = 125
-set simplified_feedforward_gain = 75
+set simplified_pids_mode = RPY
+set simplified_d_gain = 130
+set simplified_pi_gain = 100
+set simplified_feedforward_gain = 70
 set simplified_dmax_gain = 000
-set simplified_i_gain = 95
-set simplified_pitch_d_gain = 85
-set simplified_pitch_pi_gain = 90
-set simplified_master_multiplier = 100
+set simplified_i_gain = 80
+set simplified_pitch_d_gain = 75
+set simplified_pitch_pi_gain = 80
+set simplified_master_multiplier = 125
 simplified_tuning apply
 
-# -- PID values --
-set p_yaw = 61
-set i_yaw = 95
-set d_yaw = 0
-set d_min_yaw = 0
-set f_yaw = 90
 
 # -- iTerm relax --
 set iterm_relax = RP
@@ -62,7 +53,7 @@ set feedforward_boost = 10
 set feedforward_jitter_factor = 14
 
 # -- Antigravity --
-set anti_gravity_gain = 3000
+set anti_gravity_gain = 3500
 
 
 # -- Thrust linear (off, default) --
@@ -95,6 +86,27 @@ set dshot_bidir = ON
 set dshot_idle_value = 150
 set dyn_idle_min_rpm = 30
 set dyn_idle_p_gain = 50
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Front-Back Lipo (experimental, flips pitch/roll gains)
+# -- PID Sliders  --
+set simplified_pids_mode = RP
+set simplified_d_gain = 130
+set simplified_pi_gain = 100
+set simplified_feedforward_gain = 70
+set simplified_dmax_gain = 000
+set simplified_i_gain = 95
+set simplified_pitch_d_gain = 105
+set simplified_pitch_pi_gain = 115
+set simplified_master_multiplier = 105
+simplified_tuning apply
+
+# -- PID values --
+set p_yaw = 56
+set i_yaw = 79
+set d_yaw = 0
+set d_min_yaw = 0
+set f_yaw = 97
 #$ OPTION END
 
 

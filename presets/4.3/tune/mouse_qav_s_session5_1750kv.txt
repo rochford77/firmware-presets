@@ -1,7 +1,7 @@
 #$ TITLE:  QAV-S | 6s 
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: QAV-S, 5 Inch
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Tune for Lumenier QAV-S bardwell edition on 6s

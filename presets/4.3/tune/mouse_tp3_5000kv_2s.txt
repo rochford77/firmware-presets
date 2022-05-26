@@ -1,7 +1,7 @@
 #$ TITLE:  FPVCycle Toothpick 3 2s
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: FPVCycle TP3, Toothpick, 2s
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: Tune for FPVCycle Toothpick 3 with 13mm 5000kv motors on 2s
@@ -9,8 +9,6 @@
 #$ DESCRIPTION: This is a tune only, NOT filters
 #$ DESCRIPTION: 
 #$ DESCRIPTION: *Use with Toothpick 3 RPM Filter
-#$ DESCRIPTION: *Works best with my Smooth Freestyle RC Smoothing 
-#$ DESCRIPTION: *Works best with my Rates
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION: 
