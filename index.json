@@ -186,6 +186,8 @@
       "Acrobaix",
       "actual",
       "adjustments",
+      "AOS",
+      "AOS35",
       "aux",
       "basic",
       "blackbox",
@@ -390,6 +392,24 @@
         "whoop"
       ],
       "author": "mouseFPV",
+      "priority": 1
+    },
+    {
+      "fullPath": "presets/4.3/filters/mouseFPV_RPM_AOS35.txt",
+      "hash": "88471445cfd762569584a9103f98d6cd18b01b78dd2b9f979044ffab28b689ae",
+      "title": "RPM Filter | AOS 3.5",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "AOS",
+        "3s",
+        "4s"
+      ],
+      "author": "mouseFPV",
+      "force_options_review": false,
       "priority": 1
     },
     {
@@ -1608,6 +1628,22 @@
       "priority": 1
     },
     {
+      "fullPath": "presets/4.3/tune/mouse_aos35.txt",
+      "hash": "9fbff90087a1b73b66961be1c992ebf84ce9138b3a6dc2ed41015565f168ea4a",
+      "title": "AOS 3.5",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "AOS35"
+      ],
+      "author": "mouseFPV",
+      "force_options_review": true,
+      "priority": 1
+    },
+    {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
       "hash": "d0d3feb199831ad2e913ca4ee779e26a6deec28b1dfe0ffc6765818fdcd7a259",
       "title": "Digipick 3inch 3s (Braced)",
@@ -1629,7 +1665,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_4s.txt",
-      "hash": "e7b78712896995be260c21dec125beb923c17aee2078423d4158f7c57cba28ae",
+      "hash": "7b2a0980cce2ddc2e72c4b52399c06e81ea10ae283a65c65be34c38c78a2c321",
       "title": "Digipick 3inch 4s (Braced)",
       "firmware_version": [
         "4.3"
