@@ -1591,7 +1591,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "de1fe94ef9c43c0d2ee3eca3a7f1aceff1828661b59f404787f815ce156f9aba",
+      "hash": "4369c5a39b1d5363ff8d7d5b376acfeb3a612dc0350e56aaf3f3180d1a1982d8",
       "title": "FPVCycle Prototype 5 | 6s",
       "firmware_version": [
         "4.3"
@@ -1649,7 +1649,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",
-      "hash": "917b0f7e5bcefb45be4d54b86b396844dd1997cd867c4f87d440c2f56687a830",
+      "hash": "0ee4afa0de9abcc249724ce4cdf30949a89f44426675d2f724d01ecd64d98cbf",
       "title": "4 Inch 2204 3450kv 3s/4s (Fouride)",
       "firmware_version": [
         "4.3"
@@ -1668,7 +1668,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_qav_s_session5_1750kv.txt",
-      "hash": "7ff5475e2afea12bec1824b61fd38972499ebc440c6c3ddbc6cb5a27f646370c",
+      "hash": "7053cc8d2eb24d06d588821a9a7ceb256b2b1774589b5bcca0470b83c3b933af",
       "title": "QAV-S | 6s",
       "firmware_version": [
         "4.3"
@@ -1685,7 +1685,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
-      "hash": "cc559f518042be825a344cb9f1bb16859bf585e6676438d9c9ad571da169e5ee",
+      "hash": "cdc3ca886ac3d7872b0ef533ec62f19444768ccb5638588f877cd7b2d82b7e72",
       "title": "Golden Cheese | 6s",
       "firmware_version": [
         "4.3"
@@ -1703,7 +1703,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "41f6ecf72c8498b399f6d5051074c83a329d7149092a045de6b701461621cea2",
+      "hash": "0b39e08695a23e40b13e7be01b515209fe7da4dd3488d3cce461eed9ed5294c0",
       "title": "FPVCycle Toothpick 3 2s",
       "firmware_version": [
         "4.3"
@@ -1721,7 +1721,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "aca4d00cd9d6634370fbf9f5efa2d9b1a82a9cb14fb20bc455b5fa51a686d51b",
+      "hash": "1a064a17b8e891a1c76bfa62f3715b4893a86c4029b85f0a69f2b92435149ad3",
       "title": "FPVCycle Toothpick 3 3s",
       "firmware_version": [
         "4.3"

@@ -125,10 +125,6 @@ set dyn_idle_min_rpm = 25
 #$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_RPM.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Include SDFT Filter?
-#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_No_RPM.txt
-#$ OPTION END
-
 #$ OPTION_GROUP END
 
 

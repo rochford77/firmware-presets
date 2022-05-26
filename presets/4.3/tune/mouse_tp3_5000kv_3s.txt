@@ -116,8 +116,5 @@ set f_yaw = 97
 #$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Include SDFT Filter?
-#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_No_RPM.txt
-#$ OPTION END
 
 #$ OPTION_GROUP END

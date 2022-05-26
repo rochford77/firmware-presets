@@ -85,8 +85,11 @@ set vbat_sag_compensation = 100
 #$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
 set i_yaw = 109
 set f_yaw = 100
-set feedforward_boost = 20
+set feedforward_boost = 15
 set iterm_relax_cutoff = 8
+set simplified_master_multiplier = 110
+simplified_tuning apply
+set feedforward_boost = 15
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Over 1800kv 6s
@@ -106,9 +109,6 @@ set dyn_idle_p_gain = 45
 #$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_RPM.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Include SDFT Filter?
-#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_No_RPM.txt
-#$ OPTION END
 
 #$ OPTION_GROUP END
 
