@@ -1,23 +1,18 @@
-#$ TITLE:  Digipick 3inch 4s (Braced)
+#$ TITLE:  AOS 3.5
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: FPVCycle TP3, Digipick, Toothpick, 4s, 3 Inch
+#$ KEYWORDS: AOS35
 #$ AUTHOR: mouseFPV
-#$ DESCRIPTION: Tune for Digital FPVCycle Toothpick 3 with 13mm 5000kv motors on 4s ~130g
+#$ DESCRIPTION: Tune for AOS 3.5 with FPVCycle 16mm motors, <250g 4s
 #$ DESCRIPTION: 
-#$ DESCRIPTION: NOT APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces
-#$ DESCRIPTION: Only flash If you have a Braced TP3 or an AOS-T3
-#$ DESCRIPTION: *FOR SIDE MOUNT LIPOS ONLY, Experimental option for front-back lipos
-#$ DESCRIPTION: *Lipo Orientation very important on this quad. Side Mount Recommended!!!!!
-#$ DESCRIPTION: 
-#$ DESCRIPTION: *Use with  RPM Filter | Braced Toothpick 3
+#$ DESCRIPTION: *Use with RPM Filter | AOS 3.5
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
 #$ DESCRIPTION: 
 #$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
 #$ DESCRIPTION:
-#$ WARNING: This tune has very high DGain. DO NOT Flash without braces. Dynamic Idle Requires DShot telemetry!
+#$ WARNING: If you include filters and have an F4 processor, you MUST HAVE Gyro Lowpass 2 at 1000hz!
 #$ DISCLAIMER: Flash At Your Own risk
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ INCLUDE: presets/4.3/tune/defaults.txt
@@ -31,12 +26,12 @@
 set simplified_pids_mode = RPY
 set simplified_d_gain = 130
 set simplified_pi_gain = 100
-set simplified_feedforward_gain = 55
+set simplified_feedforward_gain = 60
 set simplified_dmax_gain = 000
-set simplified_i_gain = 75
-set simplified_pitch_d_gain = 80
-set simplified_pitch_pi_gain = 80
-set simplified_master_multiplier = 150
+set simplified_i_gain = 80
+set simplified_pitch_d_gain = 105
+set simplified_pitch_pi_gain = 105
+set simplified_master_multiplier = 145
 simplified_tuning apply
 
 # -- iTerm relax --
@@ -61,8 +56,6 @@ set anti_gravity_gain = 3500
 # -- Thrust linear (off, default) --
 set thrust_linear = 20
 
-# -- VBat warning threshold (3.5V, default)--
-set vbat_warning_cell_voltage = 340
 
 # -- DShot Idle (default)--
 # Commonly set lower when dynamic idle is active.
@@ -78,7 +71,7 @@ set vbat_sag_compensation = 100
 set auto_profile_cell_count = 4
 
 # -- Motor Output Limit for 4s --
-set motor_output_limit = 86
+set motor_output_limit = 95
 
 
 # ------ OPTIONS GO BELOW THIS LINE ------
@@ -89,29 +82,14 @@ set motor_output_limit = 86
 #$ OPTION BEGIN (CHECKED): Dynamic Idle
 set dshot_bidir = ON
 set dshot_idle_value = 150
-set dyn_idle_min_rpm = 30
+set dyn_idle_min_rpm = 25
 set dyn_idle_p_gain = 50
 #$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Front-Back Lipo (experimental, flips pitch/roll)
-# -- PID Sliders  --
-set simplified_pids_mode = RPY
-set simplified_d_gain = 145
-set simplified_pi_gain = 100
-set simplified_feedforward_gain = 55
-set simplified_dmax_gain = 000
-set simplified_i_gain = 75
-set simplified_pitch_d_gain = 95
-set simplified_pitch_pi_gain = 115
-set simplified_master_multiplier = 125
-simplified_tuning apply
-#$ OPTION END
-
 
 #$ OPTION_GROUP BEGIN: Tunes (Choose One or None)
 
 #$ OPTION BEGIN (UNCHECKED): Include RPM Filter?
-#$ INCLUDE: presets/4.3/filters/mouseFPV_RPM_Braced_toothpick.txt
+#$ INCLUDE: presets/4.3/filters/mouseFPV_RPM_AOS35.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

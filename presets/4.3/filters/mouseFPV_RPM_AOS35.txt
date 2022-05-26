@@ -1,0 +1,59 @@
+#$ TITLE: RPM Filter | AOS 3.5
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FILTERS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: AOS, 3s, 4s
+#$ AUTHOR: mouseFPV
+#$ DESCRIPTION: RPM Filter setup for The AOS3.5.
+#$ WARNING: This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!
+#$ DISCLAIMER: Flash At Your Own risk
+#$ FORCE_OPTIONS_REVIEW: FALSE
+#$ PRIORITY: 1
+
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
+# enable dshot rpm telemetry
+set dshot_bidir = ON
+set motor_poles = 12
+
+# -- Gyro lowpass filters --
+# -- No Gyro Lowpass
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set gyro_lpf2_static_hz = 0
+set simplified_gyro_filter_multiplier = 200
+set simplified_gyro_filter = off
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 150
+set dyn_notch_max_hz = 600
+
+# -- RPM filtering --
+set rpm_filter_q = 500
+set rpm_filter_min_hz = 125
+set rpm_filter_harmonics = 3
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_min_hz = 93
+set dterm_lpf1_dyn_max_hz = 187
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_static_hz = 93
+set dterm_lpf2_static_hz = 187
+set simplified_dterm_filter = on
+set simplified_dterm_filter_multiplier = 125
+
+
+# -- Yaw lowpass --
+set yaw_lowpass_hz = 100
+
+#$ OPTION BEGIN (UNCHECKED): F4 Processor?
+set gyro_lpf2_static_hz = 1000
+set simplified_gyro_filter = on
+set simplified_gyro_filter_multiplier = 200
+#$ OPTION END
