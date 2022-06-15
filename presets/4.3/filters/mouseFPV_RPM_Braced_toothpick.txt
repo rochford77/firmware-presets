@@ -41,13 +41,13 @@ set rpm_filter_fade_range_hz = 60
 set rpm_filter_harmonics = 3
 
 # -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 93
-set dterm_lpf1_dyn_max_hz = 187
+set dterm_lpf1_dyn_min_hz = 86
+set dterm_lpf1_dyn_max_hz = 172
 set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 93
-set dterm_lpf2_static_hz = 187
+set dterm_lpf1_static_hz = 86
+set dterm_lpf2_static_hz = 172
 set simplified_dterm_filter = on
-set simplified_dterm_filter_multiplier = 125
+set simplified_dterm_filter_multiplier = 115
 
 
 # -- Yaw lowpass --

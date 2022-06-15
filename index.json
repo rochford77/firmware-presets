@@ -360,7 +360,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "745a5b5ee6a09d3899c4a82b71c6e381128890318b0ea1c303425fdec62a9b73",
+      "hash": "c3d8c741c8914a9c59330cb4d8ca2e953b0dd4e4eab8a9c729ae08d22fa0f6fa",
       "title": "RPM Filter | Toothpick 3",
       "firmware_version": [
         "4.3"
@@ -414,7 +414,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_RPM_Braced_toothpick.txt",
-      "hash": "513254e3adb9e089ac2e76b9731da189de2ee33bc42dad33cc7edba7c20f9c2b",
+      "hash": "7d9ff73ca22805b8567a9fc139d675aeab47c0b0ef7843ccdba793cab2162523",
       "title": "RPM Filter | Braced Toothpick 3",
       "firmware_version": [
         "4.3"
