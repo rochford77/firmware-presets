@@ -6,8 +6,10 @@
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: mouseFPV SDFT Filter for clean builds, good for quads with no bi_driectional DSHOT
 #$ DESCRIPTION:
+#$ DESCRIPTION: Made for MPU 6000, may need to adjust for other gyros
+#$ DESCRIPTION:
 #$ WARNING: This Turns Off bi_driectional DShot!!!
-#$ DISCLAIMER: Flash At Your Own risk
+#$ DISCLAIMER: Flash At Your Own risk | Made for MPU 6000
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 #$ PRIORITY: 1
 

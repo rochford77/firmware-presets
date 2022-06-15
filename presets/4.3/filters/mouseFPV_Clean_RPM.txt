@@ -5,9 +5,11 @@
 #$ KEYWORDS: RPM
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: 4 Inch to 5 Inch RPM Filter for Clean Builds
-#$ DESCRIPTION: Requires 8k PIDLoop! If using F4 and 4k PIDLoop, select option for F4 @ 4k to prevent aliasing!
+#$ DESCRIPTION:
+#$ DESCRIPTION: Made for MPU 6000, may need to adjust for other gyros
+#$ DESCRIPTION:
 #$ WARNING: This Sets Motor Poles to 14 and Requires RPM filtering and DShot telemetry!
-#$ DISCLAIMER: Flash At Your Own risk
+#$ DISCLAIMER: Flash At Your Own risk | Made for MPU 6000
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ PRIORITY: 1
 

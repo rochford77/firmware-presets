@@ -8,6 +8,9 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: I am using this on an f411 whoop, 120OC, DSHOT300, and 4k loop, bi_driectional off.
 #$ DESCRIPTION:
+#$ DESCRIPTION:
+#$ DESCRIPTION: Made for MPU 6000, may need to adjust for other gyros
+#$ DESCRIPTION:
 #$ WARNING: This Turns Off bi_driectional DShot!!!
 #$ DISCLAIMER: Flash At Your Own risk
 #$ INCLUDE: presets/4.3/filters/defaults.txt

@@ -5,8 +5,11 @@
 #$ KEYWORDS: Toothpick, FPVCycle TP3, 2s, 3s, 4s
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: RPM Filter setup for Toothpick Builds with braced frames (AOS-T3, FPVCycle TP3 with braces).
+#$ DESCRIPTION:
+#$ DESCRIPTION: Made for MPU 6000, may need to adjust for other gyros
+#$ DESCRIPTION:
 #$ WARNING: This Sets Motor Poles to 12 and Requires RPM filtering and DShot telemetry!
-#$ DISCLAIMER: Flash At Your Own risk
+#$ DISCLAIMER: Flash At Your Own risk | Made for MPU 6000
 #$ FORCE_OPTIONS_REVIEW: FALSE
 #$ PRIORITY: 1
 

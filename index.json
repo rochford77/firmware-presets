@@ -329,7 +329,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_No_RPM.txt",
-      "hash": "3c351a058936a1c86ecefc4dd7af1074e251a69f54bfc51433cc00c0aedd732c",
+      "hash": "308ed0775a3ed61adb6f0c7bbc1cec05c3da361ef7e9c889f566cb060e6db596",
       "title": "SDFT Dynamic Notch Filter (No RPM)",
       "firmware_version": [
         "4.3"
@@ -344,7 +344,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM.txt",
-      "hash": "d76b4945ed00251fe2ba171d95073aabc89af210ff6cde91680488829bf970c2",
+      "hash": "bc5fbde749e00e4c658b987ec2dd0063e89539822a4d820fd0d2d6f4410a1bba",
       "title": "RPM Filter",
       "firmware_version": [
         "4.3"
@@ -360,7 +360,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "c3d8c741c8914a9c59330cb4d8ca2e953b0dd4e4eab8a9c729ae08d22fa0f6fa",
+      "hash": "adad8517b9e494bf8a8b7edd27e871d4f0865c9288dd81ee6f4732f4aa48a4a9",
       "title": "RPM Filter | Toothpick 3",
       "firmware_version": [
         "4.3"
@@ -380,7 +380,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt",
-      "hash": "6f4fdaaac880c210938ea58e32bb7df27618a347bf6b91ebe5a9a9a026ddd1c0",
+      "hash": "3954e3b8b8352b0f72c9fcc41002f2e6f2c399545ab06a9d13f864d50910d211",
       "title": "SDFT Whoop Filter (No RPM)",
       "firmware_version": [
         "4.3"
@@ -396,7 +396,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_RPM_AOS35.txt",
-      "hash": "88471445cfd762569584a9103f98d6cd18b01b78dd2b9f979044ffab28b689ae",
+      "hash": "63f214346da9aea491547ea264597beb1d27ed8506d24e3431984cd983a751ed",
       "title": "RPM Filter | AOS 3.5",
       "firmware_version": [
         "4.3"
@@ -414,7 +414,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_RPM_Braced_toothpick.txt",
-      "hash": "7d9ff73ca22805b8567a9fc139d675aeab47c0b0ef7843ccdba793cab2162523",
+      "hash": "af29e6690bb32f46bb1161bbf4e5def2f6af6f3e0e5d9f5caccb4361c744b632",
       "title": "RPM Filter | Braced Toothpick 3",
       "firmware_version": [
         "4.3"
