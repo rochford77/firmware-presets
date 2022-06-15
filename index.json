@@ -360,7 +360,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "fabfd26c7a5b38accf963f46649e00948fb220d8a4d394e39f54985fe441b598",
+      "hash": "745a5b5ee6a09d3899c4a82b71c6e381128890318b0ea1c303425fdec62a9b73",
       "title": "RPM Filter | Toothpick 3",
       "firmware_version": [
         "4.3"
@@ -414,7 +414,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_RPM_Braced_toothpick.txt",
-      "hash": "73a3ea2e0c34eca1d3036f951b40b9061c73758cf69c1c967be9f0460e1d359c",
+      "hash": "513254e3adb9e089ac2e76b9731da189de2ee33bc42dad33cc7edba7c20f9c2b",
       "title": "RPM Filter | Braced Toothpick 3",
       "firmware_version": [
         "4.3"
@@ -1738,26 +1738,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_2s.txt",
-      "hash": "0b39e08695a23e40b13e7be01b515209fe7da4dd3488d3cce461eed9ed5294c0",
-      "title": "FPVCycle Toothpick 3 2s",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "FPVCycle TP3",
-        "Toothpick",
-        "2s"
-      ],
-      "author": "mouseFPV",
-      "force_options_review": true,
-      "priority": 1
-    },
-    {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "1a064a17b8e891a1c76bfa62f3715b4893a86c4029b85f0a69f2b92435149ad3",
+      "hash": "ce0c8b5fc14e372b1bac6759d118a43994a6a9352b59fd05d0fb397d70943b5d",
       "title": "FPVCycle Toothpick 3 3s",
       "firmware_version": [
         "4.3"
