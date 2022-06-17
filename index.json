@@ -179,6 +179,7 @@
       "5 Inch",
       "500Hz",
       "50Hz",
+      "533",
       "55Hz",
       "666Hz",
       "6s",
@@ -187,7 +188,6 @@
       "actual",
       "adjustments",
       "AOS",
-      "AOS35",
       "aux",
       "basic",
       "blackbox",
@@ -202,6 +202,7 @@
       "defaults",
       "diatone",
       "Digipick",
+      "digital",
       "disable",
       "divimath",
       "DJI",
@@ -218,6 +219,7 @@
       "FPVCycle Incisor",
       "FPVCycle Prototype 5",
       "FPVCycle TP3",
+      "FreedomSpec",
       "freestyle",
       "frsky",
       "Garban",
@@ -225,19 +227,23 @@
       "GHST",
       "gyroflow",
       "HDzero",
+      "HighKV",
       "HV",
       "immersion",
       "immersionRC",
       "IRC",
       "IRC Tramp",
+      "karatebrot",
       "leds",
       "link",
+      "Llama",
       "log",
       "logging",
       "Long Range",
       "mamba",
       "mode",
       "modes",
+      "MultiVoltage",
       "nano",
       "nanohawk",
       "Normal",
@@ -253,6 +259,8 @@
       "Pure Race",
       "QAV-S",
       "Race",
+      "race v1",
+      "race v2",
       "Race250",
       "Race500",
       "Racing",
@@ -274,14 +282,15 @@
       "SA 2.1",
       "sa2.0",
       "sa20",
+      "Safe",
       "sbus",
       "SBUS fast",
       "SDFT",
-      "shark bite",
       "smartaudio",
       "smoothing",
       "Solid250",
       "some",
+      "Spec",
       "speedybee",
       "Starter",
       "sugarK",
@@ -290,12 +299,14 @@
       "tank ultimate",
       "TBS",
       "Team Black Sheep",
+      "Texas",
       "tiny tank",
       "Toothpick",
       "Tracer",
       "tramp",
       "transmitter",
-      "tune",
+      "Tune",
+      "tx5m.1",
       "tx800",
       "ultra",
       "ultra 1000",
@@ -305,7 +316,8 @@
       "vtx",
       "vtx table",
       "vtxtable",
-      "whoop"
+      "whoop",
+      "whoop lite"
     ]
   },
   "presets": [
@@ -396,7 +408,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_RPM_AOS35.txt",
-      "hash": "63f214346da9aea491547ea264597beb1d27ed8506d24e3431984cd983a751ed",
+      "hash": "66ee383387840e71a28d5ffedf6f0cd8867142acbb8e35812ca20f242963957a",
       "title": "RPM Filter | AOS 3.5",
       "firmware_version": [
         "4.3"
@@ -414,7 +426,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/mouseFPV_RPM_Braced_toothpick.txt",
-      "hash": "af29e6690bb32f46bb1161bbf4e5def2f6af6f3e0e5d9f5caccb4361c744b632",
+      "hash": "5fa2138625b79f65df98de53eb9c58215f44f3b48f4884a4d932fe9147528a22",
       "title": "RPM Filter | Braced Toothpick 3",
       "firmware_version": [
         "4.3"
@@ -581,6 +593,69 @@
         "Passthrough",
         "Configure",
         "utility"
+      ],
+      "author": "Daniel Appel / Tehllama",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/Tehllama_5in_1900-2250KV_FreedomSpec_3S-5S-6S_Race_TUNE_OTHER.txt",
+      "hash": "dd53f9d5edb077c0929ac3252667f3d4d40000c444d48338ce569c85fc36e541",
+      "title": "5in FreedomSpec Race Tune 1900-2250KV on 3S (Spec) and 5S/6S (Open)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "533",
+        "FreedomSpec",
+        "Tune",
+        "Spec",
+        "Race",
+        "Llama",
+        "MultiVoltage"
+      ],
+      "author": "Daniel Appel / Tehllama",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/Tehllama_5in_2350-2750KV-TexasSpec_3S-4S-5S_Race_TUNE_OTHER.txt",
+      "hash": "3d238ca653d717035343a831b3d92ff954bd827f3f4140cf87b3062acde635a1",
+      "title": "5in TexasSpec Freedom Race Tune 2350-2750KV on 3S (Spec) and 4S/5S (Open)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "533",
+        "HighKV",
+        "FreedomSpec",
+        "Spec",
+        "Tune",
+        "Race",
+        "Llama",
+        "MultiVoltage",
+        "Texas"
+      ],
+      "author": "Daniel Appel / Tehllama",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/Tehllama_5in_BMS-Spec_1600-2350KV_4S-5S-6S_Race_TUNE-OTHER.txt",
+      "hash": "7ccd25a83a3f10f197d1c6b8ec9c5fbe495d514656c04aedb6e8f9b47a766340",
+      "title": "5in Tehllama Race Tune 1600-2350KV on 4S/5S/6S including BMS Spec",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Race",
+        "Llama",
+        "Safe",
+        "Tune",
+        "MultiVoltage"
       ],
       "author": "Daniel Appel / Tehllama",
       "priority": 0
@@ -1610,6 +1685,23 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/tune/mouseFPV_AOS_35_tune_filters.txt",
+      "hash": "bfe09eb574b8ec320e7e9bf09b68371f110328b2798aeb7145c870b5e63cba57",
+      "title": "AOS 3.5 V1 4s Tune | mouseFPV",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "AOS",
+        "4s"
+      ],
+      "author": "mouseFPV",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
       "hash": "4369c5a39b1d5363ff8d7d5b376acfeb3a612dc0350e56aaf3f3180d1a1982d8",
       "title": "FPVCycle Prototype 5 | 6s",
@@ -1622,22 +1714,6 @@
         "FPVCycle Incisor",
         "FPVCycle Prototype 5",
         "5 Inch"
-      ],
-      "author": "mouseFPV",
-      "force_options_review": true,
-      "priority": 1
-    },
-    {
-      "fullPath": "presets/4.3/tune/mouse_aos35.txt",
-      "hash": "9fbff90087a1b73b66961be1c992ebf84ce9138b3a6dc2ed41015565f168ea4a",
-      "title": "AOS 3.5",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "AOS35"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
@@ -1839,9 +1915,9 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.3/vtx/HDZero_race2.txt",
-      "hash": "0f0b8f7a8bfe4c48fe1897e58c3de4977a45550b4316aa856be00ffe97e0061a",
-      "title": "HDZero race 2",
+      "fullPath": "presets/4.3/vtx/HDZero.txt",
+      "hash": "4f0c6e6b29ac96bb5cf020a9117f50587cb42a4cf2bfe4537f9141ac9b08ef0b",
+      "title": "HDZero VTXs",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1853,8 +1929,15 @@
         "vtx table",
         "HDzero",
         "divimath",
-        "shark bite",
-        "SA 2.1"
+        "SA 2.1",
+        "digital",
+        "whoop",
+        "whoop lite",
+        "race v1",
+        "race v2",
+        "freestyle",
+        "tx5m.1",
+        "karatebrot"
       ],
       "author": "sugarK",
       "priority": 1000000
