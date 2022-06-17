@@ -737,8 +737,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseCinematic.txt",
-      "hash": "11d733c88b336cea280baf08ac6aa28670558b449d6b5786905fe9ab6319e050",
-      "title": "mouseFPV Rates",
+      "hash": "4e493c72a8d105dc14480dfb9a98196cc2bbee55ef5580f82a34ec3534e340f9",
+      "title": "mouseFPV Cinematic Rates",
       "firmware_version": [
         "4.3"
       ],
@@ -752,7 +752,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseFreestyle.txt",
-      "hash": "a1129f3c86028a72a990ef314c09e5b103dca25e8a394378c68244672a33dc6c",
+      "hash": "da39099cc07bf26f03ff65382c7267939174f885b63caf9cbdde74b1319f154c",
       "title": "mouseFPV Freestyle Rates",
       "firmware_version": [
         "4.3"
