@@ -1,4 +1,4 @@
-#$ TITLE: Racing Rates
+#$ TITLE: mouseFPV Racing Rates
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
@@ -6,8 +6,7 @@
 #$ AUTHOR: mouseFPV
 #$ DESCRIPTION: MouseFPV Racing Rates.
 #$ DESCRIPTION: Will be applied for the currently selected rate profile
-#$ DESCRIPTION: TPA values are not included
-#$ DESCRIPTION: Throttle limit and curve are not included
+
 
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 

@@ -737,8 +737,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseCinematic.txt",
-      "hash": "8a071f136fbbbfb485057e72c09dfae6e28d21bb03199b5f1701b486c1731dab",
-      "title": "Cinematic Rates",
+      "hash": "11d733c88b336cea280baf08ac6aa28670558b449d6b5786905fe9ab6319e050",
+      "title": "mouseFPV Rates",
       "firmware_version": [
         "4.3"
       ],
@@ -752,8 +752,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseFreestyle.txt",
-      "hash": "c5d2258121236025fc5658cd5fc55e0d80dcd19500e47551457cb6be1e4c1aac",
-      "title": "Freestyle Rates",
+      "hash": "a1129f3c86028a72a990ef314c09e5b103dca25e8a394378c68244672a33dc6c",
+      "title": "mouseFPV Freestyle Rates",
       "firmware_version": [
         "4.3"
       ],
@@ -767,8 +767,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/mouseRacing.txt",
-      "hash": "db1d8f6c8c37e02b707c1772b70c7e79b220718891ab8de5c1bce48677bd7b62",
-      "title": "Racing Rates",
+      "hash": "8858123dedee889201c5c4a345dfda4f23e5af9babf72ce20a95a8546529e2f5",
+      "title": "mouseFPV Racing Rates",
       "firmware_version": [
         "4.3"
       ],
