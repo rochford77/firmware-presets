@@ -5,15 +5,18 @@
 #$ KEYWORDS: freestyle
 #$ AUTHOR: mouseFPV
 #$ PARSER: MARKED
+#$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/10854970/174460124-bb2ee604-8ed2-437a-9ec6-e631f2c2b0fe.png" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/>
 #$ DESCRIPTION: ### These are the freestyle rates used by [Youtube Freestyler](https://www.youtube.com/c/mouseFPV) and Tuner "mouseFPV"
 #$ DESCRIPTION:
 #$ DESCRIPTION:
-#$ DESCRIPTION: ### Goals:
+#$ DESCRIPTION: Goals:
+#$ DESCRIPTION: ----------
 #$ DESCRIPTION: * Have a fast enough max rate to do nice snap moves
 #$ DESCRIPTION: * Have soft enough center for smooth HD footage
 #$ DESCRIPTION: * Avoid sharp/surprising rampup in the rate curve
 #$ DESCRIPTION:
-#$ DESCRIPTION: ### FEATURES:
+#$ DESCRIPTION: FEATURES:
+#$ DESCRIPTION: ----------
 #$ DESCRIPTION: * Uses easy to adjust "Actual Rates"
 #$ DESCRIPTION: * Max rate is about 25% highter than betaflight default on pitch and roll (910 dps)
 #$ DESCRIPTION: * Yaw max rate is a little more tame than pitch and roll (700 dps) 
@@ -22,8 +25,6 @@
 #$ DESCRIPTION:   
 #$ DESCRIPTION: This will only be applied for the currently selected rate profile
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/250
-
-
 
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
