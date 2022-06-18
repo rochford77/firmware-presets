@@ -5,8 +5,8 @@
 #$ KEYWORDS: freestyle
 #$ AUTHOR: mouseFPV
 #$ PARSER: MARKED
-#$ DESCRIPTION: ### These are the freestyle rates used by Youtube Freestyler and Tuner "mouseFPV"
-#$ DESCRIPTION: [mouseFPV YouTube channel](https://www.youtube.com/c/mouseFPV)
+#$ DESCRIPTION: ### These are the freestyle rates used by [Youtube Freestyler](https://www.youtube.com/c/mouseFPV) and Tuner "mouseFPV"
+#$ DESCRIPTION:
 #$ DESCRIPTION:
 #$ DESCRIPTION: ### Goals:
 #$ DESCRIPTION: * Have a fast enough max rate to do nice snap moves
