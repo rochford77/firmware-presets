@@ -5,15 +5,13 @@
 #$ KEYWORDS: freestyle
 #$ AUTHOR: mouseFPV
 #$ PARSER: MARKED
-#$ DESCRIPTION: # mouseFPV Freestyle Rates
-#$ DESCRIPTION: <img src="https://imgur.com/gallery/7zzWAQD" width="250px" style="margin-left: auto; margin-right: auto; display: block;"/> 
 #$ DESCRIPTION: These are the freestyle rates used by Youtube Freestyler and tuner "mouseFPV"
-#$ DESCRIPTION: [mouseFPV YouTube channel](https://www.youtube.com/c/mouseFPV)
+#$ DESCRIPTION: https://www.youtube.com/c/mouseFPV
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## Goals:
 #$ DESCRIPTION: * Have a fast enough max rate to do nice snap moves
 #$ DESCRIPTION: * Have soft enough center for smooth HD footage
-#$ DESCRIPTION: * Avoid sharp/surprising  of a rampup in the rate curve
+#$ DESCRIPTION: * Avoid sharp/surprising rampup in the rate curve
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## FEATURES:
 #$ DESCRIPTION: * Uses easy to adjust "Actual Rates"
@@ -22,7 +20,7 @@
 #$ DESCRIPTION: * Center stick is soft, but still responsive.
 #$ DESCRIPTION: * Rate curve is such that your max rate doubles between 75% and 100% deflection from around 450-900dps
 #$ DESCRIPTION:   
-#$ DESCRIPTION: Will only be applied for the currently selected rate profile
+#$ DESCRIPTION: This will only be applied for the currently selected rate profile
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/250
 
 
