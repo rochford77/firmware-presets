@@ -5,7 +5,7 @@
 #$ KEYWORDS: freestyle
 #$ AUTHOR: mouseFPV
 #$ PARSER: MARKED
-#$ DESCRIPTION: ## These are the freestyle rates used by Youtube Freestyler and tuner "mouseFPV"
+#$ DESCRIPTION: ### These are the freestyle rates used by Youtube Freestyler and Tuner "mouseFPV"
 #$ DESCRIPTION: [mouseFPV YouTube channel](https://www.youtube.com/c/mouseFPV)
 #$ DESCRIPTION:
 #$ DESCRIPTION: ### Goals:
