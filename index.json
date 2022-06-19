@@ -215,6 +215,7 @@
       "express",
       "filter",
       "filters",
+      "FPVCycle",
       "FPVCycle Fouride",
       "FPVCycle Incisor",
       "FPVCycle Prototype 5",
@@ -1796,6 +1797,22 @@
       "priority": 1
     },
     {
+      "fullPath": "presets/4.3/tune/mouse_sonicare.txt",
+      "hash": "401a31f1889f7d160e3af998f0d3b80cf6a72f2867e089f92a36fd0011d29d4a",
+      "title": "FPVCycle Sonicare 6s Tune | mouseFPV",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "FPVCycle"
+      ],
+      "author": "mouseFPV",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.3/tune/mouse_starter_tune.txt",
       "hash": "cdc3ca886ac3d7872b0ef533ec62f19444768ccb5638588f877cd7b2d82b7e72",
       "title": "Golden Cheese | 6s",
@@ -1916,7 +1933,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/HDZero.txt",
-      "hash": "4f0c6e6b29ac96bb5cf020a9117f50587cb42a4cf2bfe4537f9141ac9b08ef0b",
+      "hash": "802f5dab99316d7b0c22bd4813817eb7a207d3c401adfc6a90cd3966b64fd12f",
       "title": "HDZero VTXs",
       "firmware_version": [
         "4.2",
