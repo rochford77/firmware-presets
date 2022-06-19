@@ -1718,7 +1718,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "d0d3feb199831ad2e913ca4ee779e26a6deec28b1dfe0ffc6765818fdcd7a259",
+      "hash": "c2eb251caadc2f9f33b08495b1278a519f196a90fad260aac6ec367b6e988a22",
       "title": "Digipick 3inch 3s (Braced)",
       "firmware_version": [
         "4.3"
@@ -1734,11 +1734,11 @@
       ],
       "author": "mouseFPV",
       "force_options_review": true,
-      "priority": 1
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_4s.txt",
-      "hash": "7b2a0980cce2ddc2e72c4b52399c06e81ea10ae283a65c65be34c38c78a2c321",
+      "hash": "35ba7538769ec5571f80fa2ec65e6a81354a4a7e8eac08fd7bcdc05aa9c86c52",
       "title": "Digipick 3inch 4s (Braced)",
       "firmware_version": [
         "4.3"
@@ -1754,7 +1754,7 @@
       ],
       "author": "mouseFPV",
       "force_options_review": true,
-      "priority": 1
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_fouride_2204_3450kv_3s4s.txt",

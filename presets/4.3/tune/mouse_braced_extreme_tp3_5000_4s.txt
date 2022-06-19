@@ -4,24 +4,40 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: FPVCycle TP3, Digipick, Toothpick, 4s, 3 Inch
 #$ AUTHOR: mouseFPV
-#$ DESCRIPTION: Tune for Digital FPVCycle Toothpick 3 with 13mm 5000kv motors on 4s ~130g
-#$ DESCRIPTION: 
-#$ DESCRIPTION: NOT APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces
-#$ DESCRIPTION: Only flash If you have a Braced TP3 or an AOS-T3
-#$ DESCRIPTION: *FOR SIDE MOUNT LIPOS ONLY, Experimental option for front-back lipos
-#$ DESCRIPTION: *Lipo Orientation very important on this quad. Side Mount Recommended!!!!!
-#$ DESCRIPTION: 
-#$ DESCRIPTION: *Use with  RPM Filter | Braced Toothpick 3
-#$ DESCRIPTION: 
-#$ DESCRIPTION: Recommended ESC: 30% Rampup | 23deg Timing | 48k PWM
-#$ DESCRIPTION: 
-#$ DESCRIPTION: *Choose Option for Dynamic Idle For Best Results
+#$ PARSER: MARKED
+#$ DESCRIPTION: <br>
+#$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174462482-28bdcfec-1c3a-43db-99d7-50688b92f050.svg" width="100px" style="margin-left: auto; margin-right: auto; display: block;"/>
 #$ DESCRIPTION:
-#$ WARNING: This tune has very high DGain. DO NOT Flash without braces. Dynamic Idle Requires DShot telemetry!
+#$ DESCRIPTION: Tune for Digital FPVCycle Toothpick 3 **with braces**
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: About:
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: * **NOT** APPROPRIATE FOR A TP3 Frame *Without* Carbon Braces/Trusses
+#$ DESCRIPTION: * 4s REQUIRES a motor limit for most motors. You will likely smoke a 5000-6000kv 1204-1404 without a motor limit.
+#$ DESCRIPTION: * Only flash If you have a Braced TP3 or an AOS-T3
+#$ DESCRIPTION: * FOR SIDE MOUNT LIPOS ONLY, Experimental option for front-back lipos
+#$ DESCRIPTION: * Lipo Orientation very important
+#$ DESCRIPTION: * My filters are strongly encouraged.
+#$ DESCRIPTION: * Recommended 48k PWM
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Options:
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: * **Dynamic Idle:** Enables Dynamic Idle for Freestyle 3"
+#$ DESCRIPTION: * **Enable Battery Sag Compensation:** Self Explanatory (see tooltip). Land at 3.5v/Cell or it's a bad time.
+#$ DESCRIPTION: * **Front-Back Lipo:** The TP3 frame has a side mount lipo. Try this if you choose to mount the lipo front to back. Experimental.
+#$ DESCRIPTION: * **Filters -> Include RPM Filter:** Enables bi-directional dshot, sets motor poles to 12, and applies approproiate filter settings. (F4 should use 4k PID loop and DShot300)
+#$ DESCRIPTION:
+#$ DESCRIPTION: Build Specs This Was Created on:
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: * **Frame:** FPVCycle TP3 With Braces
+#$ DESCRIPTION: * **Motors:** FPVCycle 13mm 5000kv 4s, 86% motor limit
+#$ DESCRIPTION: * **FC/ESC:** Flywoo GOKU GNF745 40a
+#$ DESCRIPTION: * **AUW:** 131g
+#$ WARNING: This tune has very high DGain. **DO NOT Flash without braces**. Dynamic Idle Requires DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own risk
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ INCLUDE: presets/4.3/tune/defaults.txt
-#$ PRIORITY: 1
 
 # -- End Defaults --
 # -- Begin Mouse Tune --
@@ -71,8 +87,7 @@ set dshot_idle_value = 400
 # -- Dyn Idle (off, default) --
 set dyn_idle_min_rpm = 0
 
-# -- VBat sag compensation --
-set vbat_sag_compensation = 100
+
 
 # -- battery profile --
 set auto_profile_cell_count = 4
@@ -92,6 +107,11 @@ set dshot_idle_value = 150
 set dyn_idle_min_rpm = 30
 set dyn_idle_p_gain = 50
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Enable Battery Sag Compensation?
+set vbat_sag_compensation = 100
+#$ OPTION END
+
 
 #$ OPTION BEGIN (UNCHECKED): Front-Back Lipo (experimental, flips pitch/roll)
 # -- PID Sliders  --
