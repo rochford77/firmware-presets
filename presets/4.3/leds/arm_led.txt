@@ -1,0 +1,18 @@
+#$ TITLE: Red ARM LED Flywoo
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: LEDS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  leds
+#$ AUTHOR: mouseFPV
+#$ DESCRIPTION: Red led on arming for flywoo boards
+#$ INCLUDE: presets/4.3/leds/defaults.txt
+
+# led
+led 0 8,6::A:13
+led 1 9,6::A:13
+led 2 10,6::A:13
+led 3 11,6::A:13
+
+# mode_color
+mode_color 6 0 0
+mode_color 6 1 2

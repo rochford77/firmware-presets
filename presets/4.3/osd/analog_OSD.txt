@@ -1,0 +1,28 @@
+#$ TITLE: Analog OSD
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: OSD, Danalog
+#$ AUTHOR: mouseFPV
+#$ DESCRIPTION: mouseFPV Analog OSD
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
+set osd_warn_batt_not_full = OFF
+set osd_rssi_pos = 10626
+set osd_link_quality_pos = 67
+set osd_tim_2_pos = 14709
+set osd_throttle_pos = 8545
+set osd_vtx_channel_pos = 4170
+set osd_current_pos = 10631
+set osd_mah_drawn_pos = 10638
+set osd_avg_cell_voltage_pos = 10645
+set osd_rate_profile_name_pos = 4417
+set osd_pid_profile_name_pos = 4450
+set osd_stat_tim_1 = ON
+set osd_stat_max_spd = OFF
+set osd_stat_battery = ON
+set osd_stat_min_link_quality = ON

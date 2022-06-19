@@ -1,0 +1,20 @@
+#$ TITLE: DJI OSD
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: OSD, DJI
+#$ AUTHOR: mouseFPV
+#$ DESCRIPTION: mouseFPV DJI OSD
+#$ DESCRIPTION: This OSD fits well into the DJI OSD.
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
+set osd_rssi_pos = 2532
+set osd_throttle_pos = 420
+set osd_current_pos = 2539
+set osd_mah_drawn_pos = 2542
+set osd_warnings_pos = 329
+set osd_avg_cell_voltage_pos = 2545

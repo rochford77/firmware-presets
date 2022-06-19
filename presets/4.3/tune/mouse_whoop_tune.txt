@@ -1,0 +1,90 @@
+#$ TITLE:  Whoop
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Whoop
+#$ AUTHOR: mouseFPV
+#$ DESCRIPTION: Tune for 1s whoops, 17000-19500kv. Select Option if over 20000kv
+#$ DESCRIPTION: 
+#$ DESCRIPTION: This is a tune only, NOT filters
+#$ DESCRIPTION: 
+#$ DESCRIPTION: *Use with SDFT Filter (No RPM)
+#$ DESCRIPTION: *If Using f411 whoop and SDFT (no RPM) Overclock CPU to 120mhz and use dshot600/8k
+#$ DESCRIPTION: *Works best with my Smooth Racer RC Smoothing 
+#$ DESCRIPTION: *Works best with my Rates
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Recommended 48k PWM
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 1
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
+
+# -- PID Sliders  --
+set simplified_pids_mode = RPY
+set simplified_d_gain = 160
+set simplified_pi_gain = 115
+set simplified_feedforward_gain = 55
+set simplified_dmax_gain = 000
+set simplified_i_gain = 90
+set simplified_pitch_d_gain = 095
+set simplified_pitch_pi_gain = 100
+set simplified_master_multiplier = 150
+simplified_tuning apply
+
+
+# -- Feedforward jitter reduction --
+set feedforward_jitter_factor = 10
+
+# -- Thrust linear--
+set thrust_linear = 20
+
+# -- Antigravity --
+set anti_gravity_gain = 4500
+
+# -- iTerm relax --
+set iterm_relax = RP
+set iterm_relax_type = SETPOINT
+set iterm_relax_cutoff = 10
+
+# -- VBat warning threshold--
+set vbat_warning_cell_voltage = 330
+set vbat_min_cell_voltage = 310
+
+# -- DShot Idle (default)--
+# Commonly set lower when dynamic idle is active.
+set dshot_idle_value = 900
+
+# -- VBat sag compensation --
+set vbat_sag_compensation = 110
+
+
+
+# --whoop stuff
+set angle_level_strength = 70
+set level_limit = 75
+
+# ------ OPTIONS GO BELOW THIS LINE ------
+
+
+# This is where the author includes options that require input from the User
+
+#$ OPTION BEGIN (UNCHECKED): Over 20000kv?
+set motor_output_limit = 95
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Enable Crash Recovery?
+set crash_recovery = ON
+#$ OPTION END
+
+#$ OPTION_GROUP BEGIN: Tunes (Choose One or None)
+
+#$ OPTION BEGIN (UNCHECKED): Include SDFT Filter?
+#$ INCLUDE: presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+

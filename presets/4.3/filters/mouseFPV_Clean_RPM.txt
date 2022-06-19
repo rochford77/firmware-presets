@@ -1,0 +1,57 @@
+#$ TITLE: RPM Filter
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FILTERS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: RPM
+#$ AUTHOR: mouseFPV
+#$ DESCRIPTION: 4 Inch to 5 Inch RPM Filter for Clean Builds
+#$ DESCRIPTION:
+#$ DESCRIPTION: Made for MPU 6000, may need to adjust for other gyros
+#$ DESCRIPTION:
+#$ WARNING: This Sets Motor Poles to 14 and Requires RPM filtering and DShot telemetry!
+#$ DISCLAIMER: Flash At Your Own risk | Made for MPU 6000
+#$ FORCE_OPTIONS_REVIEW: TRUE
+#$ PRIORITY: 1
+
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Tune --
+
+# enable dshot rpm telemetry
+set dshot_bidir = ON
+set motor_poles = 14
+
+# -- Gyro lowpass filters --
+# -- No Gyro Lowpass
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set gyro_lpf2_static_hz = 700
+set simplified_gyro_filter = ON
+set simplified_gyro_filter_multiplier = 140
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 150
+set dyn_notch_max_hz = 600
+
+# -- RPM filtering --
+set rpm_filter_q = 500
+set rpm_filter_min_hz = 125
+set rpm_filter_fade_range_hz = 60
+
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_min_hz = 101
+set dterm_lpf1_dyn_max_hz = 202
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_static_hz = 101
+set dterm_lpf2_static_hz = 202
+
+# -- Dterm sliders --
+set simplified_dterm_filter_multiplier = 135
+
+# -- Yaw lowpass --
+set yaw_lowpass_hz = 100

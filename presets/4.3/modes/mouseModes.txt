@@ -1,0 +1,22 @@
+#$ TITLE: Mouse 4.3 Modes and Adjustment settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Modes
+#$ AUTHOR: mouseFPV
+#$ DESCRIPTION: mouseFPV aux and modes
+
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
+# aux switch settings
+
+aux 0 0 0 1725 2100 0 0
+aux 1 13 6 1775 2100 0 0
+aux 2 35 7 1750 2100 0 0
+aux 3 36 2 1750 2100 0 0
+
+# adjrange
+adjrange 0 0 5 900 1275 12 5 0 0
+adjrange 1 0 5 1275 1675 12 5 0 0
+adjrange 2 0 5 1675 2100 12 5 0 0
+
