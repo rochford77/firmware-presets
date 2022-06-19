@@ -217,8 +217,6 @@
       "filters",
       "FPVCycle",
       "FPVCycle Fouride",
-      "FPVCycle Incisor",
-      "FPVCycle Prototype 5",
       "FPVCycle TP3",
       "FreedomSpec",
       "freestyle",
@@ -1687,7 +1685,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouseFPV_AOS_35_tune_filters.txt",
-      "hash": "116578226e81db4b761f0ee827c18aac91e7c62393b06e1be794fa5f6970299d",
+      "hash": "dd4a6e71bae5b948fe298035004bd3c1ae6259b53194ec8c197bf25620eac42c",
       "title": "AOS 3.5 V1 4s Tune | mouseFPV",
       "firmware_version": [
         "4.3"
@@ -1704,21 +1702,19 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "4369c5a39b1d5363ff8d7d5b376acfeb3a612dc0350e56aaf3f3180d1a1982d8",
-      "title": "FPVCycle Prototype 5 | 6s",
+      "hash": "1d52403c97bc4b374daf2a8d44ef42ef48f9f66f7ba2271d59ae5fc0ce3f0856",
+      "title": "FPVCycle Incisor/Prototype 5 6s Tune | mouseFPV",
       "firmware_version": [
         "4.3"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "FPVCycle Incisor",
-        "FPVCycle Prototype 5",
-        "5 Inch"
+        "FPVCycle"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
-      "priority": 1
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
@@ -1798,7 +1794,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_sonicare.txt",
-      "hash": "aeb9750e6e823053ffa9a0cb4d6800bf2be09ab25321b63baf3913410d851728",
+      "hash": "c3c156ef8d26f0efc9729754630f3eb2d76440aad8b3171582efee269a33687c",
       "title": "FPVCycle Sonicare 6s Tune | mouseFPV",
       "firmware_version": [
         "4.3"
