@@ -4,8 +4,35 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: AOS, 4s
 #$ AUTHOR: mouseFPV
-#$ DESCRIPTION: Tune for AOS 3.5 with FPVCycle 16mm motors, <250g 4s
-#$ DESCRIPTION: Tuned at 95% Motor Limit
+#$ PARSER: MARKED
+#$ DESCRIPTION: <br>
+#$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174462482-28bdcfec-1c3a-43db-99d7-50688b92f050.svg" width="100px" style="margin-left: auto; margin-right: auto; display: block;"/>
+#$ DESCRIPTION:
+#$ DESCRIPTION: # Tune for AOS 3.5
+#$ DESCRIPTION:
+#$ DESCRIPTION: May be approproiate for v2 frame and/or different motors/cell counts
+#$ DESCRIPTION:
+#$ DESCRIPTION: Tune/Filters are aggressive, and may not be approproiate for non trussed/braced frames
+#$ DESCRIPTION:
+#$ DESCRIPTION: Recommended 48k PWM
+#$ DESCRIPTION:
+#$ DESCRIPTION: If you use the filters and are on an F4, use a 4k PID Loop
+#$ DESCRIPTION:
+#$ DESCRIPTION: Options:
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: * **Dynamic Idle:** Enables Dynamic Idle for Freestyle 5"
+#$ DESCRIPTION: * **95% Motor Limit:** Takes some of the spice out of powerful motors on 4s
+#$ DESCRIPTION: * **Enable Battery Sag Compensation:** Self Explanatory (see tooltip). Land at 3.5v/Cell or it's a bad time.
+#$ DESCRIPTION: * **Filters -> Include RPM Filter (F7):** Enables bi-directional dshot, sets motor poles to 12, and applies approproiate filter settings with no Gyro Lowpass
+#$ DESCRIPTION: * **Filters -> Include RPM Filter (F4):** Enables bi-directional dshot, sets motor poles to 12, and applies approproiate filter settings with Gyro LPF2 enabled. (F4 should use 4k PID loop and DShot300)
+#$ DESCRIPTION:
+#$ DESCRIPTION: Build Specs This Was Created on:
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: * **Frame:** AOS 3.5 V1
+#$ DESCRIPTION: * **Motors:** FPVCycle 16mm (4s 95% Motor Limit)
+#$ DESCRIPTION: * **FC/ESC:** Foxeer Reaper f7 AIO
+#$ DESCRIPTION: * **AUW:** 243g
+#$ DESCRIPTION:
 #$ DESCRIPTION: May be approproiate for v2 frame and/or different motors/cell counts
 #$ DESCRIPTION: Tune/Filters are aggressive, and may not be approproiate for non trussed/braced frames
 #$ DESCRIPTION: Recommended 48k PWM

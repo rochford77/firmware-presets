@@ -1687,7 +1687,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouseFPV_AOS_35_tune_filters.txt",
-      "hash": "bfe09eb574b8ec320e7e9bf09b68371f110328b2798aeb7145c870b5e63cba57",
+      "hash": "de6f9986ade88fb24faa7703e994a652b3f089ad32ee6bc214aa62f1ae0904a1",
       "title": "AOS 3.5 V1 4s Tune | mouseFPV",
       "firmware_version": [
         "4.3"
@@ -1798,7 +1798,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_sonicare.txt",
-      "hash": "401a31f1889f7d160e3af998f0d3b80cf6a72f2867e089f92a36fd0011d29d4a",
+      "hash": "aeb9750e6e823053ffa9a0cb4d6800bf2be09ab25321b63baf3913410d851728",
       "title": "FPVCycle Sonicare 6s Tune | mouseFPV",
       "firmware_version": [
         "4.3"
