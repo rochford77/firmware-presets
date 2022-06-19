@@ -33,10 +33,6 @@
 #$ DESCRIPTION: * **FC/ESC:** Foxeer Reaper f7 AIO
 #$ DESCRIPTION: * **AUW:** 243g
 #$ DESCRIPTION:
-#$ DESCRIPTION: May be approproiate for v2 frame and/or different motors/cell counts
-#$ DESCRIPTION: Tune/Filters are aggressive, and may not be approproiate for non trussed/braced frames
-#$ DESCRIPTION: Recommended 48k PWM
-#$ DESCRIPTION: If you use the filters and are on an F4, use a 4k PID Loop
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/247
 #$ WARNING: Included Filters set motor poles to 12! Filters Require RPM filtering and DShot telemetry!
 #$ DISCLAIMER: Flash At Your Own Risk!
