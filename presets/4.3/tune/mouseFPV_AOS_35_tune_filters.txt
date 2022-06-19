@@ -10,13 +10,11 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: # Tune for AOS 3.5
 #$ DESCRIPTION:
-#$ DESCRIPTION: May be approproiate for v2 frame and/or different motors/cell counts
-#$ DESCRIPTION:
-#$ DESCRIPTION: Tune/Filters are aggressive, and may not be approproiate for non trussed/braced frames
-#$ DESCRIPTION:
-#$ DESCRIPTION: Recommended 48k PWM
-#$ DESCRIPTION:
-#$ DESCRIPTION: If you use the filters and are on an F4, use a 4k PID Loop
+#$ DESCRIPTION: About:
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: * May be approproiate for v2 frame and/or different motors/cell counts
+#$ DESCRIPTION: * Tune/Filters are aggressive, and may not be approproiate for non trussed/braced frames
+#$ DESCRIPTION: * Recommended 48k PWM
 #$ DESCRIPTION:
 #$ DESCRIPTION: Options:
 #$ DESCRIPTION: ----------
