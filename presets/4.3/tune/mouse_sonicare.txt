@@ -8,11 +8,13 @@
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174462482-28bdcfec-1c3a-43db-99d7-50688b92f050.svg" width="100px" style="margin-left: auto; margin-right: auto; display: block;"/>
 #$ DESCRIPTION:
-#$ DESCRIPTION: # Tune for FPVCycle Sonicare 
+#$ DESCRIPTION:  Tune for FPVCycle Sonicare 
+#$ DESCRIPTION: ----------
 #$ DESCRIPTION:
-#$ DESCRIPTION: Recommended 48k PWM
-#$ DESCRIPTION:
-#$ DESCRIPTION: This was tuned on a very light quad. If you are over 670g maybe try the Heavy Action Cam Option. YMMV.
+#$ DESCRIPTION: About:
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: * This was tuned on a very light quad. If you are over 670g maybe try the Heavy Action Cam Option. YMMV.
+#$ DESCRIPTION: * Recommended 48k PWM
 #$ DESCRIPTION:
 #$ DESCRIPTION: Options:
 #$ DESCRIPTION: ----------
