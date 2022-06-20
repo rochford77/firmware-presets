@@ -1,14 +1,14 @@
 #$ TITLE:  FPVCycle Sonicare 6s Tune | mouseFPV 
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: FPVCycle
 #$ AUTHOR: mouseFPV
 #$ PARSER: MARKED
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174462482-28bdcfec-1c3a-43db-99d7-50688b92f050.svg" width="100px" style="margin-left: auto; margin-right: auto; display: block;"/>
 #$ DESCRIPTION:
-#$ DESCRIPTION:  Tune for FPVCycle Sonicare 
+#$ DESCRIPTION:  Tune for FPVCycle Sonicare (NOT FINAL!!!!!!!!!!!!!!!!!!!!!!)
 #$ DESCRIPTION: ----------
 #$ DESCRIPTION:
 #$ DESCRIPTION: About:
@@ -48,7 +48,7 @@ set simplified_pi_gain = 100
 set simplified_feedforward_gain = 60
 set simplified_dmax_gain = 000
 set simplified_i_gain = 090
-set simplified_pitch_d_gain = 0.95
+set simplified_pitch_d_gain = 095
 set simplified_pitch_pi_gain = 110
 set simplified_master_multiplier = 140
 simplified_tuning apply
