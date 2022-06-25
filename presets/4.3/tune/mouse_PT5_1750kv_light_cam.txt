@@ -1,7 +1,7 @@
 #$ TITLE:  FPVCycle Incisor/Prototype 5 6s Tune | mouseFPV 
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: FPVCycle
 #$ AUTHOR: mouseFPV
 #$ PARSER: MARKED
@@ -15,9 +15,11 @@
 #$ DESCRIPTION: ----------
 #$ DESCRIPTION: * If tune is too spicy lower the master by a click, or bring in a motor limit
 #$ DESCRIPTION: * Recommended 48k PWM
+#$ DESCRIPTION: * Defaults to DShot600. Using DShot on Unsupported ESC's is Dangerous. See Warning.
 #$ DESCRIPTION:
 #$ DESCRIPTION: Options:
 #$ DESCRIPTION: ----------
+#$ DESCRIPTION: * **Use DShot300:** Should be used on F4 Flight controllers, as well as manually setting a 4k PID Loop
 #$ DESCRIPTION: * **Dynamic Idle:** Enables Dynamic Idle for Freestyle 5"
 #$ DESCRIPTION: * **93% Motor Limit:** Simulates 1800-1900kv motors down closer to 1700kv
 #$ DESCRIPTION: * **Enable Battery Sag Compensation:** Self Explanatory (see tooltip). Land at 3.5v/Cell or it's a bad time.
@@ -33,13 +35,22 @@
 #$ DESCRIPTION: * **Action Cam:** GoPro Hero 5 Session
 #$ DESCRIPTION: * **AUW:** 660-670g
 #$ DESCRIPTION:
-#$ WARNING:  Included Filters set motor poles to 14! Filters Require RPM filtering and DShot telemetry!
-#$ DISCLAIMER: Flash At Your Own Risk!
+#$ DESCRIPTION: Fly Like mouseFPV | Recommendations outside of tune:
+#$ DESCRIPTION: ----------
+#$ DESCRIPTION: * Apply mouseFPV Freestyle Rates
+#$ DESCRIPTION: * Set Jitter Reduction (feedforward_jitter_factor) to 14
+#$ DESCRIPTION: * Set Feedforward Boost (feedforward_boost) to 10
+#$ DESCRIPTION: 
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/254
+#$ WARNING:  Included Filters set motor poles to 14! Filters Require RPM filtering and DShot telemetry! This tune sets ESC protocol to DSHOT, it is extremely unsafe to even select it if your ESC does not support DSHOT (can spin the motors without arming)
+#$ DISCLAIMER: Flash At Your Own Risk! This tune sets ESC protocol to DSHOT!
 #$ FORCE_OPTIONS_REVIEW: TRUE
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 
 # -- End Defaults --
 # -- Begin Mouse Tune --
+
+set motor_pwm_protocol = DSHOT600
 
 # -- PID Sliders  --
 set simplified_pids_mode = RPY
@@ -67,6 +78,7 @@ set feedforward_boost = 10
 # -- Feedforward jitter reduction --
 set feedforward_jitter_factor = 14
 
+
 # -- Thrust linear  --
 set thrust_linear = 20
 
@@ -77,6 +89,7 @@ set dshot_idle_value = 400
 set dyn_idle_min_rpm = 0
 
 # ------ OPTIONS GO BELOW THIS LINE ------
+#$ OPTION_GROUP BEGIN: General Options (Choose Many or None)
 
 #$ OPTION BEGIN (CHECKED): Dynamic Idle
 set dshot_bidir = ON
@@ -85,7 +98,11 @@ set dyn_idle_min_rpm = 20
 set dyn_idle_p_gain = 45
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 93% Motor Limit (Use this if its too spicy)
+#$ OPTION BEGIN (UNCHECKED): Use DShot300?
+set motor_pwm_protocol = DSHOT300
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 93% Motor Limit
 set motor_output_limit = 93
 #$ OPTION END
 
@@ -98,6 +115,7 @@ set simplified_master_multiplier = 120
 simplified_tuning apply
 #$ OPTION END
 
+#$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Filters (Choose One or None)
 
@@ -108,6 +126,7 @@ simplified_tuning apply
 # -- Begin Mouse Filters --
 
 # enable dshot rpm telemetry
+
 set dshot_bidir = ON
 set motor_poles = 14
 
@@ -147,4 +166,3 @@ set yaw_lowpass_hz = 100
 #$ OPTION END
 
 #$ OPTION_GROUP END
-

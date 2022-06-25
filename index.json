@@ -1702,13 +1702,13 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "1d52403c97bc4b374daf2a8d44ef42ef48f9f66f7ba2271d59ae5fc0ce3f0856",
+      "hash": "aeaced880db8e5661c6502f4c598ebafb9c8e07737c8b7b91fe2a15f77963a3d",
       "title": "FPVCycle Incisor/Prototype 5 6s Tune | mouseFPV",
       "firmware_version": [
         "4.3"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "FPVCycle"
       ],
