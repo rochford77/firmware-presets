@@ -1840,8 +1840,8 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "721471b00ff219306f9b1eeb4f5e4a2c9088bfeb3da317ce0fb9b060d2e1a95e",
-      "title": "FPVCycle Toothpick 3 3s",
+      "hash": "5c0a578ac029ac52b24e3d0bee4c4dd6f3342edd768a5dbf95dddfa4196ca7db",
+      "title": "FPVCycle Toothpick 3 3s | mouseFPV",
       "firmware_version": [
         "4.3"
       ],
@@ -1850,11 +1850,12 @@
       "keywords": [
         "FPVCycle TP3",
         "Toothpick",
-        "3s"
+        "3s",
+        "3 inch"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
-      "priority": 1
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_whoop_tune.txt",
