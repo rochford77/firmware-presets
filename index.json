@@ -2238,23 +2238,6 @@
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/mouse_GHST_solid250.txt",
-      "hash": "f7c607ffd44bc745a7c8ac12037619370f38aeec8928a59d1d0e8df97d4a1eed",
-      "title": "GHST Solid 250hz mouseFPV",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RC_LINK",
-      "status": "COMMUNITY",
-      "keywords": [
-        "GHOST",
-        "RC",
-        "250hz"
-      ],
-      "author": "mouseFPV",
-      "priority": 10000000000
-    },
-    {
       "fullPath": "presets/4.3/rc_link/redpine_666hz.txt",
       "hash": "4eda547aa9254df2aaa1f8d9ced25a219864255ac5a58c3b53ad3545fc19f33d",
       "title": "Redpine 666Hz",
