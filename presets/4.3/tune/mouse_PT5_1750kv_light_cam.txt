@@ -2,32 +2,32 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: FPVCycle
+#$ KEYWORDS: FPVCycle, 5 inch, 5in, 6S, freestyle, GoPro, mouse fpv
 #$ AUTHOR: mouseFPV
 #$ PARSER: MARKED
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174462482-28bdcfec-1c3a-43db-99d7-50688b92f050.svg" width="100px" style="margin-left: auto; margin-right: auto; display: block;"/>
 #$ DESCRIPTION:
-#$ DESCRIPTION: Tune for FPVCycle Incisor/Prototype 5 
-#$ DESCRIPTION: ----------
+#$ DESCRIPTION: # Tune for FPVCycle Incisor/Prototype 5 
 #$ DESCRIPTION:
-#$ DESCRIPTION: About:
-#$ DESCRIPTION: ----------
-#$ DESCRIPTION: * If tune is too spicy lower the master by a click, or bring in a motor limit
+#$ DESCRIPTION: ## About:
+#$ DESCRIPTION: * If tune is too spicy, lower the master by a click or bring in a motor limit
 #$ DESCRIPTION: * Recommended 48k PWM
-#$ DESCRIPTION: * Defaults to DShot600. Using DShot on Unsupported ESC's is Dangerous. See Warning.
+#$ DESCRIPTION: * Uses Multi-Dynamic notich by default. Options for RPM filtering which use Dshot. Using DShot on Unsupported ESC's is Dangerous. See Warning.
+#$ DESCRIPTION: * RPM Filtering is recommended
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ## Options:
+#$ DESCRIPTION: ### **Filters:**
+#$ DESCRIPTION: * **RPM Filters DShot600 (F7 & Up)**: Enables RPM filtering. ESCs must support bi-directional. For F7 or better, sets Dshot600, 8k pidloop recommended (set manually).
+#$ DESCRIPTION: * **RPM Filters DShot300 (F4)**: Enables RPM filtering. ESCs must support bi-directional. For F4, sets Dshot300, 4k pidloop recommended (set manually). 
 #$ DESCRIPTION:
-#$ DESCRIPTION: Options:
-#$ DESCRIPTION: ----------
-#$ DESCRIPTION: * **Use DShot300:** Should be used on F4 Flight controllers, as well as manually setting a 4k PID Loop
+#$ DESCRIPTION: ### **Additional Options:**
 #$ DESCRIPTION: * **Dynamic Idle:** Enables Dynamic Idle for Freestyle 5"
-#$ DESCRIPTION: * **93% Motor Limit:** Simulates 1800-1900kv motors down closer to 1700kv
+#$ DESCRIPTION: * **Set 93% Motor Limit:** Simulates 1800-1900kv motors down closer to 1700kv
 #$ DESCRIPTION: * **Enable Battery Sag Compensation:** Self Explanatory (see tooltip). Land at 3.5v/Cell or it's a bad time.
 #$ DESCRIPTION: * **Heavy Action Camera:** Increases the Pids/Master Slider
-#$ DESCRIPTION: * **Filters -> Include RPM Filter:** Enables bi-directional dshot, sets motor poles to 14, and applies approproiate filter settings. F4 Users should move to 4k pid loop/dshot300
 #$ DESCRIPTION:
-#$ DESCRIPTION: Build Specs This Was Created on:
-#$ DESCRIPTION: ----------
+#$ DESCRIPTION: ## Build Specs This Was Created On:
 #$ DESCRIPTION: * **Frame:** FPVCycle Incisor/PT5
 #$ DESCRIPTION: * **Motors:** FPVCycle 25mm Emerald 1880kv w/ 93 % Motor Limit 6s
 #$ DESCRIPTION: * **FC:** TMotor F7 (MPU6000)
@@ -35,22 +35,22 @@
 #$ DESCRIPTION: * **Action Cam:** GoPro Hero 5 Session
 #$ DESCRIPTION: * **AUW:** 660-670g
 #$ DESCRIPTION:
-#$ DESCRIPTION: Fly Like mouseFPV | Recommendations outside of tune:
-#$ DESCRIPTION: ----------
+#$ DESCRIPTION: ## Fly Like mouseFPV | Recommendations Outside of Tune:
 #$ DESCRIPTION: * Apply mouseFPV Freestyle Rates
-#$ DESCRIPTION: * Set Jitter Reduction (feedforward_jitter_factor) to 14
+#$ DESCRIPTION: * Use 250hz radio link if possible
+#$ DESCRIPTION: * **Set Jitter Reduction (feedforward_jitter_factor) to 14**
 #$ DESCRIPTION: * Set Feedforward Boost (feedforward_boost) to 10
-#$ DESCRIPTION: 
+#$ DESCRIPTION:
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/254
-#$ WARNING:  Included Filters set motor poles to 14! Filters Require RPM filtering and DShot telemetry! This tune sets ESC protocol to DSHOT, it is extremely unsafe to even select it if your ESC does not support DSHOT (can spin the motors without arming)
-#$ DISCLAIMER: Flash At Your Own Risk! This tune sets ESC protocol to DSHOT!
+#$ WARNING: If You Choose To Include Filters, Please, See The Following:
+#$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
+
 #$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
 
 # -- End Defaults --
 # -- Begin Mouse Tune --
-
-set motor_pwm_protocol = DSHOT600
 
 # -- PID Sliders  --
 set simplified_pids_mode = RPY
@@ -72,61 +72,62 @@ set iterm_relax_cutoff = 10
 # -- TPA  --
 set tpa_rate = 75
 
-# -- Feedforward --
-set feedforward_boost = 10
-
-# -- Feedforward jitter reduction --
-set feedforward_jitter_factor = 14
-
-
 # -- Thrust linear  --
 set thrust_linear = 20
 
-# -- DShot Idle --
+
+# -- DShot Idle (default)--
+# Commonly set lower when dynamic idle is active.
 set dshot_idle_value = 400
 
-# -- Dyn Idle (off, default) --
-set dyn_idle_min_rpm = 0
+
+# -- Filters for non bi-directional setups as a base--
+
+
+# -- Gyro lowpass filters --
+# -- No Gyro Lowpass
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set simplified_gyro_filter = ON
+set simplified_gyro_filter_multiplier = 140
+simplified_tuning apply
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 4
+set dyn_notch_q = 375
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 600
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_min_hz = 93
+set dterm_lpf1_dyn_max_hz = 187
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_static_hz = 93
+set dterm_lpf2_static_hz = 187
+
+# -- Dterm sliders --
+set simplified_dterm_filter_multiplier = 125
+
+# -- Yaw lowpass --
+set yaw_lowpass_hz = 100
+
 
 # ------ OPTIONS GO BELOW THIS LINE ------
-#$ OPTION_GROUP BEGIN: General Options (Choose Many or None)
 
-#$ OPTION BEGIN (CHECKED): Dynamic Idle
-set dshot_bidir = ON
-set dshot_idle_value = 150
-set dyn_idle_min_rpm = 20
-set dyn_idle_p_gain = 45
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Use DShot300?
-set motor_pwm_protocol = DSHOT300
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 93% Motor Limit
-set motor_output_limit = 93
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Enable Battery Sag Compensation?
-set vbat_sag_compensation = 100
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
-set simplified_master_multiplier = 120
-simplified_tuning apply
-#$ OPTION END
-
-#$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Filters (Choose One or None)
 
-#$ OPTION BEGIN (UNCHECKED): Include RPM Filter?
+#$ OPTION BEGIN (CHECKED): RPM Filters DShot600 (F7 & Up)
+# -- Filter Settings --
+
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
 # -- End Defaults --
 # -- Begin Mouse Filters --
 
 # enable dshot rpm telemetry
-
+set motor_pwm_protocol = DSHOT600
 set dshot_bidir = ON
 set motor_poles = 14
 
@@ -135,9 +136,58 @@ set motor_poles = 14
 set gyro_lpf1_static_hz = 0
 set gyro_lpf1_dyn_min_hz = 0
 set gyro_lpf1_dyn_max_hz = 0
-set gyro_lpf2_static_hz = 700
 set simplified_gyro_filter = ON
 set simplified_gyro_filter_multiplier = 140
+simplified_tuning apply
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 150
+set dyn_notch_max_hz = 600
+
+# -- RPM filtering --
+set rpm_filter_q = 500
+set rpm_filter_min_hz = 125
+set rpm_filter_fade_range_hz = 60
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_min_hz = 93
+set dterm_lpf1_dyn_max_hz = 187
+set dterm_lpf1_dyn_expo = 5
+set dterm_lpf1_static_hz = 93
+set dterm_lpf2_static_hz = 187
+
+# -- Dterm sliders --
+set simplified_dterm_filter_multiplier = 125
+
+# -- Yaw lowpass --
+set yaw_lowpass_hz = 100
+
+#$ OPTION END
+
+
+#$ OPTION BEGIN (UNCHECKED): RPM Filters DShot300 (F4)
+# -- Filter Settings --
+
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- End Defaults --
+# -- Begin Mouse Filters --
+
+# enable dshot rpm telemetry
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+set motor_poles = 14
+
+# -- Gyro lowpass filters --
+# -- No Gyro Lowpass
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set simplified_gyro_filter = ON
+set simplified_gyro_filter_multiplier = 140
+simplified_tuning apply
 
 # -- Gyro Dynamic Notches --
 set dyn_notch_count = 1
@@ -151,18 +201,37 @@ set rpm_filter_min_hz = 125
 set rpm_filter_fade_range_hz = 60
 
 
-# -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 101
-set dterm_lpf1_dyn_max_hz = 202
-set dterm_lpf1_dyn_expo = 5
-set dterm_lpf1_static_hz = 101
-set dterm_lpf2_static_hz = 202
-
 # -- Dterm sliders --
-set simplified_dterm_filter_multiplier = 135
+set simplified_dterm_filter = ON
+set simplified_dterm_filter_multiplier = 125
+simplified_tuning apply
 
 # -- Yaw lowpass --
 set yaw_lowpass_hz = 100
+
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Additional Options (Choose Many or None)
+
+#$ OPTION BEGIN (CHECKED): Dynamic Idle
+set dyn_idle_min_rpm = 20
+set dyn_idle_p_gain = 45
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Set 93% Motor Limit
+set motor_output_limit = 93
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Enable Battery Sag Compensation
+set vbat_sag_compensation = 100
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
+set simplified_master_multiplier = 120
+simplified_tuning apply
 #$ OPTION END
 
 #$ OPTION_GROUP END

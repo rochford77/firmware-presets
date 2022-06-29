@@ -176,13 +176,14 @@
       "3s",
       "4 Inch",
       "4s",
-      "5 Inch",
+      "5 inch",
       "500Hz",
       "50Hz",
       "533",
       "55Hz",
+      "5in",
       "666Hz",
-      "6s",
+      "6S",
       "9ms",
       "Acrobaix",
       "actual",
@@ -224,6 +225,7 @@
       "Garban",
       "ghost",
       "GHST",
+      "GoPro",
       "gyroflow",
       "HDzero",
       "HighKV",
@@ -242,6 +244,7 @@
       "mamba",
       "mode",
       "modes",
+      "mouse fpv",
       "MultiVoltage",
       "nano",
       "nanohawk",
@@ -1702,7 +1705,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouse_PT5_1750kv_light_cam.txt",
-      "hash": "aeaced880db8e5661c6502f4c598ebafb9c8e07737c8b7b91fe2a15f77963a3d",
+      "hash": "843d79c8635d2ed5eddab912bb7aeff174faf6619321c110f19b5dc37930e884",
       "title": "FPVCycle Incisor/Prototype 5 6s Tune | mouseFPV",
       "firmware_version": [
         "4.3"
@@ -1710,7 +1713,13 @@
       "category": "TUNE",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "FPVCycle"
+        "FPVCycle",
+        "5 inch",
+        "5in",
+        "6S",
+        "freestyle",
+        "GoPro",
+        "mouse fpv"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
