@@ -295,6 +295,7 @@
       "Spec",
       "speedybee",
       "Starter",
+      "sub 250",
       "sugarK",
       "switch",
       "tank solo",
@@ -1688,16 +1689,18 @@
     },
     {
       "fullPath": "presets/4.3/tune/mouseFPV_AOS_35_tune_filters.txt",
-      "hash": "dd4a6e71bae5b948fe298035004bd3c1ae6259b53194ec8c197bf25620eac42c",
+      "hash": "0dd026ca9f1a4eaa24c758f4c1b3840401a4fb4e6ce3f5ed617fc42da23c352d",
       "title": "AOS 3.5 V1 4s Tune | mouseFPV",
       "firmware_version": [
         "4.3"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "AOS",
-        "4s"
+        "4s",
+        "freestyle",
+        "sub 250"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
