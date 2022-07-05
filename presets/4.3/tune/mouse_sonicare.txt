@@ -87,13 +87,13 @@ simplified_tuning apply
 
 # -- Gyro Dynamic Notches --
 set dyn_notch_count = 3
-set dyn_notch_q = 400
+set dyn_notch_q = 375
 set dyn_notch_min_hz = 150
 set dyn_notch_max_hz = 600
 
 # -- Dterm sliders --
 set simplified_dterm_filter = ON
-set simplified_dterm_filter_multiplier = 125
+set simplified_dterm_filter_multiplier = 120
 simplified_tuning apply
 
 # -- Yaw lowpass --
