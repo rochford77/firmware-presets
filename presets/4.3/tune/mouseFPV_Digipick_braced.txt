@@ -100,6 +100,11 @@ set anti_gravity_gain = 3500
 # -- Thrust linear  --
 set thrust_linear = 20
 
+
+# -- Feedforward jitter reduction --
+set feedforward_jitter_factor = 14
+
+
 # -- DShot Idle (default)--
 # Commonly set lower when dynamic idle is active.
 set dshot_idle_value = 400

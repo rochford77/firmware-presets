@@ -166,6 +166,7 @@
       "Joshua Bardwell",
       "Justice - Gary Kent",
       "Jye Smith",
+      "KMfpv",
       "LeadFingers",
       "MinChan Kim",
       "mouseFPV",
@@ -186,14 +187,14 @@
       "20ms",
       "250Hz",
       "2ms",
-      "2s",
+      "2S",
       "3 Inch",
       "3\"",
       "3in",
-      "3s",
+      "3S",
       "4 Inch",
       "4in",
-      "4s",
+      "4S",
       "5 In",
       "5 inch",
       "5\"",
@@ -216,6 +217,8 @@
       "adjustments",
       "AlexFPV",
       "AOS",
+      "AOS T3",
+      "Audio TBS",
       "aux",
       "bando",
       "bardwell",
@@ -363,6 +366,8 @@
       "SDFT",
       "settings",
       "shames",
+      "Smart",
+      "smart audio",
       "smartaudio",
       "smoothing",
       "Solid250",
@@ -380,9 +385,11 @@
       "SupaflyFPV",
       "switch",
       "SWPR",
+      "T3",
       "tank solo",
       "tank ultimate",
       "TBS",
+      "tbs sa",
       "Team Black Sheep",
       "Texas",
       "Throttle cap",
@@ -400,6 +407,7 @@
       "tx800",
       "ultra",
       "ultra 1000",
+      "ultralite",
       "unify",
       "unify pro",
       "utility",
@@ -407,6 +415,8 @@
       "very",
       "very clean",
       "very noisy",
+      "viper",
+      "viper lite",
       "Voltage",
       "vtx",
       "vtx table",
@@ -783,26 +793,6 @@
       "priority": 1
     },
     {
-      "fullPath": "presets/4.3/filters/mouseFPV_Clean_RPM_Toothpick.txt",
-      "hash": "adad8517b9e494bf8a8b7edd27e871d4f0865c9288dd81ee6f4732f4aa48a4a9",
-      "title": "RPM Filter | Toothpick 3",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "Toothpick",
-        "FPVCycle TP3",
-        "2s",
-        "3s",
-        "4s"
-      ],
-      "author": "mouseFPV",
-      "force_options_review": false,
-      "priority": 1
-    },
-    {
       "fullPath": "presets/4.3/filters/mouseFPV_Clean_whoop_noRPM.txt",
       "hash": "3954e3b8b8352b0f72c9fcc41002f2e6f2c399545ab06a9d13f864d50910d211",
       "title": "SDFT Whoop Filter (No RPM)",
@@ -816,44 +806,6 @@
         "whoop"
       ],
       "author": "mouseFPV",
-      "priority": 1
-    },
-    {
-      "fullPath": "presets/4.3/filters/mouseFPV_RPM_AOS35.txt",
-      "hash": "66ee383387840e71a28d5ffedf6f0cd8867142acbb8e35812ca20f242963957a",
-      "title": "RPM Filter | AOS 3.5",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "AOS",
-        "3s",
-        "4s"
-      ],
-      "author": "mouseFPV",
-      "force_options_review": false,
-      "priority": 1
-    },
-    {
-      "fullPath": "presets/4.3/filters/mouseFPV_RPM_Braced_toothpick.txt",
-      "hash": "5fa2138625b79f65df98de53eb9c58215f44f3b48f4884a4d932fe9147528a22",
-      "title": "RPM Filter | Braced Toothpick 3",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "Toothpick",
-        "FPVCycle TP3",
-        "2s",
-        "3s",
-        "4s"
-      ],
-      "author": "mouseFPV",
-      "force_options_review": false,
       "priority": 1
     },
     {
@@ -2570,7 +2522,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/karate_race.txt",
-      "hash": "81c46bef777b9f8153abbde04b681b2d23cf01f7019e06ee7a6309247d3b90f1",
+      "hash": "04687315755456c9b599692b0ddafe64eec8d93372dcf992141b4adf38658c9b",
       "title": "Karate Race 6s 5\"",
       "firmware_version": [
         "4.3"
@@ -2593,6 +2545,31 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.3/tune/karate_race_lite.txt",
+      "hash": "046940c9aead3ece7db64f4fd79abab02d5f9c144d2e37aa572694b54ecd2625",
+      "title": "Karate 'Viper Lite' Race  5\"",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "karate",
+        "race",
+        "5 inch",
+        "5\"",
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "KarateBrot",
+        "ultralite",
+        "viper",
+        "viper lite"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.3/tune/mouseFPV_AOS_35_tune_filters.txt",
       "hash": "29e46aec747bda54bd5f372c72b54131eef25252a331cdf7ccffb81bcbced768",
       "title": "AOS 3.5 V1 4s Tune | mouseFPV",
@@ -2606,6 +2583,29 @@
         "4s",
         "freestyle",
         "sub 250"
+      ],
+      "author": "mouseFPV",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/mouseFPV_Digipick_braced.txt",
+      "hash": "9b5b08ee28d15dedc2f359f81cb6505e189c33a81b71966367043d40cd27d755",
+      "title": "Braced Toothpick/Digipick 3s/4s | mouseFPV",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "FPVCycle TP3",
+        "Digipick",
+        "Toothpick",
+        "3s",
+        "3 Inch",
+        "4s",
+        "AOS T3",
+        "T3"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
@@ -2634,40 +2634,19 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_3s.txt",
-      "hash": "c2eb251caadc2f9f33b08495b1278a519f196a90fad260aac6ec367b6e988a22",
-      "title": "Digipick 3inch 3s (Braced)",
+      "fullPath": "presets/4.3/tune/mouseFPV_toothpick3_3s.txt",
+      "hash": "558327f685a3766c39c011f242d021cb40791e304680f6c3efd2aadb37afee8b",
+      "title": "FPVCycle Toothpick 3 3s | mouseFPV",
       "firmware_version": [
         "4.3"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "FPVCycle TP3",
-        "Digipick",
         "Toothpick",
         "3s",
-        "3 Inch"
-      ],
-      "author": "mouseFPV",
-      "force_options_review": true,
-      "priority": 1000000000000
-    },
-    {
-      "fullPath": "presets/4.3/tune/mouse_braced_extreme_tp3_5000_4s.txt",
-      "hash": "35ba7538769ec5571f80fa2ec65e6a81354a4a7e8eac08fd7bcdc05aa9c86c52",
-      "title": "Digipick 3inch 4s (Braced)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "FPVCycle TP3",
-        "Digipick",
-        "Toothpick",
-        "4s",
-        "3 Inch"
+        "3 inch"
       ],
       "author": "mouseFPV",
       "force_options_review": true,
@@ -2742,25 +2721,6 @@
       "author": "mouseFPV",
       "force_options_review": true,
       "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/tune/mouse_tp3_5000kv_3s.txt",
-      "hash": "5c0a578ac029ac52b24e3d0bee4c4dd6f3342edd768a5dbf95dddfa4196ca7db",
-      "title": "FPVCycle Toothpick 3 3s | mouseFPV",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "FPVCycle TP3",
-        "Toothpick",
-        "3s",
-        "3 inch"
-      ],
-      "author": "mouseFPV",
-      "force_options_review": true,
-      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/tune/mouse_whoop_tune.txt",
@@ -3175,6 +3135,40 @@
         "ultra 1000"
       ],
       "author": "NemesisXB",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/eachine_vtx.txt",
+      "hash": "50d3edb7b19c927fd335c2d9a916cdea88a05d56628dcabe509a6ab08eda5603",
+      "title": "Eachine VTX Tables",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "eachine",
+        "Eachine",
+        "nano",
+        "Nano",
+        "irc",
+        "IRC",
+        "tramp",
+        "TRAMP",
+        "Tramp",
+        "IRC Tramp",
+        "irc tramp",
+        "IRC TRAMP",
+        "tbs",
+        "sa",
+        "tbs sa",
+        "smartaudio",
+        "smart audio",
+        "Smart",
+        "Audio TBS"
+      ],
+      "author": "KMfpv",
       "priority": 1000000
     },
     {
