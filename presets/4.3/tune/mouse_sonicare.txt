@@ -8,10 +8,11 @@
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174462482-28bdcfec-1c3a-43db-99d7-50688b92f050.svg" width="100px" style="margin-left: auto; margin-right: auto; display: block;"/>
 #$ DESCRIPTION:
-#$ DESCRIPTION: # Tune for FPVCycle Sonicare (NOT FINAL!!!!!!!!!!!!!!!!!!!!!!)
+#$ DESCRIPTION: # Tune for FPVCycle Sonicare
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## About:
 #$ DESCRIPTION: * This was tuned on a very light quad. If you are over 670g maybe try the Heavy Action Cam Option. YMMV.
+#$ DESCRIPTION: * 20mm and 25mm Stacks (as supported by this frame) may have inadequate capacitance. 1000uf 35v Cap on ESC leads *and* 200-470uf 35v on FC Vbatt rail recommended. 
 #$ DESCRIPTION: * Recommended 48k PWM.
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## Options:
@@ -69,6 +70,9 @@ set iterm_relax_cutoff = 10
 # -- TPA  --
 set tpa_rate = 70
 
+# -- Feedforward jitter reduction --
+set feedforward_jitter_factor = 14
+
 # -- Thrust linear  --
 set thrust_linear = 20
 
@@ -93,7 +97,7 @@ set dyn_notch_max_hz = 600
 
 # -- Dterm sliders --
 set simplified_dterm_filter = ON
-set simplified_dterm_filter_multiplier = 120
+set simplified_dterm_filter_multiplier = 115
 simplified_tuning apply
 
 # -- Yaw lowpass --
@@ -132,16 +136,9 @@ set yaw_lowpass_hz = 100
         set rpm_filter_min_hz = 150
         set rpm_filter_fade_range_hz = 75
 
-
-        # -- Dterm filtering --
-        set dterm_lpf1_dyn_min_hz = 90
-        set dterm_lpf1_dyn_max_hz = 180
-        set dterm_lpf1_dyn_expo = 5
-        set dterm_lpf1_static_hz = 90
-        set dterm_lpf2_static_hz = 180
-
         # -- Dterm sliders --
-        set simplified_dterm_filter_multiplier = 120
+        set simplified_dterm_filter_multiplier = 115
+        simplified_tuning apply
 
         # -- Yaw lowpass --
         set yaw_lowpass_hz = 100
@@ -179,16 +176,9 @@ set yaw_lowpass_hz = 100
         set rpm_filter_min_hz = 150
         set rpm_filter_fade_range_hz = 75
 
-
-        # -- Dterm filtering --
-        set dterm_lpf1_dyn_min_hz = 90
-        set dterm_lpf1_dyn_max_hz = 180
-        set dterm_lpf1_dyn_expo = 5
-        set dterm_lpf1_static_hz = 90
-        set dterm_lpf2_static_hz = 180
-
         # -- Dterm sliders --
-        set simplified_dterm_filter_multiplier = 120
+        set simplified_dterm_filter_multiplier = 115
+        simplified_tuning apply
 
         # -- Yaw lowpass --
         set yaw_lowpass_hz = 100
@@ -211,8 +201,9 @@ set yaw_lowpass_hz = 100
     #$ OPTION END
 
     #$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
-        set simplified_master_multiplier = 145
-        simplified_tuning apply
+            set simplified_d_gain = 115
+            set simplified_master_multiplier = 150
+            simplified_tuning apply
     #$ OPTION END
 
 #$ OPTION_GROUP END
