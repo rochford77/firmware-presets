@@ -201,7 +201,6 @@ set yaw_lowpass_hz = 100
     #$ OPTION END
 
     #$ OPTION BEGIN (UNCHECKED): Heavy Action Cam (Hero8/9/10)
-            set simplified_d_gain = 115
             set simplified_master_multiplier = 150
             simplified_tuning apply
     #$ OPTION END
