@@ -39,7 +39,7 @@
 #$ DESCRIPTION: * Use 250hz radio link if possible
 #$ DESCRIPTION: * **Set Jitter Reduction (feedforward_jitter_factor) to 14**
 #$ DESCRIPTION:
-#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/254
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/275
 #$ WARNING: If You Choose To Include Filters, Please, See The Following:
 #$ INCLUDE_WARNING: misc/warnings/en/dshot.txt
 #$ FORCE_OPTIONS_REVIEW: TRUE
@@ -70,11 +70,11 @@ set iterm_relax_cutoff = 10
 # -- TPA  --
 set tpa_rate = 70
 
-# -- Feedforward jitter reduction --
-set feedforward_jitter_factor = 14
-
 # -- Thrust linear  --
 set thrust_linear = 20
+
+# -- Feedforward jitter reduction --
+set feedforward_jitter_factor = 14
 
 # -- DShot Idle --
 set dshot_idle_value = 400
