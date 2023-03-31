@@ -11,12 +11,16 @@
 #$ DESCRIPTION: # Tune for ImpulseRC Apex
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## About:
+#$ DESCRIPTION: ### **This tune is EXPERIMENTAL!** I have only tested it on a single quad, and haven't flown it on a beatup frame. Take Note of the following: 
+#$ DESCRIPTION: * The PID gains may be a little high for a quad under 750g, or that is a little more... broken in. Try the "Less Cheese" option if you have trilling/oscillations/motor heat.
+#$ DESCRIPTION: * The P:D balance should be good.
+#$ DESCRIPTION: * The Filters are pretty conservative, I am erring on the side of caution until I get this on a few more builds. The filters likely have some room for improvement in a future itteration. 
 #$ DESCRIPTION: * Recommended 48k PWM.
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## Options:
 #$ DESCRIPTION: ### **Filters:**
-#$ DESCRIPTION: * **RPM Filters** Enables RPM filtering. ESCs must support bi-directional. Sets motor poles to 14, Sets Dshot600.
-#$ DESCRIPTION: * **RPM Filters** Enables RPM filtering. ESCs must support bi-directional. Sets motor poles to 14, Sets Dshot300.
+#$ DESCRIPTION: * **RPM Filters DSHOT600** Enables RPM filtering. ESCs must support bi-directional. Sets motor poles to 14, Sets Dshot600.
+#$ DESCRIPTION: * **RPM Filters DSHOT300** Enables RPM filtering. ESCs must support bi-directional. Sets motor poles to 14, Sets Dshot300.
 #$ DESCRIPTION:
 #$ DESCRIPTION: ### **Additional Options:**
 #$ DESCRIPTION: * **Dynamic Idle:** Enables Dynamic Idle for Freestyle 5"
@@ -30,7 +34,7 @@
 #$ DESCRIPTION: * **FC:** Tmotor f7 (mpu6000)
 #$ DESCRIPTION: * **ESC:** TMotor F55A Pro 2
 #$ DESCRIPTION: * **Action Cam:** GoPro Hero 11 Mini
-#$ DESCRIPTION: * **AUW:** 705g
+#$ DESCRIPTION: * **AUW:** 750g
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## Fly Like mouseFPV | Recommendations Outside of Tune:
 #$ DESCRIPTION: * Apply mouseFPV Freestyle Rates
