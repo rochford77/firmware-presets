@@ -11,7 +11,7 @@
 #$ DESCRIPTION: # Tune for ImpulseRC Apex
 #$ DESCRIPTION:
 #$ DESCRIPTION: ## About:
-#$ DESCRIPTION: ### **This tune is EXPERIMENTAL!** I have only tested it on a single quad, and haven't flown it on a beatup frame. Take Note of the following: 
+#$ DESCRIPTION: ### **This tune is EXPERIMENTAL!** I have only tested it on a single quad, and haven't flown it on a beatup frame. Take Nnte of the following: 
 #$ DESCRIPTION: * The PID gains may be a little high for a quad under 750g, or that is a little more... broken in. Try the "Less Cheese" option if you have trilling/oscillations/motor heat.
 #$ DESCRIPTION: * The P:D balance should be good.
 #$ DESCRIPTION: * The Filters are pretty conservative, I am erring on the side of caution until I get this on a few more builds. The filters likely have some room for improvement in a future itteration. 
